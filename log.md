@@ -24,6 +24,12 @@
 - **02_notes/entities/Hermes-Agent.md** — Hermes Agent 实体页
 - **07_moc/知识库地图.md** — 知识库主题地图
 
+### Git 初始化
+
+- **commit cce0306** — 初始提交：知识库结构 + 核心规则文件（7 files, 593 insertions）
+- 分支：`main`
+- 作者：sqby776 <sqby776@users.noreply.github.com>
+
 ### 下一步
 
 - [ ] 在 Obsidian 中打开 `~/workspace/knowledge/` 作为 Vault
