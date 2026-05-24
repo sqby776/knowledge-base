@@ -2,31 +2,59 @@
 
 ## 2026-05-24
 
-### 新增
+### 双链修复（P0 紧急）
 
-- `07_moc/awesome-hermes-agent.md` — **Hermes 资源总入口**
-  - 精选资源目录（102 个技能 + 20+ 模型提供商 + 15+ 平台集成）
-  - 官方资源、工具集、技能分类、模型提供商、平台集成
-  - 记忆系统、关键路径、学习路径、贡献指南
+修复 20 个双链断裂问题，创建缺失页面：
 
-- `07_moc/hermes-ecosystem.md` — **Hermes 能力地图**
-  - 核心架构可视化
-  - 工具生态系统（三层：基础/增强/高级）
-  - 技能生态系统（按领域分类）
-  - 模型提供商网络
-  - 平台集成矩阵
-  - 记忆系统架构
-  - 后台系统（Delegation/Cron/Curator/Kanban）
-  - 工作流模式（单代理/子代理/Cron/多代理）
-  - 配置层级
+#### 概念页（6 个）
 
+- `02_notes/concepts/LLM-Wiki.md` — LLM Wiki 定义与实现
+- `02_notes/concepts/MOC.md` — Map of Content 主题地图
+- `02_notes/concepts/知识飞轮.md` — 知识自我进化机制
+- `02_notes/concepts/双链交叉引用.md` — 双向链接机制
+- `02_notes/concepts/Source-first.md` — 源头优先原则
+- `02_notes/concepts/本地知识库.md` — 本地知识库概念
+
+#### 实体页（12 个）
+
+- `02_notes/entities/Camoufox.md` — 反爬网页抓取工具
+- `02_notes/entities/crawl4ai.md` — 批量抓取框架
+- `02_notes/entities/scrapling.md` — 轻量静态抓取
+- `02_notes/entities/MemOS.md` — 记忆操作系统
+- `02_notes/entities/MemPalace.md` — 记忆宫殿管理
+- `02_notes/entities/Chroma.md` — 向量数据库
+- `02_notes/entities/BGE.md` — 智源嵌入模型
+- `02_notes/entities/M3E.md` — Moka 混合嵌入模型
+- `02_notes/entities/LibreOffice.md` — 开源办公套件
+- `02_notes/entities/Tesseract-OCR.md` — OCR 引擎
+- `02_notes/entities/Python-Office-库.md` — Python Office 库集合
+
+#### 主题地图（2 个）
+
+- `07_moc/AI 技术地图.md` — AI 技术领域导航
+- `07_moc/Hermes 技能地图.md` — Hermes 技能分类导航
+
+### 新增内容
+
+- `07_moc/awesome-hermes-agent.md` — Hermes 资源总入口
+- `07_moc/hermes-ecosystem.md` — Hermes 能力地图
 - `02_notes/methods/office-automation.md` — 办公自动化方法库
 - `02_notes/entities/office-tools.md` — 办公工具实体页
 - `07_moc/办公自动化地图.md` — 办公自动化主题地图
 
+### 技能安装
+
+- `web-search-enhanced` — 增强版网页搜索
+- `meeting-notes` — 会议转写整理
+
+### 测试验证
+
+- `meeting-notes` 技能测试成功，输出高质量会议纪要
+
 ### 更新
 
-- `index.md` — 新增"主题地图"分类，添加 Hermes 能力地图和资源目录链接
+- `index.md` — 补充嵌入模型分类，添加新实体页链接
+- `log.md` — 记录本次修复
 
 ---
 

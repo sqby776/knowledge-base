@@ -13,6 +13,11 @@
 - [[向量数据库]]
 - [[嵌入模型]]
 
+## 嵌入模型
+
+- [[BGE]] — 智源嵌入模型
+- [[M3E]] — Moka 混合嵌入模型
+
 ## 工具与实体
 
 - [[Hermes Agent]]
@@ -23,8 +28,9 @@
 - [[MemOS]]
 - [[MemPalace]]
 - [[Chroma]]
-- [[BGE]]
-- [[M3E]]
+- [[LibreOffice]]
+- [[Tesseract OCR]]
+- [[Python Office 库]]
 
 ## 主题地图
 
