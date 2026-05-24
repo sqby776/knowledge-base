@@ -187,6 +187,8 @@
   },
   "active": "c3d22ad6a99bbd9a",
   "lastOpenFiles": [
+    "01_inbox/articles/2026-05-24_卡兹克文风skill与知识库构建.md",
+    "02_notes/entities/手机同步配置指南.md",
     "02_notes/entities/python_pptxhttpspython_pptxreadthedocsioenlatestpy.md",
     "02_notes/entities/python_docxhttpspython_docxreadthedocsioenlatestpy.md",
     "02_notes/entities/404_Not_Found.md",
@@ -211,8 +213,6 @@
     "02_notes/concepts/Awesome Hermes Agent.md",
     "03_resources/links/wikilink.md",
     "02_notes/concepts/web-scraping.md",
-    "02_notes/concepts/Qdrant.md",
-    "02_notes/entities/python-docx.md",
     "templates",
     "01_inbox/auto-captures",
     "archive",
