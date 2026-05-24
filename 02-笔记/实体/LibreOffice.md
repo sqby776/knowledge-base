@@ -58,9 +58,9 @@ libreoffice --headless --invisible
 ## 相关链接
 
 - [[办公自动化地图]]
-- [[Python Office 库]]
-- [[Tesseract OCR]]
-- [[office-tools]]
+- [[Python办公库]]
+- [[TesseractOCR]]
+- [[office工具]]
 
 ## 来源
 

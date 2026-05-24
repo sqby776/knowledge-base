@@ -68,7 +68,7 @@ Obsidian 的 Omnisearch 插件支持 Tesseract OCR，可自动识别图片/PDF �
 
 - [[办公自动化地图]]
 - [[LibreOffice]]
-- [[office-tools]]
+- [[office工具]]
 
 ## 来源
 

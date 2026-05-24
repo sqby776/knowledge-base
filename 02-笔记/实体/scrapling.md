@@ -64,7 +64,7 @@ title = html.css("h1").first().text
 
 - [[Camoufox]]
 - [[crawl4ai]]
-- [[web-scraping]]
+- [[网页抓取]]
 
 ## 来源
 

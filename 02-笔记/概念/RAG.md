@@ -44,7 +44,7 @@ Retrieval-Augmented Generation（检索增强生成）—— 一种将外部知�
 
 1. **基础 RAG** — 简单的向量检索 + 上下文拼接
 2. **高级 RAG** — 查询改写、重排序、多跳检索
-3. **[[Agentic RAG]]** — Agent 自主决定检索策略、多轮检索、自我修正
+3. **[[代理RAG]]** — Agent 自主决定检索策略、多轮检索、自我修正
 
 ## 与 LLM Wiki 的关系
 
@@ -54,10 +54,10 @@ Retrieval-Augmented Generation（检索增强生成）—— 一种将外部知�
 
 ## 相关链接
 
-- [[Agentic RAG]]
+- [[代理RAG]]
 - [[LLM Wiki]]
 - [[知识飞轮]]
-- [[Source-first]]
+- [[源头优先]]
 - [[嵌入模型]]
 - [[向量数据库]]
 

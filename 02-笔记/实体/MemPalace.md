@@ -57,7 +57,7 @@ MemOS 智能去重
 - [[MemOS]]
 - [[Chroma]]
 - [[知识图谱]]
-- [[Hermes Agent]]
+- [[Hermes智能体-重复]]
 
 ## 来源
 

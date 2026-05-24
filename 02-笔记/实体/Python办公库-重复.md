@@ -77,7 +77,7 @@ prs.save('output.pptx')
 
 - [[LibreOffice]]
 - [[办公自动化地图]]
-- [[office-tools]]
+- [[office工具]]
 
 ## 来源
 

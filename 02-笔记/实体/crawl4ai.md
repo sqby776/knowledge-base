@@ -56,7 +56,7 @@ result = scraper.fetch(
 
 - [[Camoufox]]
 - [[scrapling]]
-- [[web-scraping]]
+- [[网页抓取]]
 
 ## 来源
 

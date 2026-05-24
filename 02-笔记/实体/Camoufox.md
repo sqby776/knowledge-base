@@ -62,7 +62,7 @@ pip install camoufox
 
 - [[crawl4ai]]
 - [[scrapling]]
-- [[web-scraping]]
+- [[网页抓取]]
 
 ## 来源
 

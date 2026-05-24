@@ -24,7 +24,7 @@ agent      research   social-media ai-agents
 
 ### 1. 系统配置
 
-- [[hermes-agent]] — Hermes 配置和扩展（必学）
+- [[hermes智能体]] — Hermes 配置和扩展（必学）
 - `hermes setup` — 交互式配置向导
 - `hermes doctor` — 健康检查
 - `hermes model` — 模型/提供商选择
@@ -109,16 +109,16 @@ agent      research   social-media ai-agents
 
 ## 快速入口
 
-- 想学 Hermes 配置 → 看 [[hermes-agent]]
+- 想学 Hermes 配置 → 看 [[hermes智能体]]
 - 想找特定功能 → 用 `hermes skills search <关键词>`
 - 想安装新技能 → `hermes skills install <技能名>`
 - 想管理工具 → `hermes tools`
 
 ## 相关页面
 
-- [[Hermes 能力地图]] — 生态系统全景
-- [[Awesome Hermes Agent]] — 精选资源目录
-- [[Hermes Agent]] — 核心技能文档
+- [[Hermes能力地图]] — 生态系统全景
+- [[精选Hermes智能体]] — 精选资源目录
+- [[Hermes智能体-重复]] — 核心技能文档
 
 ---
 

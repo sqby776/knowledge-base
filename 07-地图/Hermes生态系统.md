@@ -369,10 +369,10 @@ hermes status
 
 ## 🔗 相关页面
 
-- [[Awesome Hermes Agent]] — 精选资源目录
-- [[Hermes Agent]] — 核心技能文档
+- [[精选Hermes智能体]] — 精选资源目录
+- [[Hermes智能体-重复]] — 核心技能文档
 - [[个人知识库]] — 知识库搭建指南
-- [[MemOS 记忆宫殿]] — 记忆系统配置
+- [[MemOS记忆宫殿]] — 记忆系统配置
 
 ---
 
