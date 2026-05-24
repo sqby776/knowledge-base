@@ -319,3 +319,43 @@
 ---
 
 *维护者：Hermes Agent + 船长*
+
+---
+
+## 2026-05-24 知识库完善（第四轮）
+
+### 中优先级任务
+
+#### Git 自动同步到 GitHub
+
+- 远程仓库已配置：`https://github.com/sqby776/knowledge-base.git`
+- gh CLI 已认证：`sqby776`，权限 `admin:org, repo, user, write:packages`
+- **问题**：GitHub HTTPS 443 端口不可达（网络限制）
+- **状态**：⬜ 待网络恢复后 push
+
+#### 示范文章双链完善
+
+- 更新 `drafts/示范文章-v1-AI辅助写作方法论.md`
+- 添加完整 Frontmatter
+- 添加与 6 个 Skill 的双链引用
+- 创建 6 个对应概念页面：
+  - HKR 选题质检.md
+  - 五种叙事原型.md
+  - 四层自检.md
+  - Skill 迭代法.md
+  - 知识库 Ingest.md
+  - AI-人协作分工.md
+
+### 当前状态
+
+- 总 Markdown 文件：138 个
+- 概念页面：51 个
+- 实体页面：39 个
+- 方法页面：3 个
+- MOC 地图：6 个
+- 文章/草稿：9 个
+- 技能文件：7 个
+
+---
+
+*维护者：Hermes Agent + 船长*

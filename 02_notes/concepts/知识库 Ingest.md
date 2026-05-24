@@ -1,0 +1,38 @@
+---
+title: 知识库 Ingest
+created: 2026-05-24
+updated: 2026-05-24
+tags: ["knowledge-base", "concept", "skill"]
+status: active
+sources: ["卡兹克文风 skill 与知识库构建"]
+---
+
+# 知识库 Ingest
+
+> 文章入库编译流程
+
+## 说明
+
+将原始文章编译为结构化知识节点的过程。
+
+## 编译流程
+
+```
+原始文章（01_inbox）→ 提取知识点 → 创建概念/实体页 → 建立双链 → 更新 index.md → 提交 Git
+```
+
+## 关键原则
+
+- **Source-first**：原始资料只追加不修改
+- **双链优先**：每页必须建立相关双链
+- **Frontmatter 完整**：title/created/updated/tags/status/sources
+
+## 相关链接
+
+- [[Skill 迭代法]]
+- [[本地知识库]]
+- [[双链交叉引用]]
+
+---
+
+*最后更新：2026-05-24*
