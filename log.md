@@ -1,55 +1,61 @@
 # 知识库更新日志
 
-## 2026-05-23
+## 2026-05-24
 
-### 初始化
+### 新增
 
-- **新增**：知识库目录结构创建完成
-- **新增**：`SCHEMA.md` — 知识库规则文件
-- **新增**：`index.md` — 总入口
-- **新增**：`log.md` — 更新日志
-- **新增**：`README.md` — 完整搭建方案文档
+- `02_notes/methods/office-automation.md` — 办公自动化方法库
+  - Word/Excel/PPT 处理工作流
+  - Python Office 工具链
+  - 自动化场景示例（批量处理、数据汇总、智能文档）
+  - 与知识库集成规范
 
-### Git 初始化
+- `02_notes/entities/office-tools.md` — 办公工具实体页
+  - LibreOffice 24.2.7
+  - Obsidian 1.12.7
+  - Tesseract OCR 5.3.4
+  - Python Office 库清单
+  - 硬件与环境配置
 
-- **commit cce0306** — 初始提交：知识库结构 + 核心规则文件（7 files, 593 insertions）
-- 分支：`main`
-- 作者：sqby776 <sqby776@users.noreply.github.com>
+- `07_moc/办公自动化地图.md` — 办公自动化主题地图
+  - 学习路径：基础 → 工具 → 自动化 → 集成 → 进阶
+  - 快速入口索引
+  - 与主知识库联动说明
 
-### 测试文章编译
+### 更新
 
-- **来源**：`01_inbox/articles/2026-05-23_RAG技术简析.md`
-- **新增页面**：
-  - `02_notes/concepts/Agentic-RAG.md` — Agentic RAG 概念页
-  - `02_notes/concepts/向量数据库.md` — 向量数据库概念页
-  - `02_notes/concepts/嵌入模型.md` — 嵌入模型概念页
-- **更新页面**：
-  - `02_notes/concepts/RAG.md` — 补充组件表格、演进路线、双链
-- **更新**：
-  - `index.md` — 添加新概念和实体链接
-  - `07_moc/知识库地图.md` — 补充阅读路径
-
-### 双链验证
-
-编译后形成的双链网络：
-```
-RAG ←→ Agentic RAG
-RAG ←→ 向量数据库
-RAG ←→ 嵌入模型
-RAG ←→ LLM Wiki
-RAG ←→ 知识飞轮
-向量数据库 ←→ 嵌入模型
-Agentic RAG ←→ Hermes Agent
-```
-
-### 下一步
-
-- [x] 在 Obsidian 中打开 `~/workspace/knowledge/` 作为 Vault
-- [ ] 安装 Obsidian Git 插件并配置自动同步
-- [ ] 在 Hermes 中设置 `WIKI_PATH` 环境变量
-- [ ] 测试：放入一篇文章到 `01_inbox/articles/`
-- [ ] 让 Hermes 编译，检查生成的页面和双链
+- `index.md` — 新增"办公自动化"分类，更新最后更新时间
 
 ---
 
-*最后更新：2026-05-23*
+## 2026-05-23
+
+### 新增
+
+- 知识库基础结构创建
+- `01_inbox/` — 原始资料目录
+- `02_notes/concepts/` — 概念页目录
+- `02_notes/entities/` — 实体页目录
+- `02_notes/methods/` — 方法论目录
+- `03_resources/` — 外部资料目录
+- `04_projects/` — 项目内容目录
+- `05_comparisons/` — 比较页目录
+- `06_queries/` — 问答目录
+- `07_moc/` — 主题地图目录
+- `08_drafts/` — 草稿目录
+- `99_archive/` — 归档目录
+- `SCHEMA.md` — 知识库规则文件
+- `index.md` — 总入口索引
+- `log.md` — 更新日志
+- `README.md` — 完整配置指南
+- `07_moc/知识库地图.md` — AI 技术主题地图
+
+### 编译测试
+
+- 测试文章编译 → 3 个新概念页 + RAG 页更新
+- 新增：[[Agentic RAG]]、[[向量数据库]]、[[嵌入模型]]
+- 20+ 双链建立
+
+---
+
+*维护者：Hermes Agent + 船长*
