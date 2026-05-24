@@ -2,8 +2,8 @@
 title: Example Domain
 created: 2026-05-24
 updated: 2026-05-24
-tags: ["auto-capture"]
-status: draft
+tags: ["auto-capture", auto-compiled]
+status: compiled
 sources: [https://example.com]
 source_url: https://example.com
 ---
