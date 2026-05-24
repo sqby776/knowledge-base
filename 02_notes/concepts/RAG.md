@@ -1,3 +1,12 @@
+---
+title: RAG
+created: 2026-05-24
+updated: 2026-05-24
+tags: ["rag", "knowledge-base", "workflow"]
+status: active
+sources: []
+---
+
 # RAG
 
 ## 定义

@@ -1,3 +1,12 @@
+---
+title: 办公工具实体页
+created: 2026-05-24
+updated: 2026-05-24
+tags: ["tool", "config"]
+status: active
+sources: []
+---
+
 # 办公工具实体页
 
 ## 软件工具

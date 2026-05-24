@@ -1,3 +1,12 @@
+---
+title: 常见问题 (FAQ)
+created: 2026-05-24
+updated: 2026-05-24
+tags: ["knowledge-base", "workflow"]
+status: active
+sources: []
+---
+
 # 常见问题 (FAQ)
 
 ## 基础知识

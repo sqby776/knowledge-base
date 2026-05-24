@@ -1,3 +1,12 @@
+---
+title: 草稿
+created: 2026-05-24
+updated: 2026-05-24
+tags: ["draft"]
+status: draft
+sources: []
+---
+
 # 草稿
 
 > 待完善/待发布的草稿文件，完成后移到对应目录。

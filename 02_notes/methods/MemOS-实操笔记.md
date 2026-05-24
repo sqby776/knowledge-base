@@ -1,3 +1,12 @@
+---
+title: MemOS 记忆系统实操笔记
+created: 2026-05-24
+updated: 2026-05-24
+tags: ["knowledge-base", "tutorial"]
+status: active
+sources: []
+---
+
 # MemOS 记忆系统实操笔记
 
 > 来源：本系统实际配置和使用经验

@@ -1,3 +1,12 @@
+---
+title: Agentic RAG
+created: 2026-05-24
+updated: 2026-05-24
+tags: ["rag", "ai-agent", "workflow"]
+status: active
+sources: []
+---
+
 # Agentic RAG
 
 ## 定义

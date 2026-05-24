@@ -2,6 +2,25 @@
 
 ## 2026-05-24
 
+### 补充规范体系（对照微信文章优化）
+
+统编前端元数据（Frontmatter）+ 标签体系 + 页面生命周期管理，补齐了文章建议的规范缺口：
+
+#### SCHEMA.md 新增章节
+- **Frontmatter 规范** — 所有页面必须包含 `title/created/updated/tags/status/sources` YAML 头
+- **标签治理** — 每页 1-3 个小写英文标签，按用途打标，新标签需注册
+- **页面生命周期** — `draft → active → frozen → archived` 四阶段流转
+- **编译工作流关键检查点** — Frontmatter 完整度 + 标签注册 + wikilink + 日志更新
+
+#### index.md 新增
+- **标签注册表** — 10 个已注册标签的索引表
+
+#### 全库 Frontmatter 覆盖（44/46 页面）
+- 10 个概念页添加 tags + status: active
+- 13 个实体页添加 tags + status: active
+- 6 个 MOC 页、5 个 README 页、5 个文章/方法页全覆盖
+- 剩余 2 个空文件（LLM Wiki.md / 知识库集成.md）填充内容
+
 ### 双链修复（P0 紧急）
 
 修复 20 个双链断裂问题，创建缺失页面：

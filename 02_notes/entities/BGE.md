@@ -1,3 +1,12 @@
+---
+title: BGE
+created: 2026-05-24
+updated: 2026-05-24
+tags: ["rag", "tool"]
+status: active
+sources: []
+---
+
 # BGE
 
 ## 定义

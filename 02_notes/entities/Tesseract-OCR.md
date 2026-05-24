@@ -1,3 +1,12 @@
+---
+title: Tesseract OCR
+created: 2026-05-24
+updated: 2026-05-24
+tags: ["tool", "config"]
+status: active
+sources: []
+---
+
 # Tesseract OCR
 
 ## 定义

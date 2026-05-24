@@ -1,3 +1,12 @@
+---
+title: Hermes 技能地图
+created: 2026-05-24
+updated: 2026-05-24
+tags: ["ai-agent", "workflow"]
+status: active
+sources: []
+---
+
 # Hermes 技能地图
 
 > MOC — Hermes Agent 技能分类主题地图

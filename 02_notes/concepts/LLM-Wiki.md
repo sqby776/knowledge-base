@@ -1,3 +1,12 @@
+---
+title: LLM Wiki
+created: 2026-05-24
+updated: 2026-05-24
+tags: ["knowledge-base", "workflow"]
+status: active
+sources: []
+---
+
 # LLM Wiki
 
 ## 定义

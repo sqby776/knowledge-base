@@ -1,3 +1,12 @@
+---
+title: Python Office 库
+created: 2026-05-24
+updated: 2026-05-24
+tags: ["tool", "automation"]
+status: active
+sources: []
+---
+
 # Python Office 库
 
 ## 定义

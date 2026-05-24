@@ -1,3 +1,12 @@
+---
+title: crawl4ai
+created: 2026-05-24
+updated: 2026-05-24
+tags: ["tool", "automation"]
+status: active
+sources: []
+---
+
 # crawl4ai
 
 ## 定义

@@ -1,3 +1,12 @@
+---
+title: MOC（Map of Content）
+created: 2026-05-24
+updated: 2026-05-24
+tags: ["knowledge-base", "tutorial"]
+status: active
+sources: []
+---
+
 # MOC（Map of Content）
 
 ## 定义

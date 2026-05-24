@@ -1,3 +1,12 @@
+---
+title: Chroma
+created: 2026-05-24
+updated: 2026-05-24
+tags: ["rag", "tool"]
+status: active
+sources: []
+---
+
 # Chroma
 
 ## 定义

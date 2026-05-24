@@ -1,3 +1,12 @@
+---
+title: 办公自动化方法库
+created: 2026-05-24
+updated: 2026-05-24
+tags: ["workflow", "automation"]
+status: active
+sources: []
+---
+
 # 办公自动化方法库
 
 ## 文档处理工作流

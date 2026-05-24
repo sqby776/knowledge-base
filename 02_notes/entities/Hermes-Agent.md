@@ -1,3 +1,12 @@
+---
+title: Hermes Agent
+created: 2026-05-24
+updated: 2026-05-24
+tags: ["ai-agent", "tool"]
+status: active
+sources: []
+---
+
 # Hermes Agent
 
 ## 定义

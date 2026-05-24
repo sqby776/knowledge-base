@@ -1,3 +1,12 @@
+---
+title: PDF 资源索引
+created: 2026-05-24
+updated: 2026-05-24
+tags: ["knowledge-base", "tutorial"]
+status: active
+sources: []
+---
+
 # PDF 资源索引
 
 ## 说明

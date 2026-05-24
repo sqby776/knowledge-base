@@ -1,3 +1,12 @@
+---
+title: 当前项目
+created: 2026-05-24
+updated: 2026-05-24
+tags: ["workflow", "config"]
+status: active
+sources: []
+---
+
 # 当前项目
 
 ## 活跃项目列表

@@ -26,6 +26,100 @@
 - 实体页连 MOC
 - 关键结论必须标注来源：`[[01_inbox/articles/xxx]]`
 
+## Frontmatter 规范（必须！）
+
+每篇笔记必须带有 YAML frontmatter，格式如下：
+
+```yaml
+---
+title: 节点标题
+created: 2026-05-24
+updated: 2026-05-24
+tags: [RAG, 知识管理]
+status: active
+sources: []
+---
+
+### 字段说明
+
+| 字段 | 必填 | 说明 |
+|:----|:----|:----|
+| `title` | ✅ | 页面标题，与 # 标题一致 |
+| `created` | ✅ | 创建日期 YYYY-MM-DD |
+| `updated` | ✅ | 最后修改日期 YYYY-MM-DD |
+| `tags` | ✅ | 标签数组，**1-3 个**，小写英文 |
+| `status` | ✅ | 页面状态：draft / active / frozen / archived |
+| `sources` | ⚠️ | 来源关联，引用 `01_inbox/articles/xxx.md` |
+
+### 示例
+
+```yaml
+---
+title: RAG
+created: 2026-05-24
+updated: 2026-05-24
+tags: [rag, retrieval, nlp]
+status: active
+sources: [01_inbox/articles/RAG技术简析.md]
+---
+```
+
+## 标签治理
+
+> 标签的核心作用是「跨目录检索」，不是「分类」。相同含义的标签用同一个。
+
+### 标签规则
+
+1. **数量限制**：每篇笔记最多 3 个标签，1 个也可以
+2. **全小写英文**：用 `rag` 不用 `RAG`，用 `ai-agent` 不用 `AI Agent`
+3. **按用途打标**，不按主题：
+   - ❌ `Obsidian配置` / `Hermes安装`（这是分类）
+   - ✅ `tutorial` / `config` / `workflow`（这是用途）
+4. **新标签需先注册**：新标签必须先添加到 `index.md` 的标签注册表中
+5. **常用标签索引**：
+
+| 标签 | 用途 | 示例 |
+|:----|:----|:----|
+| `rag` | 检索增强生成相关 | RAG, Agentic RAG |
+| `knowledge-base` | 知识库搭建相关 | LLM Wiki, 知识飞轮 |
+| `workflow` | 工作流/流程 | 编译工作流, 自动入库 |
+| `config` | 配置相关 | Obsidian配置, MemOS配置 |
+| `tutorial` | 教程/操作方法 | 安装指南, 操作步骤 |
+| `tool` | 工具介绍 | Hermes Agent, LibreOffice |
+| `ai-agent` | AI Agent 相关 | Hermes, AutoCLI |
+| `automation` | 自动化相关 | cronjob, 自动编译 |
+| `draft` | 草稿/待完善 | - |
+| `archived` | 已归档 | - |
+
+## 页面生命周期
+
+```
+draft → active → frozen → archived
+```
+
+| 阶段 | 含义 | 操作规则 | 图谱显示 |
+|:----|:----|:----|:----:|
+| **draft** | 新建或未完成 | 可自由修改、补充内容 | 虚线 |
+| **active** | 已成型、活跃使用 | 主要修改区，更新后需更新 log.md | 实线 |
+| **frozen** | 定稿、不再主动修改 | 只接收修正性编辑，不扩展内容 | 半透明 |
+| **archived** | 已归档 | 移到 `99_archive/`，但保留 wikilink 引用 | 不显示 |
+
+### 流转规则
+
+- 新建页默认 `status: draft`
+- Agent 完成初稿后设置为 `status: active`
+- 长期未修改（>30天）或内容已过时 → 设为 `status: frozen` 并备注原因
+- 确实不再需要 → 移入 `99_archive/`，设为 `status: archived`
+
+## 标签与生命周期的联动
+
+```
+draft     → 标签含 draft
+active    → 标签按实际用途
+frozen    → 标签含 frozen
+archived  → 移入 99_archive，标签含 archived
+```
+
 ## 质量规则
 
 - 不确定内容必须标记为：
@@ -33,6 +127,8 @@
   > [!WARNING] 待验证
   这段内容来自 XX 文章，尚未独立验证
   ```
+- **每个新页面必须带 Frontmatter**，Agent 新增时必须先填入字段再写正文
+- **Frontmatter 不完整 = 页面未完成**，Agent 应拒绝写入无 frontmatter 的页面
 - 每次重要修改后更新 `log.md`
 - 新增重要页面后更新 `index.md`
 - **raw 原始资料只追加只读，不让 AI 改写**
@@ -44,16 +140,26 @@
     ↓
 Hermes 读取文章
     ↓
-提取核心主题 → 创建/更新概念页
-提取实体 → 创建/更新实体页
+提取核心主题 → 创建概念页（带 Frontmatter，status: draft）
+提取实体 → 创建实体页（带 Frontmatter，status: draft）
 生成 MOC 更新
     ↓
 强制使用 [[wikilink]] 建立关联
     ↓
-更新 log.md + index.md
+完善 Frontmatter（tags + sources），设置 status: active
+    ↓
+更新 log.md + index.md（注册新标签）
     ↓
 （可选）生成日报推送
 ```
+
+### 工作流关键检查点
+
+每个检查点未通过则不能进入下一步：
+1. ✅ 页面必须有完整 Frontmatter（title/created/updated/tags/status/sources）
+2. ✅ tags 必须在标签注册表中
+3. ✅ 必须包含至少一条 [[wikilink]]
+4. ✅ 必须更新 log.md 和 index.md
 
 ## Agent 行为约束
 

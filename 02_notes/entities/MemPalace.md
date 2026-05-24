@@ -1,3 +1,12 @@
+---
+title: MemPalace
+created: 2026-05-24
+updated: 2026-05-24
+tags: ["knowledge-base", "tool"]
+status: active
+sources: []
+---
+
 # MemPalace
 
 ## 定义

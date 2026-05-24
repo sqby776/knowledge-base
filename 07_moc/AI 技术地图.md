@@ -1,3 +1,12 @@
+---
+title: AI 技术地图
+created: 2026-05-24
+updated: 2026-05-24
+tags: ["knowledge-base", "ai-agent"]
+status: active
+sources: []
+---
+
 # AI 技术地图
 
 > MOC — 人工智能技术领域主题地图

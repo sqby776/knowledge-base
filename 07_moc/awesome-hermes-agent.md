@@ -1,3 +1,12 @@
+---
+title: Awesome Hermes Agent 🤖
+created: 2026-05-24
+updated: 2026-05-24
+tags: ["ai-agent", "tool"]
+status: active
+sources: []
+---
+
 # Awesome Hermes Agent 🤖
 
 > 精选的 Hermes Agent 资源集合，涵盖官方文档、技能、工具、社区和最佳实践。

@@ -1,3 +1,12 @@
+---
+title: Hermes 能力地图 🗺️
+created: 2026-05-24
+updated: 2026-05-24
+tags: ["ai-agent", "tool"]
+status: active
+sources: []
+---
+
 # Hermes 能力地图 🗺️
 
 > Hermes Agent 生态系统全景图 — 从核心到扩展，从工具到平台。
