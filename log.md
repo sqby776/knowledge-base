@@ -4,27 +4,29 @@
 
 ### 新增
 
+- `07_moc/awesome-hermes-agent.md` — **Hermes 资源总入口**
+  - 精选资源目录（102 个技能 + 20+ 模型提供商 + 15+ 平台集成）
+  - 官方资源、工具集、技能分类、模型提供商、平台集成
+  - 记忆系统、关键路径、学习路径、贡献指南
+
+- `07_moc/hermes-ecosystem.md` — **Hermes 能力地图**
+  - 核心架构可视化
+  - 工具生态系统（三层：基础/增强/高级）
+  - 技能生态系统（按领域分类）
+  - 模型提供商网络
+  - 平台集成矩阵
+  - 记忆系统架构
+  - 后台系统（Delegation/Cron/Curator/Kanban）
+  - 工作流模式（单代理/子代理/Cron/多代理）
+  - 配置层级
+
 - `02_notes/methods/office-automation.md` — 办公自动化方法库
-  - Word/Excel/PPT 处理工作流
-  - Python Office 工具链
-  - 自动化场景示例（批量处理、数据汇总、智能文档）
-  - 与知识库集成规范
-
 - `02_notes/entities/office-tools.md` — 办公工具实体页
-  - LibreOffice 24.2.7
-  - Obsidian 1.12.7
-  - Tesseract OCR 5.3.4
-  - Python Office 库清单
-  - 硬件与环境配置
-
 - `07_moc/办公自动化地图.md` — 办公自动化主题地图
-  - 学习路径：基础 → 工具 → 自动化 → 集成 → 进阶
-  - 快速入口索引
-  - 与主知识库联动说明
 
 ### 更新
 
-- `index.md` — 新增"办公自动化"分类，更新最后更新时间
+- `index.md` — 新增"主题地图"分类，添加 Hermes 能力地图和资源目录链接
 
 ---
 
