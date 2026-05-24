@@ -51,10 +51,23 @@
 
 - `meeting-notes` 技能测试成功，输出高质量会议纪要
 
+### 空目录填充（P1-P3）
+
+7 个空目录全部填充完成：
+
+| 目录 | 文件 | 说明 |
+|:-----|:-----|:-----|
+| `03_resources/pdfs/README.md` | PDF 资源索引 | 待下载 PDF 列表 + 使用规范 |
+| `03_resources/links/README.md` | 外部链接索引 | 10 个学习站点完整链接 |
+| `04_projects/current/README.md` | 当前项目 | 4 个项目追踪 + 里程碑 |
+| `05_comparisons/README.md` | 工具对比 | 5 组对比（Hermes/Claude、嵌入模型、抓取工具等） |
+| `06_queries/README.md` | 常见问题 FAQ | 15 个常见问题解答 |
+| `08_drafts/README.md` | 草稿 | 草稿规范 + 模板 |
+| `99_archive/README.md` | 归档 | 归档规则 + 目录结构 |
+
 ### 更新
 
-- `index.md` — 补充嵌入模型分类，添加新实体页链接
-- `log.md` — 记录本次修复
+- `index.md` — 补充目录说明表格，更新最近更新
 
 ---
 
