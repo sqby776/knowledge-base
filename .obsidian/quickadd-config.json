@@ -1,0 +1,45 @@
+{
+  "migrations": [],
+  "settings": {
+    "macros": [
+      {
+        "name": "新建概念页",
+        "type": "Template",
+        "templatePath": "templates/概念页模板.md",
+        "folder": "02_notes/concepts",
+        "format": "md",
+        "trigger": "新建概念"
+      },
+      {
+        "name": "新建实体页",
+        "type": "Template",
+        "templatePath": "templates/实体页模板.md",
+        "folder": "02_notes/entities",
+        "format": "md",
+        "trigger": "新建实体"
+      },
+      {
+        "name": "新建MOC页",
+        "type": "Template",
+        "templatePath": "templates/MOC页模板.md",
+        "folder": "07_moc",
+        "format": "md",
+        "trigger": "新建地图"
+      },
+      {
+        "name": "新建收件箱",
+        "type": "Template",
+        "templatePath": "templates/收件箱模板.md",
+        "folder": "01_inbox/articles",
+        "format": "md",
+        "trigger": "新建文章"
+      }
+    ],
+    "choices": [],
+    "macrosByHotkey": [],
+    "folderType": "fixed",
+    "enterNewFileAtCreation": true,
+    "newFileFolder": "",
+    "openFileOnNewFile": true
+  }
+}

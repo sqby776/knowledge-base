@@ -128,3 +128,31 @@
 ---
 
 *维护者：Hermes Agent + 船长*
+
+### 自动入库 (2026-05-24)
+
+| 文件 | 标题 | 来源 |
+|:----|:----|:----|
+
+| `01_inbox/articles/2026-05-24_Example_Domain.md` | Example Domain | 自动抓取 |
+
+### Obsidian 插件配置
+
+7 个社区插件已安装并配置：
+
+| 插件 | 版本 | 配置内容 |
+|:-----|:----:|:---------|
+| **Dataview** | 0.5.68 | 4 组查询嵌入 index.md（最近修改/状态统计/标签分组/待完善） |
+| **Omnisearch** | 1.29.2 | 全文搜索 + OCR 识别 |
+| **Templater** | 2.20.5 | 4 个模板（概念页/实体页/MOC 页/收件箱）→ `templates/` |
+| **QuickAdd** | 2.12.2 | 4 个宏（一键新建概念/实体/MOC/收件箱） |
+| **Linter** | 1.31.2 | 6 条规则（Frontmatter/标题/列表/链接/行尾/文件末尾） |
+| **Advanced Tables** | 0.23.2 | 表格编辑增强 |
+| **Paste URL into selection** | 1.11.4 | URL 快捷插入 |
+
+### 更新
+
+- `index.md` — 新增 Dataview 数据面板（4 组查询）
+- `.obsidian/linter-config.json` — Linter 规则配置
+- `.obsidian/quickadd-config.json` — QuickAdd 宏配置
+- `templates/` — 4 个 Templater 模板

@@ -1,0 +1,63 @@
+{
+  "ruleSettings": [],
+  "rules": [
+    {
+      "id": "format-frontmatter",
+      "name": "格式化 Frontmatter",
+      "enabled": true,
+      "options": {
+        "YamlFormat": "yaml",
+        "YamlKeySort": ["title", "created", "updated", "tags", "status", "source", "type", "version", "author", "related"],
+        "YamlKeyValueSpacing": true,
+        "YamlTrailingSlashes": false,
+        "YamlTitle": true,
+        "YamlTitleAlias": "title"
+      }
+    },
+    {
+      "id": "format-headings",
+      "name": "格式化标题",
+      "enabled": true,
+      "options": {
+        "HeadingFormat": "atx",
+        "SpaceAfterATXHeading": true,
+        "HeadingSpacing": true
+      }
+    },
+    {
+      "id": "format-lists",
+      "name": "格式化列表",
+      "enabled": true,
+      "options": {
+        "ListStyle": "markdown",
+        "ListIndentation": 2
+      }
+    },
+    {
+      "id": "format-links",
+      "name": "格式化链接",
+      "enabled": true,
+      "options": {
+        "WikilinkStyle": "shortest",
+        "RemoveEmptyLinks": true
+      }
+    },
+    {
+      "id": "format-trailing-spaces",
+      "name": "去除行尾空格",
+      "enabled": true,
+      "options": {
+        "TwoSpacesAfterPeriod": false,
+        "RemoveTrailingSpaces": true
+      }
+    },
+    {
+      "id": "format-newlines",
+      "name": "文件末尾空行",
+      "enabled": true,
+      "options": {
+        "EnsureEmptyLineAtEndOfFile": true
+      }
+    }
+  ]
+}

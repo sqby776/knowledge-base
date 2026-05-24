@@ -66,6 +66,47 @@
 | `draft` | 草稿/待完善 | ✅ |
 | `archived` | 已归档 | ✅ |
 
+## 数据面板 (Powered by Dataview)
+
+> 以下内容在 Obsidian 中实时渲染，显示知识库的动态数据。
+
+### 最近修改的 10 个页面
+
+```dataview
+TABLE file.frontmatter.tags AS 标签, file.mday AS 最后修改
+FROM "02_notes" OR "07_moc"
+SORT file.mday DESC
+LIMIT 10
+```
+
+### 各状态页面统计
+
+```dataview
+TABLE length(rows) AS 数量
+FROM "02_notes" OR "01_inbox" OR "07_moc"
+GROUP BY status
+SORT status ASC
+```
+
+### 按标签分组
+
+```dataview
+TABLE rows.file.link AS 页面列表
+FROM "02_notes"
+FLATTEN tags AS tag
+GROUP BY tag
+SORT tag ASC
+```
+
+### 待完善页面（status=draft）
+
+```dataview
+TABLE file.frontmatter.tags AS 标签, file.cday AS 创建日期
+FROM "02_notes" OR "07_moc"
+WHERE status = "draft"
+SORT file.cday ASC
+```
+
 ## 最近更新
 
 > 2026-05-24：修复 20 个双链断裂页面，填充 7 个空目录全部内容
