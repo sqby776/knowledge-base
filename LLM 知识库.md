@@ -4,7 +4,7 @@ created: 2026-05-24
 updated: 2026-05-24
 tags: [knowledge-base, workflow]
 status: active
-sources: [02_notes/concepts/LLM-Wiki.md]
+sources: [02-笔记/concepts/LLM-Wiki.md]
 ---
 
 # LLM Wiki

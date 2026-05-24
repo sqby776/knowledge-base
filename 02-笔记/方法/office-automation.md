@@ -91,10 +91,10 @@ doc.save("报告.docx")
 
 ## 与知识库集成
 
-- 处理后的文档放入 `03_resources/documents/`
-- 提取的知识点写入 `02_notes/concepts/`
+- 处理后的文档放入 `03-资源/文档/`
+- 提取的知识点写入 `02-笔记/概念/`
 - 自动化脚本放入 `~/workspace/scripts/office/`
-- 模板文件放入 `03_resources/templates/`
+- 模板文件放入 `03-资源/模板/`
 
 ## 质量检查清单
 

@@ -11,14 +11,10 @@
             "id": "26d8892e932af104",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "知识库集成.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "知识库集成"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "关系图谱"
             }
           }
         ]
@@ -94,7 +90,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "知识库集成.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +99,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "知识库集成 的反向链接列表"
+              "title": "反向链接"
             }
           },
           {
@@ -185,8 +180,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "c3d22ad6a99bbd9a",
+  "active": "26d8892e932af104",
   "lastOpenFiles": [
+    "07_moc/办公自动化地图.md",
+    "知识库集成.md",
     "01_inbox/articles/2026-05-24_卡兹克文风skill与知识库构建.md",
     "02_notes/entities/手机同步配置指南.md",
     "02_notes/entities/python_pptxhttpspython_pptxreadthedocsioenlatestpy.md",
@@ -211,8 +208,6 @@
     "04_projects/current/当前项目.md",
     "02_notes/concepts/Hermes 能力地图.md",
     "02_notes/concepts/Awesome Hermes Agent.md",
-    "03_resources/links/wikilink.md",
-    "02_notes/concepts/web-scraping.md",
     "templates",
     "01_inbox/auto-captures",
     "archive",

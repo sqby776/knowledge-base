@@ -29,7 +29,7 @@ sources: []
 1. 自动化脚本输出放在 `reports/`
 2. 示例文件放在 `examples/`
 3. 模板文件放在 `templates/`
-4. 在 `03_resources/links/` 添加对应链接索引
+4. 在 `03-资源/链接/` 添加对应链接索引
 
 ## 相关链接
 
