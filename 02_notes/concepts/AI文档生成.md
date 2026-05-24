@@ -1,5 +1,5 @@
 ---
-title: AI文档生成
+title: AI 文档生成
 created: 2026-05-24
 updated: 2026-05-24
 tags: ["knowledge-base", "concept"]
@@ -7,7 +7,7 @@ status: active
 sources: []
 ---
 
-# AI文档生成
+# AI 文档生成
 
 > 概念页面，待内容填充
 
@@ -17,8 +17,9 @@ sources: []
 
 ## 相关链接
 
+- [[智能文档生成]]
+- [[LLM Wiki]]
 - [[办公自动化]]
-- [[知识库集成]]
 
 ---
 
