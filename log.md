@@ -201,3 +201,48 @@
 - `.obsidian/linter-config.json` — Linter 规则配置
 - `.obsidian/quickadd-config.json` — QuickAdd 宏配置
 - `templates/` — 4 个 Templater 模板
+
+---
+
+## 2026-05-24 双链修复
+
+### 问题
+发现 54 个断裂双链链接
+
+### 修复方案
+
+| 类型 | 数量 | 处理方式 |
+|:-----|:-----|:---------|
+| 模板占位符 | 5 | 替换为真实链接 |
+| 路径格式链接 | 4 | 去掉 `.md` 后缀 |
+| 模板示例 | 3 | 替换为真实链接 |
+| 真实缺失页面 | 32 | 创建占位页面 |
+| 其他断裂 | 10 | 创建页面或重定向 |
+
+### 创建页面
+
+**entities (15 个):**
+- 版本管理、个人知识库、工作流自动化、批量处理、批量转换、数据汇总
+- 双链链接、微信日报、文档处理、文档格式、文档归档、文件编码
+- 智能报表、智能文档、AI 文档生成、OCR 识别、Office 工具链、python-docx
+- LibreOffice、Python Office 库
+
+**concepts (13 个):**
+- 文本分块、知识编译流程、知识图谱、Milvus、Pinecone、Qdrant
+- hermes-agent、MemOS 记忆宫殿、Obsidian、web-scraping
+- Awesome Hermes Agent、Hermes 能力地图、Agentic RAG、Hermes Agent、Python Office 库、Tesseract OCR
+
+**links (2 个):**
+- PDF 资源索引、wikilink
+
+**methods (1 个):**
+- 定时抓取
+
+**projects (1 个):**
+- 当前项目
+
+**moc (1 个):**
+- 办公自动化地图
+
+### 结果
+✅ 所有双链断裂已修复，0 个剩余断裂链接

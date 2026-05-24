@@ -41,7 +41,7 @@ MemOS 是 Hermes Agent 的记忆系统，提供智能去重、混合检索、自
 
 采用 Heremes-Wiki 的「Source-first」原则：`01_inbox/` 放原始资料（只追加不修改），`02_notes/` 放编译后的知识节点。这样做的好处是资料可追溯、不丢失。
 
-详见：[[SCHEMA.md]] 、 [[Source-first]]
+详见：[[SCHEMA]] 、 [[Source-first]]
 
 ### Q: 为什么有些页面有「待验证」标记？
 

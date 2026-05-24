@@ -39,7 +39,7 @@ sources: []
 | **目标** | 配置 LibreOffice + Python 库，实现文档批量处理 |
 | **状态** | 🟡 待启动 |
 | **优先级** | P2 |
-| **相关页面** | [[办公自动化]] 、 [[LibreOffice]] 、 [[Python Office 库]] |
+| **相关页面** | [[办公自动化地图]] 、 [[LibreOffice]] 、 [[Python Office 库]] |
 | **前提条件** | 知识库搭建完成后启动 |
 
 **里程碑：**

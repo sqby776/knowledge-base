@@ -54,7 +54,7 @@ sources: []
 
 ## 相关链接
 
-- [[03_resources/links/资源链接索引]]
+- [[README]]
 - [[本地知识库]]
 
 ---
