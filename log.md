@@ -268,3 +268,54 @@
 | `01_inbox/articles/2026-05-24_openpyxl_A_Python_library_to_readwrite_Excel_2010_xlsxxlsm_f.md` | openpyxl - A Python library to read/write Excel 2010 xlsx/xlsm files[](https://openpyxl.readthedocs.io/en/latest/#openpyxl-a-python-library-to-read-write-excel-2010-xlsx-xlsm-files "Link to this heading") | 自动抓取 |
 
 | `01_inbox/articles/2026-05-24_python_pptxhttpspython_pptxreadthedocsioenlatestpython_pptx_.md` | python-pptx[¶](https://python-pptx.readthedocs.io/en/latest/#python-pptx "Permalink to this headline") | 自动抓取 |
+
+---
+
+## 2026-05-24 知识库完善
+
+### 文章迁移
+
+- `raw/卡兹克文风skill与知识库构建-微信公众号2026-05-24.md` → `01_inbox/articles/2026-05-24_卡兹克文风skill与知识库构建.md`
+- raw 目录清空，所有文章统一归入 01_inbox/articles/
+
+### 目录结构完善
+
+创建缺失目录：
+- `03_resources/documents/` — 文档资源索引（README.md）
+- `03_resources/templates/` — 模板资源索引（README.md）
+
+### 双链修复（第二轮）
+
+修复 16 个缺失概念页面：
+
+| 页面 | 位置 | 说明 |
+|:-----|:-----|:-----|
+| 版本管理 | 02_notes/concepts/ | Git 管理文档 |
+| 工作流自动化 | 02_notes/concepts/ | 端到端流程自动化 |
+| 智能报表 | 02_notes/concepts/ | 数据驱动报告 |
+| 智能文档生成 | 02_notes/concepts/ | LLM 辅助写作 |
+| AI 文档生成 | 02_notes/concepts/ | AI 辅助文档 |
+| 定时抓取 | 02_notes/concepts/ | Cron Job 定时任务 |
+| 微信日报 | 02_notes/concepts/ | 自动汇报功能 |
+| 文本分块 | 02_notes/concepts/ | RAG 文本处理 |
+| 文档处理 | 02_notes/concepts/ | Word/Excel/PPT 处理 |
+| 文档格式 | 02_notes/concepts/ | 文档基础格式 |
+| 文档归档 | 02_notes/concepts/ | 文件分类存储 |
+| 文件编码 | 02_notes/concepts/ | UTF-8 与兼容性 |
+| 批量处理 | 02_notes/concepts/ | 多文件操作 |
+| 批量转换 | 02_notes/concepts/ | 格式转换脚本 |
+| 数据汇总 | 02_notes/concepts/ | Excel 数据处理 |
+| 智能文档 | 02_notes/concepts/ | 模板化生成 |
+
+### 当前状态
+
+- 总 Markdown 文件：77 个（新增 17 个）
+- 概念页面：26 个
+- 实体页面：13 个
+- 方法页面：2 个
+- MOC 地图：6 个
+- 文章/草稿：9 个
+
+---
+
+*维护者：Hermes Agent + 船长*
