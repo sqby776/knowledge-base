@@ -21,6 +21,28 @@
 - 6 个 MOC 页、5 个 README 页、5 个文章/方法页全覆盖
 - 剩余 2 个空文件（LLM Wiki.md / 知识库集成.md）填充内容
 
+### 自动化抓取体系搭建
+
+#### 路线A：Camoufox/crawl4ai 网页抓取
+- `scripts/auto-ingest.py` — 通用网页抓取入库脚本（支持 crawl4ai 后端）
+- 测试通过：成功抓取 example.com 并保存到 `01_inbox/articles/`
+- 支持手工触发：`python3 auto-ingest.py <URL> [--category articles|papers|transcripts]`
+
+#### 路线B：OpenCLI + Python 微信抓取
+- `scripts/auto-cli-capture.py` — 多源抓取脚本（微信文章/X趋势/公开搜索）
+- OpenCLI v1.8.0 已安装（含 twitter/weixin/arxiv/v2ex 等 150+ 站点适配器）
+- 微信文章 Python 直连抓取已测试通过
+- 支持手工触发：`python3 auto-cli-capture.py <wechat_url>`
+
+#### 编译工作流
+- `scripts/compile-workflow.py` — 将 inbox 原始内容编译为结构化知识节点
+- 支持预览模式（--dry-run）和单文件编译（--file <path>）
+
+#### 定时任务
+- Hermes cronjob `知识库每日自动抓取` — 每天 8:00 执行
+- 使用 no_agent=True 模式 + daily-capture.sh 脚本
+- 集成现有 `hermes_learner.sh`（6:00 检查版本更新）
+
 ### 双链修复（P0 紧急）
 
 修复 20 个双链断裂问题，创建缺失页面：
