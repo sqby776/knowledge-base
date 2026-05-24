@@ -172,6 +172,29 @@
 | **Advanced Tables** | 0.23.2 | 表格编辑增强 |
 | **Paste URL into selection** | 1.11.4 | URL 快捷插入 |
 
+### 微信自动汇报
+
+新增知识库日报微信汇报功能：
+
+| 项目 | 内容 |
+|:-----|:-----|
+| **脚本** | `~/workspace/scripts/daily-report.sh` |
+| **调度** | 每天 8:00 自动运行（crontab） |
+| **发送条件** | 有新内容/待编译/双链断裂时发送 |
+| **日报文件** | `~/workspace/data/daily-report-YYYYMMDD.md` |
+| **日志** | `~/workspace/data/knowledge-daily-report.log` |
+
+**汇报内容：**
+- 📊 知识库概览（总文件/今日新增/待编译/待完善）
+- 🔗 双链状态（总链接/断裂链接）
+- 🧠 记忆系统（MEMORY.md 条目数）
+- 📝 近期 Git 提交
+
+**测试验证：**
+- ✅ `hermes send` 微信发送成功
+- ✅ `daily-report.sh` 脚本运行正常
+- ✅ crontab 配置生效（每天 8:00）
+
 ### 更新
 
 - `index.md` — 新增 Dataview 数据面板（4 组查询）
