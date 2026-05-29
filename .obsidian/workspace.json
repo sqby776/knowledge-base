@@ -1,0 +1,224 @@
+{
+  "main": {
+    "id": "37038393252e329d",
+    "type": "split",
+    "children": [
+      {
+        "id": "82ca28d484c6af78",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "26d8892e932af104",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "知识库集成.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "知识库集成"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "079e172b3d2199fb",
+    "type": "split",
+    "children": [
+      {
+        "id": "6d656a123d8516f6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "969ef393b8a582f9",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "2b147bdf26fbc6c5",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "41071936b5fbc5b2",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "7f497e3bd28b33b2",
+    "type": "split",
+    "children": [
+      {
+        "id": "ba5f331a578a8879",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c3d22ad6a99bbd9a",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "知识库集成.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "知识库集成 的反向链接列表"
+            }
+          },
+          {
+            "id": "5a08b7ca30615f2c",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "知识库集成.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "知识库集成 的出链列表"
+            }
+          },
+          {
+            "id": "05db9b5bddaa93c8",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "fe8d353cd854a0e1",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
+            }
+          },
+          {
+            "id": "0691721a760522b7",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "知识库集成.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "知识库集成 的大纲"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 215.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "bases:新建数据库": false,
+      "omnisearch:Omnisearch": false,
+      "templater-obsidian:Templater": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
+    }
+  },
+  "active": "c3d22ad6a99bbd9a",
+  "lastOpenFiles": [
+    "01_inbox/articles/2026-05-24_卡兹克文风skill与知识库构建.md",
+    "02_notes/entities/手机同步配置指南.md",
+    "02_notes/entities/python_pptxhttpspython_pptxreadthedocsioenlatestpy.md",
+    "02_notes/entities/python_docxhttpspython_docxreadthedocsioenlatestpy.md",
+    "02_notes/entities/404_Not_Found.md",
+    "02_notes/entities/openpyxl_A_Python_library_to_readwrite_Excel_2010_.md",
+    "01_inbox/articles/2026-05-24_python_pptxhttpspython_pptxreadthedocsioenlatestpython_pptx_.md",
+    "01_inbox/articles/2026-05-24_openpyxl_A_Python_library_to_readwrite_Excel_2010_xlsxxlsm_f.md",
+    "01_inbox/articles/2026-05-24_python_docxhttpspython_docxreadthedocsioenlatestpython_docx_.md",
+    "01_inbox/articles/2026-05-24_404_Not_Found.md",
+    "02_notes/entities/未命名文章.md",
+    "01_inbox/articles/2026-05-24_未命名文章.md",
+    "02_notes/entities/Example_Domain.md",
+    "02_notes/entities/Hermes_Agent.md",
+    "01_inbox/articles/2026-05-24_Hermes_Agent.md",
+    "02_notes/entities/Python Office 库.md",
+    "02_notes/concepts/Tesseract OCR.md",
+    "02_notes/concepts/Python Office 库.md",
+    "02_notes/concepts/Hermes Agent.md",
+    "02_notes/concepts/Agentic RAG.md",
+    "02_notes/methods/定时抓取.md",
+    "04_projects/current/当前项目.md",
+    "02_notes/concepts/Hermes 能力地图.md",
+    "02_notes/concepts/Awesome Hermes Agent.md",
+    "03_resources/links/wikilink.md",
+    "02_notes/concepts/web-scraping.md",
+    "templates",
+    "01_inbox/auto-captures",
+    "archive",
+    "drafts",
+    "skills",
+    "knowledge",
+    "raw"
+  ]
+}

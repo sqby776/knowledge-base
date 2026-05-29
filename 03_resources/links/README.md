@@ -1,0 +1,80 @@
+---
+title: 资源链接索引
+created: 2026-05-24
+updated: 2026-05-24
+tags: ["knowledge-base", "tutorial"]
+status: active
+sources: []
+---
+
+# 资源链接索引
+
+## 核心资源
+
+### Hermes Agent
+
+| 资源 | 链接 | 说明 |
+|:-----|:-----|:-----|
+| 官方网站 | https://hermes-agent.nousresearch.com | Hermes Agent 官网 |
+| 官方文档 | https://hermes-agent.nousresearch.com/docs | 完整文档 |
+| GitHub 仓库 | https://github.com/NousResearch/hermes-agent | 源码和 Issue |
+| 中文文档 | https://hermes.xaapi.ai | 中文翻译站 |
+| 中文社区 FAQ | https://hermesagent.org.cn | 常见问题解答 |
+
+### AI / 大模型
+
+| 资源 | 链接 | 说明 |
+|:-----|:-----|:-----|
+| HuggingFace | https://huggingface.co | 模型和数据集 |
+| arXiv | https://arxiv.org | 论文预印本 |
+| HuggingFace 嵌入模型 | https://huggingface.co/BAAI/bge-small-zh-v1.5 | BGE 嵌入模型 |
+| Ollama | https://ollama.com | 本地 LLM 运行工具 |
+
+### 学习资源
+
+| 资源 | 链接 | 说明 |
+|:-----|:-----|:-----|
+| 菜鸟教程 | https://www.runoob.com | Python/Markdown 教程 |
+| 橙皮书 | https://huasheng.ai/orange-books | AI 知识科普 |
+| Agent Skills 市场 | https://agentskills.io | Hermes 技能市场 |
+| Discord 社区 | https://discord.gg/hermes | Hermes 官方 Discord |
+
+### 办公自动化
+
+| 资源 | 链接 | 说明 |
+|:-----|:-----|:-----|
+| LibreOffice 官网 | https://www.libreoffice.org | 开源办公套件 |
+| Python-Docx 文档 | https://python-docx.readthedocs.io | Word 操作库 |
+| OpenPyXL 文档 | https://openpyxl.readthedocs.io | Excel 操作库 |
+| Python-PPTX 文档 | https://python-pptx.readthedocs.io | PowerPoint 操作库 |
+
+### X / Twitter 进阶技巧
+
+| 来源 | 链接 | 说明 |
+|:-----|:-----|:-----|
+| @LufzzLiz | https://x.com/LufzzLiz | Hermes 进阶技巧 |
+
+## 学习站点检查列表
+
+- [ ] **官网检查** — hermes-agent.nousresearch.com
+- [ ] **官方文档** — 文档更新日志
+- [ ] **GitHub 仓库** — Release / Issues
+- [ ] **Skills 市场** — agentskills.io 新技能
+- [ ] **中文文档** — hermes.xaapi.ai
+- [ ] **社区 FAQ** — hermesagent.org.cn
+- [ ] **Discord** — 公告频道
+- [ ] **橙皮书** — 新文章
+- [ ] **X 进阶技巧** — @LufzzLiz 新推文
+- [ ] **菜鸟教程** — 新课程
+
+> Cron Job 每天 6:00 自动检查更新，有变化时会在对话中通知。
+
+## 相关链接
+
+- [[PDF 资源索引]]
+- [[本地知识库]]
+- [[Hermes Agent]]
+
+---
+
+*最后更新：2026-05-24*

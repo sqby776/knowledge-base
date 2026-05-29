@@ -1,0 +1,175 @@
+---
+title: 常见问题 (FAQ)
+created: 2026-05-24
+updated: 2026-05-24
+tags: ["knowledge-base", "workflow"]
+status: active
+sources: []
+---
+
+# 常见问题 (FAQ)
+
+## 基础知识
+
+### Q: 什么是 RAG？
+
+**RAG（Retrieval-Augmented Generation）** 是一种检索增强生成技术。它让大模型在回答问题前，先从知识库中检索相关信息作为参考，从而减少"胡说八道"的情况。
+
+详见：[[RAG]] 、 [[Agentic RAG]]
+
+---
+
+### Q: Hermes Agent 和 Claude Code 有什么区别？
+
+Hermes Agent 是一个**开源 AI 智能体框架**，支持多模型、多平台、技能扩展。Claude Code 是 Anthropic 的**闭源编码助手**。Hermes 功能更广（不仅是编码），Claude Code 上手更快。
+
+详见：[[Hermes Agent]] 、 `05_comparisons/README.md`
+
+---
+
+### Q: 什么是 MemOS？
+
+MemOS 是 Hermes Agent 的记忆系统，提供智能去重、混合检索、自动预检索等功能。它让 AI 能记住历史对话中的信息，跨会话使用。
+
+详见：[[MemOS]] 、 [[MemPalace]]
+
+---
+
+## 知识库相关
+
+### Q: 知识库的目录结构为什么这么设计？
+
+采用 Heremes-Wiki 的「Source-first」原则：`01_inbox/` 放原始资料（只追加不修改），`02_notes/` 放编译后的知识节点。这样做的好处是资料可追溯、不丢失。
+
+详见：[[SCHEMA]] 、 [[Source-first]]
+
+### Q: 为什么有些页面有「待验证」标记？
+
+因为知识库是持续进化的。标记 `> [!NOTE] 待验证` 表示这部分内容是根据已有知识生成，还未经过实际使用验证。随着使用会逐步确认或修正。
+
+---
+
+### Q: 如何添加新内容？
+
+1. 新建文件放到对应目录
+   - 文章 → `01_inbox/articles/`
+   - 概念 → `02_notes/concepts/`
+   - 实体 → `02_notes/entities/`
+   - 方法 → `02_notes/methods/`
+2. 使用 `[[双链链接]]` 关联相关页面
+3. 更新 `index.md` 和 `log.md`
+4. 提交 Git
+
+---
+
+## 技术问题
+
+### Q: LLM 跑不起来怎么办？
+
+先确认 **llama-server** 是否在后台运行：
+
+```bash
+# 检查进程
+ps aux | grep llama-server
+
+# 如果没运行，启动它
+source ~/office-venv/bin/activate
+llama-server \
+  -m ~/.local/llm/qwen2.5-1.5b-q4_k_m.gguf \
+  --host 0.0.0.0 --port 8081 \
+  --ctx-size 4096 --n-gpu-layers 0
+```
+
+出错时检查：
+- 模型文件是否存在
+- 端口 8081 是否被占用
+- `curl http://localhost:8081/v1/models` 是否返回正常
+
+---
+
+### Q: MemOS 配置后有什么变化？
+
+```
+配置前：Hermes Agent 每次对话是全新的
+配置后：Hermes Agent 会自动检索历史记忆
+        ↓
+       在每轮对话前注入相关记忆
+        ↓
+       回答更准确，不需要重复说明背景
+```
+
+重启 Hermes Agent 后生效。
+
+---
+
+### Q: MemOS 的 Web 管理面板怎么打开？
+
+浏览器访问 `http://localhost:18800`。如果打不开，检查 MemOS 服务是否在运行。
+
+---
+
+### Q: Obsidian 怎么启动？
+
+```bash
+# 命令行
+~/.local/bin/obsidian
+
+# 桌面应用菜单 → Obsidian
+```
+
+首次打开需要选择 `~/workspace/knowledge/` 作为知识库根目录。
+
+---
+
+### Q: 如何启用 Git 自动同步到 GitHub？
+
+1. 在 GitHub 创建空仓库
+2. 添加远程仓库：`git remote add origin <仓库URL>`
+3. `git push -u origin main`
+4. 后续 `git push` 即可同步
+
+---
+
+## 办公自动化
+
+### Q: LibreOffice 可以做什么？
+
+```bash
+# Word → PDF
+libreoffice --headless --convert-to pdf 文档.docx
+
+# Excel → CSV
+libreoffice --headless --convert-to csv 表格.xlsx
+
+# 批量转换
+libreoffice --headless --convert-to pdf *.docx
+```
+
+详见：[[LibreOffice]]
+
+---
+
+### Q: Python Office 库怎么用？
+
+先激活虚拟环境：
+
+```bash
+source ~/office-venv/bin/activate
+```
+
+然后调用相应库：python-docx（Word）、openpyxl（Excel）、python-pptx（PPT）。
+
+详见：[[Python Office 库]]
+
+---
+
+## 相关链接
+
+- [[知识库地图]]
+- [[AI 技术地图]]
+- [[Hermes 技能地图]]
+
+---
+
+*最后更新：2026-05-24*
+*维护者：Hermes Agent + 船长*
