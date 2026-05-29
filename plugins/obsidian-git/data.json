@@ -1,0 +1,31 @@
+{
+  "autoCommitInterval": 300,
+  "autoPullInterval": 300,
+  "autoCommit": true,
+  "autoPull": true,
+  "autoPush": true,
+  "commitMessage": "auto-sync: ${datetime}",
+  "branch": "main",
+  "repository": "https://github.com/sqby776/knowledge-base.git",
+  "gitExecutable": "git",
+  "ignoreStatus": false,
+  "showCommitButton": true,
+  "showPullButton": true,
+  "showPushButton": true,
+  "showRefreshButton": true,
+  "disablePullOnStartup": false,
+  "disablePushOnStartup": false,
+  "commitOnFileSave": true,
+  "createPullRequest": false,
+  "useForcePush": false,
+  "showDiffWhenStatusChanged": true,
+  "logLevel": "info",
+  "maxFileSize": 10000000,
+  "ignorePatterns": [
+    ".DS_Store",
+    "Thumbs.db",
+    "*.swp",
+    "*.swo",
+    "*~"
+  ]
+}
