@@ -47,7 +47,7 @@ memory:
 - [[Chroma]]
 - [[嵌入模型]]
 - [[RAG]]
-- [[Hermes智能体-重复]]
+- [[Hermes-Agent]]
 
 ---
 

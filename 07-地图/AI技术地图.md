@@ -40,7 +40,9 @@ LLM Wiki   RAG       Hermes    知识飞轮
 
 ### 3. 框架与工具篇
 
-- [[Hermes智能体-重复]] — AI 智能体框架
+- [[Hermes-Agent]] — AI 智能体框架（概念）
+- [[Hermes_Agent]] — 官方文档首页（实体/安装/特性速查）
+  - [[Hermes能力闭环]] — 7个核心Skill的方法论
 - [[MemOS]] — 记忆操作系统
 - [[MemPalace]] — 记忆宫殿管理
 - [[Chroma]] — 向量数据库
@@ -51,9 +53,12 @@ LLM Wiki   RAG       Hermes    知识飞轮
 - [[网页抓取]] — 网页抓取
   - [[Camoufox]] — 反爬抓取
   - [[crawl4ai]] — 批量抓取
-  - [[scrapling]] — 轻量抓取
+  - [[Scrapling]] — 自适应爬虫框架
+  - [[CloakBrowser]] — Chromium 反检测浏览器
 
 ### 5. 进阶篇
+
+- [[多代理协作]] — delegate_task vs Kanban
 
 - [[代理RAG]] — 自主检索增强
 - [[知识飞轮]] — 知识自我进化
@@ -63,7 +68,7 @@ LLM Wiki   RAG       Hermes    知识飞轮
 
 - 想了解 RAG 技术 → 看 [[RAG]]
 - 想搭建知识库 → 看 [[本地知识库]] + [[Obsidian]]
-- 想用 AI 智能体 → 看 [[Hermes智能体-重复]]
+- 想用 AI 智能体 → 看 [[Hermes-Agent]]
 - 想管理记忆 → 看 [[MemOS]] + [[MemPalace]]
 - 想抓取网页 → 看 [[Camoufox]] / [[crawl4ai]] / [[scrapling]]
 
@@ -75,4 +80,4 @@ LLM Wiki   RAG       Hermes    知识飞轮
 
 ---
 
-*最后更新：2026-05-24*
+*最后更新：2026-06-05*

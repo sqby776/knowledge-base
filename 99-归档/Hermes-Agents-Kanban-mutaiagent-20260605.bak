@@ -1,0 +1,47 @@
+---
+title: Hermes Agent 的看板：delegate_task是函数调用，Kanban才是真正的多Agent协作
+created: 2026-06-05
+tags: [kanban, 多代理, 工作队列, 任务管理, 状态机]
+status: draft
+sources: ["https://mp.weixin.qq.com/s/jObS8xmcrrVoizArKXRtTg"]
+source_url: https://mp.weixin.qq.com/s/jObS8xmcrrVoizArKXRtTg
+author: 量子智元
+category: articles
+---
+
+# Hermes Agent 的看板：delegate_task是函数调用，Kanban才是真正的多Agent协作
+
+> 作者：量子智元
+> 来源：[微信公号「量子智元」](https://mp.weixin.qq.com/s/jObS8xmcrrVoizArKXRtTg)
+
+## 核心观点
+
+用 Hermes Agent 写代码几个月后，发现 delegate_task 大多数时候够用，但它本质是 RPC 阻塞调用——丢任务等结果，子 agent 没有名字，干完就走，失败了从头再来。
+
+一旦任务变长、变多、变不确定，函数调用的刚性就暴露了。Kanban 换了个思路：持久化工作队列 + 状态机，每个 agent 叫 profile，有自己的名字和记忆，fire-and-forget，数据活在磁盘上。
+
+## delegate_task vs Kanban
+
+delegate_task 的模型是 RPC，父 agent 发请求阻塞等回复，失败就是失败，没地方找补，人插不上手只能干等。Kanban 是持久化的任务看板，任务发出去不等回复直接写进 SQLite 做一条记录，发完就走，机器重启了任务还在。
+
+## Kanban 的工作方式
+
+每次交接都是一行可见的数据。子 agent 崩溃了，dispatcher 每 60 秒扫一次把挂了 worker 的任务 reclaim 回来重新跑。连续失败两次自动 block 等人介入。Kanban 把 agent 之间、agent 和人之间的通信变成了读写数据行。
+
+## Worker 操作方式
+
+Worker 不是用 hermes kanban CLI 操作，而是通过工具调用直接操作数据库：kanban_show() 读当前任务，kanban_heartbeat() 长操作报活，kanban_complete() 写 summary，kanban_block() 请求人工介入。这种设计的优势是 agent 可能跑在远端 backend 上（Docker、Modal 临时实例），里面没有 hermes 命令行，Python 层直接读写 kanban.db 避免 shell 引号地狱，错误也是结构化 JSON 模型看得懂。
+
+## 值得用的场景
+
+**研究型多步工作流**：几个研究员并行查资料，分析师综合，写手出稿，中间随时可能有人需要问问题，blocked + comment 是救命稻草。
+
+**定时维护任务**：每天跑的东西不希望状态消失，积累几周 journal 比任何监控面板有说服力。
+
+**工程管线**：拆任务 -> 并行实现 -> review -> 迭代 -> PR，依赖链用 parent-child link 表达比人手跟踪可靠。
+
+**数字分身**：每个人可以有长期运行的 agent（inbox-triage、ops-review），有自己的记忆，日复一日积累语境。
+
+## 不适用的场景
+
+简单一次性任务，delegate_task 三行代码搞定。工具不贵，选错工具贵。

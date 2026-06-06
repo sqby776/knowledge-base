@@ -1,0 +1,95 @@
+{
+  "sources": {
+    "01-收件箱/文章/2026-05-27_agent-browser部署指南.md": {
+      "md5": "3c4b6cad31db093596596bf06bf9efb9",
+      "ingested": "2026-06-01",
+      "wiki_pages": [
+        "sources/从零到一，手把手教你部署-Hermes-Agent-浏览器自动化引擎.md"
+      ]
+    },
+    "01-收件箱/文章/2026-05-27_HermesAgent操控电脑指南.md": {
+      "md5": "bbca60cdc3eb5781628b3e68cfed4a11",
+      "ingested": "2026-06-01",
+      "wiki_pages": [
+        "sources/怎么让-Hermes-Agent-操控电脑？.md"
+      ]
+    },
+    "01-收件箱/文章/2026-05-26_Hermes Skills效率翻倍.md": {
+      "md5": "41463e52b9c7b7f1d1ffebd90efb4ef2",
+      "ingested": "2026-06-01",
+      "wiki_pages": [
+        "sources/我用了3个月-Hermes-agent，这几个-Skills-让我效率翻倍.md"
+      ]
+    },
+    "01-收件箱/文章/2026-05-24_卡兹克文风技能与知识库构建.md": {
+      "md5": "e706dbda9848899da3c834d6b688849e",
+      "ingested": "2026-06-01",
+      "wiki_pages": [
+        "sources/【原文】数字生命卡兹克文风复刻-skill-深度拆解.md"
+      ]
+    },
+    "01-收件箱/文章/2026-05-27_HermesAgent工具详解.md": {
+      "md5": "d6a1bb77d7b69ddf4a9aa0eaad00ef5f",
+      "ingested": "2026-06-01",
+      "wiki_pages": [
+        "sources/Hermes-Agent-工具.md"
+      ]
+    },
+    "01-收件箱/文章/测试会议转写-2026-05-24.md": {
+      "md5": "68c1665bec30e63391f9c8ff580b747c",
+      "ingested": "2026-06-01",
+      "wiki_pages": [
+        "sources/测试会议转写---2026-05-24.md"
+      ]
+    },
+    "01-收件箱/文章/2026-05-27_HermesAgent浏览器自动化插件安装.md": {
+      "md5": "f9619ffa3106119ed1510fdb4f1b3eef",
+      "ingested": "2026-06-01",
+      "wiki_pages": [
+        "sources/HermesAgent浏览器自动化插件安装_让AI自动操作网页的完整流程.md"
+      ]
+    },
+    "01-收件箱/文章/2026-05-26_Hermes OpenHands升级评估.md": {
+      "md5": "122cc66e11729ff2858e276420d450e1",
+      "ingested": "2026-06-01",
+      "wiki_pages": [
+        "sources/Hermes接上OpenHands：这次升级适合谁用.md"
+      ]
+    },
+    "01-收件箱/文章/2026-05-27_HermesAgent生态全攻略.md": {
+      "md5": "74482389ee8242684dd938e42454f95e",
+      "ingested": "2026-06-01",
+      "wiki_pages": [
+        "sources/Hermes-Agent-生态全攻略：一文搞定-80+-高阶工具配置.md"
+      ]
+    },
+    "01-收件箱/文章/2026-05-26_Hermes Agent价值提升用法.md": {
+      "md5": "692f79acec6a6526dcb60fb059da71a5",
+      "ingested": "2026-06-01",
+      "wiki_pages": [
+        "sources/让你的Hermes-Agent发挥更大的价值.md"
+      ]
+    },
+    "01-收件箱/文章/2026-05-23_RAG技术简析.md": {
+      "md5": "73cbd489e7a18b29234faf4fe4a44b71",
+      "ingested": "2026-06-01",
+      "wiki_pages": [
+        "sources/测试文章：RAG-技术简析.md"
+      ]
+    },
+    "01-收件箱/文章/2026-05-26_Brainstorming Skill测评.md": {
+      "md5": "2e65f080781bea66ef6e96a0d03e603d",
+      "ingested": "2026-06-01",
+      "wiki_pages": [
+        "sources/AI-Skill深度测评第一期：Brainstorming.md"
+      ]
+    },
+    "articles/15个被忽略的Agent高级能力-王二AI进化论.md": {
+      "md5": "05d4a1f2a0641aba4411d8127ee19a62",
+      "ingested": "2026-06-01",
+      "wiki_pages": [
+        "sources/深度使用Hermes后的总结：15-个被忽略的-Agent-高级能力.md"
+      ]
+    }
+  }
+}

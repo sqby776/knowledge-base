@@ -60,7 +60,7 @@ libreoffice --headless --invisible
 - [[办公自动化地图]]
 - [[Python办公库]]
 - [[TesseractOCR]]
-- [[office工具]]
+- [[办公工具]]
 
 ## 来源
 

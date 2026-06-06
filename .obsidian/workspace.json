@@ -11,10 +11,14 @@
             "id": "26d8892e932af104",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "关系图谱"
+              "type": "markdown",
+              "state": {
+                "file": "知识库架构.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "知识库架构"
             }
           }
         ]
@@ -90,6 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "知识库架构.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "反向链接"
+              "title": "知识库架构 的反向链接列表"
             }
           },
           {
@@ -159,8 +164,19 @@
               "icon": "lucide-list",
               "title": "知识库集成 的大纲"
             }
+          },
+          {
+            "id": "f778da8d2a043d31",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {},
+              "icon": "spreadsheet",
+              "title": "Advanced Tables"
+            }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -180,40 +196,43 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "26d8892e932af104",
+  "active": "f778da8d2a043d31",
   "lastOpenFiles": [
-    "07_moc/办公自动化地图.md",
-    "知识库集成.md",
-    "01_inbox/articles/2026-05-24_卡兹克文风skill与知识库构建.md",
-    "02_notes/entities/手机同步配置指南.md",
-    "02_notes/entities/python_pptxhttpspython_pptxreadthedocsioenlatestpy.md",
-    "02_notes/entities/python_docxhttpspython_docxreadthedocsioenlatestpy.md",
-    "02_notes/entities/404_Not_Found.md",
-    "02_notes/entities/openpyxl_A_Python_library_to_readwrite_Excel_2010_.md",
-    "01_inbox/articles/2026-05-24_python_pptxhttpspython_pptxreadthedocsioenlatestpython_pptx_.md",
-    "01_inbox/articles/2026-05-24_openpyxl_A_Python_library_to_readwrite_Excel_2010_xlsxxlsm_f.md",
-    "01_inbox/articles/2026-05-24_python_docxhttpspython_docxreadthedocsioenlatestpython_docx_.md",
-    "01_inbox/articles/2026-05-24_404_Not_Found.md",
-    "02_notes/entities/未命名文章.md",
-    "01_inbox/articles/2026-05-24_未命名文章.md",
-    "02_notes/entities/Example_Domain.md",
-    "02_notes/entities/Hermes_Agent.md",
-    "01_inbox/articles/2026-05-24_Hermes_Agent.md",
-    "02_notes/entities/Python Office 库.md",
-    "02_notes/concepts/Tesseract OCR.md",
-    "02_notes/concepts/Python Office 库.md",
-    "02_notes/concepts/Hermes Agent.md",
-    "02_notes/concepts/Agentic RAG.md",
-    "02_notes/methods/定时抓取.md",
-    "04_projects/current/当前项目.md",
-    "02_notes/concepts/Hermes 能力地图.md",
-    "02_notes/concepts/Awesome Hermes Agent.md",
+    "LLM 知识库.md",
+    "00-知识库集成指南.md",
+    "维基/index.md",
+    "02-笔记/概念/知识库导入.md",
+    "02-笔记/方法/办公自动化.md",
+    "维基/templates",
+    "维基/stories",
+    "维基/sources",
+    "维基/log.md",
+    "维基/entities",
+    "维基/concepts",
+    "维基",
+    "00-系统/_INDEX.md",
+    "00-系统",
+    "系统改进记录-2026-05-24.md",
+    "模板/01-概念页模板.md",
+    "07-地图/AI技术地图.md",
+    "07-地图/知识库地图.md",
+    "07-地图/精选Hermes智能体.md",
+    "07-地图/办公自动化地图.md",
+    "08-草稿/示范文章-AI辅助写作方法论.md",
+    "08-草稿/草稿说明.md",
+    "99-归档/归档说明.md",
+    "01-收件箱/自动捕获/2026-05-27_json_JSON_encoder_and_decoderhttpsdocspythonorg3libraryjsonh.md",
+    "01-收件箱/自动捕获/2026-05-26_10_minutes_to_pandashttpspandaspydataorgdocsuser_guide10minh.md",
+    "01-收件箱/文章/2026-05-26_Hermes Skills效率翻倍.md",
+    "01-收件箱/文章/2026-05-24_python-docx官方文档.md",
+    "01-收件箱/文章/2026-05-24_未命名文章.md",
+    "01-收件箱/文章/2026-05-24_示例域名.md",
+    "01-收件箱/文章/2026-05-24_卡兹克文风技能与知识库构建.md",
+    "01-收件箱/文章/2026-05-23_RAG技术简析.md",
+    "01_inbox/articles/2026-05-26_Hermes_Agent.md",
+    "01_inbox/articles/2026-05-26_Data_Visualization_With_Python.md",
     "templates",
     "01_inbox/auto-captures",
-    "archive",
-    "drafts",
-    "skills",
-    "knowledge",
-    "raw"
+    "archive"
   ]
 }

@@ -1,0 +1,71 @@
+---
+title: Scrapling — 自适应爬虫框架
+created: 2026-06-05
+updated: 2026-06-05
+tags: [scrapling, 网页抓取, 自适应解析, Cloudflare, 爬虫]
+status: active
+sources: ["https://mp.weixin.qq.com/s/0sATvUBZcYfGqna_RNRHqg", "https://github.com/D4Vinci/Scrapling"]
+source_url: https://github.com/D4Vinci/Scrapling
+related: [[Camoufox]], [[browser-harness]], [[Playwright]]
+---
+
+# Scrapling — 自适应爬虫框架
+
+> 来源：GitHub 46.1K+ Star，微信公号「开源项目精选集」
+
+## 它是什么？
+
+Scrapling 是一个自适应 Web 爬虫框架，从小脚本到大规模采集全覆盖。
+
+**解决三个核心痛点：**
+1. **网站改版** — 解析器能「记住」元素特征，页面结构变化后自动重新定位目标节点
+2. **反爬拦截** — 内置 Cloudflare Turnstile 等反爬绕过，开箱即用
+3. **规模化采集** — 提供类似 Scrapy 的 Spider 框架，支持并发、暂停恢复、代理轮换与实时流式输出
+
+## 核心模块
+
+### 1. 解析引擎（Parser）
+
+内置自适应元素追踪算法，根据节点文本、结构、属性计算相似度，网站改版后仍能定位目标元素。
+
+| Library | Time (ms) | vs Scrapling |
+|---------|-----------|-------------|
+| Scrapling | 2.02 | 1.0x |
+| BS4 + html5lib | 3391.91 | ~1679x |
+
+### 2. Fetcher 层
+
+| Fetcher | 说明 |
+|---------|------|
+| Fetcher | 高速 HTTP 请求，TLS 指纹模拟、HTTP/3 |
+| StealthyFetcher | 无头 Chromium + 指纹伪造，专门绕过 Cloudflare |
+| DynamicFetcher | 完整浏览器自动化，JS 渲染页面 |
+| AsyncFetcher | 全异步并发请求池 |
+
+### 3. Spider 框架
+
+支持 start_urls、异步 parse 回调、并发量/下载延迟配置、暂停恢复（Ctrl+C checkpoint）、流式输出。
+
+## 快速上手
+
+```python
+# 基础 HTTP 抓取
+from scrapling.fetchers import Fetcher
+page = Fetcher.get('https://quotes.toscrape.com/')
+quotes = page.css('.quote .text::text').getall()
+
+# 绕过 Cloudflare
+from scrapling.fetchers import StealthyFetcher
+page = StealthyFetcher.fetch('https://nopecha.com/demo/cloudflare', solve_cloudflare=True)
+data = page.css('#padded_content a').getall()
+
+# CLI 无代码抓取
+scrapling extract get 'https://example.com' content.md
+```
+
+## 应用场景
+
+- **数据工程师** — 快速提取结构化数据，无需维护多套爬虫脚本
+- **AI 应用开发者** — 内置 MCP Server，可直接对接 Claude 等大模型
+- **市场/竞品调研** — 批量抓取电商、社交媒体，代理轮换防封禁
+- **自动化测试/监控** — StealthyFetcher 模拟真实用户行为

@@ -73,7 +73,7 @@ memory:
 - [[MemPalace]]
 - [[Chroma]]
 - [[知识图谱]]
-- [[Hermes智能体-重复]]
+- [[Hermes-Agent]]
 
 ## 来源
 
