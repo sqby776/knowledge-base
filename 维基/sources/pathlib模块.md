@@ -2,9 +2,10 @@
 title: pathlib 模块 — 面向对象文件系统路径
 type: source
 tags: [llmwiki, python, pathlib, 文件操作]
-sources: ["01-收件箱/文章/2026-06-04_pathlib_Object_oriented_filesystem_paths.md"]
+sources: ["01-收件箱/文章/2026-06-04_pathlib_Object_oriented_filesystem_paths.md", 01-收件箱/自动捕获/2026-06-08_pathlib_Object_oriented_filesystem_paths.md]
 created: 2026-06-05
-updated: 2026-06-05
+updated: 2026-06-08
+2026-06-05
 ---
 
 # `pathlib` 模块 — 面向对象文件系统路径

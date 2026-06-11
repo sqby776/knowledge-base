@@ -54,10 +54,10 @@ MemOS 智能去重
 
 ## 相关链接
 
-- [[MemOS]]
-- [[Chroma]]
-- [[知识图谱]]
-- [[Hermes-Agent]]
+- [[MemOS.md]]
+- [[Chroma.md]]
+- [[知识图谱.md]]
+- [[Hermes_Agent.md]]
 
 ## 来源
 

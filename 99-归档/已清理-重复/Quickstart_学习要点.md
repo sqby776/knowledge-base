@@ -1,0 +1,80 @@
+---
+title: Quickstart¶ - 学习要点
+created: 2026-06-09
+updated: 2026-06-09
+tags: [learning-points, auto-analyzed, architecture_design]
+status: compiled
+sources: [auto-analyzed]
+related: [Quickstart¶]
+---
+
+# Quickstart¶ — 学习要点
+
+> **分析时间**: 2026-06-09 12:01
+> **内容类型**: 架构设计
+> **来源**: 自动捕获文章
+
+---
+
+## 📚 核心学习要点
+
+- **涉及工具/技术**: .add_paragraph(), .add_run(), .bold, .cells, .columns, .italic, .rows, Accessing
+
+---
+
+## 💡 系统优化建议
+
+基于文章内容，建议关注以下方面：
+
+1. **立即行动**: 检查文章中提到的配置项是否已优化
+2. **本周跟进**: 验证建议的有效性，记录实际效果
+3. **长期跟踪**: 将有效建议纳入个人最佳实践库
+
+---
+
+## 🔗 相关资源
+
+- [原文](../01-收件箱/自动捕获/Quickstart¶.md)
+- [编译版本](../02-笔记/实体/Quickstart¶.md)
+
+---
+
+**自动生成**: auto-compile-enhanced.py
+**分析类型**: architecture_design
+
+## 学习要点
+
+---
+title: Quickstart¶
+created: 2026-06-09
+updated: 2026-06-09
+tags: [knowledge-base, auto-compiled]
+status: draft
+sources: [auto-capture]
+---
+
+# Quickstart¶
+
+> [!INFO] 编译信息
+> 来源: 自动抓取 | 编译时间: 2026-06-09 07:00 | 类型: concept
+
+## 核心要点
+
+- **Quickstart¶**
+* [index](../genindex.html "General Index")
+* [next](documents.html "Working with Documents") |
+* [previous](install.html "Installing") |
+* [python-docx 1.2.0 documentation](../index.html) »
+- **Quickstart¶**
+- **get table data -------------**
+- **add table ------------------**
+- **populate header row --------**
+- **add a data row for each item**
+
+## 相关链接
+
+
+## 来源
+
+- 原始文章: Quickstart¶
+

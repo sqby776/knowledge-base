@@ -2,9 +2,10 @@
 title: python-pptx Getting Started
 type: source
 tags: [llmwiki, python, office, pptx, 演示文稿]
-sources: ["01-收件箱/文章/2026-06-04_Getting_Started.md"]
+sources: ["01-收件箱/文章/2026-06-04_Getting_Started.md", 01-收件箱/自动捕获/2026-06-08_Getting_Started.md]
 created: 2026-06-05
-updated: 2026-06-05
+updated: 2026-06-08
+2026-06-05
 ---
 
 # python-pptx 入门

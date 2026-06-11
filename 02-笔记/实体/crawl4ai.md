@@ -54,9 +54,9 @@ result = scraper.fetch(
 
 ## 相关链接
 
-- [[Camoufox]]
-- [[scrapling]]
-- [[网页抓取]]
+- [[Camoufox.md]]
+- [[Scrapling-自适应爬虫框架详解.md]]
+- [[网页抓取.md]]
 
 ## 来源
 

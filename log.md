@@ -514,3 +514,207 @@
 | `01_inbox/articles/2026-06-06_Hermes_Agent.md` | Hermes Agent | 自动抓取 |
 
 | `01_inbox/articles/2026-06-06_Hermes_Agent.md` | Hermes Agent | 自动抓取 |
+
+### 自动入库 (2026-06-07)
+
+| 文件 | 标题 | 来源 |
+|:----|:----|:----|
+
+| `01_inbox/articles/2026-06-07_Hermes_Agent.md` | Hermes Agent | 自动抓取 |
+
+| `01_inbox/articles/2026-06-07_Quickstart.md` | Quickstart¶ | 自动抓取 |
+
+| `01_inbox/articles/2026-06-07_Tutorial.md` | Tutorial | 自动抓取 |
+
+| `01_inbox/articles/2026-06-07_Getting_Started.md` | Getting Started¶ | 自动抓取 |
+
+| `01_inbox/articles/2026-06-07_10_minutes_to_pandas.md` | 10 minutes to pandas# | 自动抓取 |
+
+| `01_inbox/articles/2026-06-07_Quick_start_guide.md` | Quick start guide# | 自动抓取 |
+
+| `01_inbox/articles/2026-06-07_csv_CSV_File_Reading_and_Writing.md` | `csv` — CSV File Reading and Writing¶ | 自动抓取 |
+
+| `01_inbox/articles/2026-06-07_json_JSON_encoder_and_decoder.md` | `json` — JSON encoder and decoder¶ | 自动抓取 |
+
+| `01_inbox/articles/2026-06-07_pathlib_Object_oriented_filesystem_paths.md` | `pathlib` — Object-oriented filesystem paths¶ | 自动抓取 |
+
+| `01_inbox/articles/2026-06-07_Data_Visualization_With_Python.md` | Data Visualization With Python | 自动抓取 |
+
+| `01_inbox/articles/2026-06-07_Hermes_Agent.md` | Hermes Agent | 自动抓取 |
+
+| `01_inbox/articles/2026-06-07_Hermes_Agent.md` | Hermes Agent | 自动抓取 |
+
+### 自动入库 (2026-06-08)
+
+| 文件 | 标题 | 来源 |
+|:----|:----|:----|
+
+| `01_inbox/articles/2026-06-08_Hermes_Agent.md` | Hermes Agent | 自动抓取 |
+
+| `01_inbox/articles/2026-06-08_Quickstart.md` | Quickstart¶ | 自动抓取 |
+
+| `01_inbox/articles/2026-06-08_Tutorial.md` | Tutorial | 自动抓取 |
+
+| `01_inbox/articles/2026-06-08_Getting_Started.md` | Getting Started¶ | 自动抓取 |
+
+| `01_inbox/articles/2026-06-08_10_minutes_to_pandas.md` | 10 minutes to pandas# | 自动抓取 |
+
+| `01_inbox/articles/2026-06-08_Quick_start_guide.md` | Quick start guide# | 自动抓取 |
+
+| `01_inbox/articles/2026-06-08_csv_CSV_File_Reading_and_Writing.md` | `csv` — CSV File Reading and Writing¶ | 自动抓取 |
+
+| `01_inbox/articles/2026-06-08_json_JSON_encoder_and_decoder.md` | `json` — JSON encoder and decoder¶ | 自动抓取 |
+
+| `01_inbox/articles/2026-06-08_pathlib_Object_oriented_filesystem_paths.md` | `pathlib` — Object-oriented filesystem paths¶ | 自动抓取 |
+
+| `01_inbox/articles/2026-06-08_Data_Visualization_With_Python.md` | Data Visualization With Python | 自动抓取 |
+
+| `01_inbox/articles/2026-06-08_Hermes_Agent.md` | Hermes Agent | 自动抓取 |
+
+| `01_inbox/articles/2026-06-08_Hermes_Agent.md` | Hermes Agent | 自动抓取 |
+
+### 自动入库 (2026-06-09)
+
+| 文件 | 标题 | 来源 |
+|:----|:----|:----|
+
+| `01_inbox/articles/2026-06-09_Hermes_Agent.md` | Hermes Agent | 自动抓取 |
+
+| `01_inbox/articles/2026-06-09_Quickstart.md` | Quickstart¶ | 自动抓取 |
+
+| `01_inbox/articles/2026-06-09_Tutorial.md` | Tutorial | 自动抓取 |
+
+| `01_inbox/articles/2026-06-09_Getting_Started.md` | Getting Started¶ | 自动抓取 |
+
+| `01_inbox/articles/2026-06-09_10_minutes_to_pandas.md` | 10 minutes to pandas# | 自动抓取 |
+
+| `01_inbox/articles/2026-06-09_Quick_start_guide.md` | Quick start guide# | 自动抓取 |
+
+| `01_inbox/articles/2026-06-09_csv_CSV_File_Reading_and_Writing.md` | `csv` — CSV File Reading and Writing¶ | 自动抓取 |
+
+| `01_inbox/articles/2026-06-09_json_JSON_encoder_and_decoder.md` | `json` — JSON encoder and decoder¶ | 自动抓取 |
+
+| `01_inbox/articles/2026-06-09_pathlib_Object_oriented_filesystem_paths.md` | `pathlib` — Object-oriented filesystem paths¶ | 自动抓取 |
+
+| `01_inbox/articles/2026-06-09_Data_Visualization_With_Python.md` | Data Visualization With Python | 自动抓取 |
+
+| `01_inbox/articles/2026-06-09_Hermes_Agent.md` | Hermes Agent | 自动抓取 |
+
+| `01_inbox/articles/2026-06-09_Hermes_Agent.md` | Hermes Agent | 自动抓取 |
+
+### 2026-06-09 后台维护
+
+| 操作 | 详情 |
+|:----|:----|
+| 归档自动学习 | 26 个 06-08 抓取文件 → 02-笔记/实体/ (17) + 方法/ (9) |
+| 归档 _from_user | 4 个用户文件，3 新 → 实体/，1 已存在 → 归档 |
+| 归档 duplicate_names | 6 个 → 99-归档（已有对应实体） |
+| 清理 inbox | 01_inbox/articles 30 个全归档（内容已编译入实体/） |
+| 清理 auto-capture | 20 个旧 Python doc → 99-归档 |
+| 去重 entity/ | 合并 Getting Started, csv, json, pathlib 的 ¶/无¶ 变体 |
+| 去重 entity/ | 合并 从流水线到蜂巢, 国产模型, 得物 AI Harness 的日期变体 |
+| 去重 method/ | 合并 架构变更案例, 3个维度的日期格式变体 |
+| 归档 Node.js 重复 | 392b vs 614b 两个版本，保留大的 |
+| 归档 Quickstart 重复 | 1723b vs 999b，保留大的 |
+| 归档 csv 重复 | 1126b vs 1126b，保留一个 |
+
+最终状态：
+- 实体/ 132 个文件
+- 方法/ 55 个文件  
+- 概念/ 38 个文件
+- 归档/ 81 个文件（含本次归档的备份）
+- 收件箱：清空
+
+### 自动入库 (2026-06-10)
+
+| 文件 | 标题 | 来源 |
+|:----|:----|:----|
+
+| `01_inbox/articles/2026-06-10_Hermes_Agent.md` | Hermes Agent | 自动抓取 |
+
+### 2026-06-10 后台维护
+
+| 操作 | 详情 |
+|:----|:----|
+| 编译新入库 | 1 个：Hermes Agent 官方文档 → 实体/Hermes_Agent_2026-06-10.md |
+| 归档重复 | 7 个：AnySearch/All-MiniLM/商汤Skills/10minutes/Quickstart/DataViz 的学习要点变体 |
+| 去重删除 | 3 个：文件名微小差异（空格/# 变体） |
+| 收件箱清理 | 清空 01_inbox/articles/ |
+
+最终状态：
+- 实体/ 122 个文件
+- 概念/ 38 个文件
+- 方法/ 53 个文件
+- 地图/ 2 个文件
+- 归档/ 85 个文件
+- 收件箱：清空
+
+---
+
+| `01_inbox/articles/2026-06-10_Quickstart.md` | Quickstart¶ | 自动抓取 |
+
+| `01_inbox/articles/2026-06-10_Tutorial.md` | Tutorial | 自动抓取 |
+
+| `01_inbox/articles/2026-06-10_Getting_Started.md` | Getting Started¶ | 自动抓取 |
+
+| `01_inbox/articles/2026-06-10_10_minutes_to_pandas.md` | 10 minutes to pandas# | 自动抓取 |
+
+| `01_inbox/articles/2026-06-10_Quick_start_guide.md` | Quick start guide# | 自动抓取 |
+
+| `01_inbox/articles/2026-06-10_csv_CSV_File_Reading_and_Writing.md` | `csv` — CSV File Reading and Writing¶ | 自动抓取 |
+
+| `01_inbox/articles/2026-06-10_json_JSON_encoder_and_decoder.md` | `json` — JSON encoder and decoder¶ | 自动抓取 |
+
+| `01_inbox/articles/2026-06-10_pathlib_Object_oriented_filesystem_paths.md` | `pathlib` — Object-oriented filesystem paths¶ | 自动抓取 |
+
+| `01_inbox/articles/2026-06-10_Data_Visualization_With_Python.md` | Data Visualization With Python | 自动抓取 |
+
+| `01_inbox/articles/2026-06-10_Hermes_Agent.md` | Hermes Agent | 自动抓取 |
+
+### 2026-06-10 12:10 后台维护
+
+| 操作 | 详情 |
+|:----|:----|
+| 编译验证 | Hermes Agent 已于 07:00 编译完成 → 实体/Hermes_Agent_2026-06-10.md |
+| 归档收件箱 | 01_inbox/articles/ 10 个重复文件 → 99-归档/ |
+| 归档自动捕获 | 01-收件箱/自动捕获/ 9 个重复文件 → 99-归档/ |
+| 实体去重 | 删除 3 个完全相同重复 (json/10minutes/Quickstart guide 的 #/¶ 变体) |
+| 实体合并 | 合并 2 个大小不同重复 (Quickstart 999b→1723b, Tutorial 975b→1674b) |
+| 地图状态 | 无需更新，Hermes Agent 已在 AI技术地图中覆盖 |
+
+最终状态：
+- 实体/ 121 个文件
+- 概念/ 38 个文件
+- 方法/ 53 个文件
+- 地图/ 2 个文件
+- 归档/ 新增 19 个文件
+- 收件箱：已清空
+
+| `01_inbox/articles/2026-06-10_Hermes_Agent.md` | Hermes Agent | 自动抓取 |
+
+### 自动入库 (2026-06-11)
+
+| 文件 | 标题 | 来源 |
+|:----|:----|:----|
+
+| `01_inbox/articles/2026-06-11_Hermes_Agent.md` | Hermes Agent | 自动抓取 |
+
+| `01_inbox/articles/2026-06-11_Quickstart.md` | Quickstart¶ | 自动抓取 |
+
+| `01_inbox/articles/2026-06-11_Tutorial.md` | Tutorial | 自动抓取 |
+
+| `01_inbox/articles/2026-06-11_Getting_Started.md` | Getting Started¶ | 自动抓取 |
+
+| `01_inbox/articles/2026-06-11_10_minutes_to_pandas.md` | 10 minutes to pandas# | 自动抓取 |
+
+| `01_inbox/articles/2026-06-11_Quick_start_guide.md` | Quick start guide# | 自动抓取 |
+
+| `01_inbox/articles/2026-06-11_csv_CSV_File_Reading_and_Writing.md` | `csv` — CSV File Reading and Writing¶ | 自动抓取 |
+
+| `01_inbox/articles/2026-06-11_json_JSON_encoder_and_decoder.md` | `json` — JSON encoder and decoder¶ | 自动抓取 |
+
+| `01_inbox/articles/2026-06-11_pathlib_Object_oriented_filesystem_paths.md` | `pathlib` — Object-oriented filesystem paths¶ | 自动抓取 |
+
+| `01_inbox/articles/2026-06-11_Data_Visualization_With_Python.md` | Data Visualization With Python | 自动抓取 |
+
+| `01_inbox/articles/2026-06-11_Hermes_Agent.md` | Hermes Agent | 自动抓取 |

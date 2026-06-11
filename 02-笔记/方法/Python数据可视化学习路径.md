@@ -88,8 +88,8 @@ pandas 基础绘图 → Matplotlib/Seaborn → Bokeh 交互 → Dash 应用 → 
 
 ## 相关链接
 
-- [[Matplotlib 快速入门]]
-- [[Python Office 库]]
+- [[Matplotlib.md]]
+- [[Python办公库.md]]
 - [[Seaborn]]
 - [[Bokeh]]
 

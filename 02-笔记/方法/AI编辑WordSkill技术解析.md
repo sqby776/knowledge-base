@@ -77,7 +77,7 @@ for table in doc.tables:
 
 ## 相关链接
 
-- [[Python Office 库]]
+- [[Python办公库.md]]
 - [[公文排版标准]]
 - [[office-toolchain]]
 

@@ -79,9 +79,9 @@ sources: [https://developer.microsoft.com/blog/how-ai-coding-agents-actually-use
 
 ## 相关链接
 
-- [[Hermes-Agent]]
-- [[MCP 服务器]]
-- [[Skills 管理]]
+- [[Hermes_Agent.md]]
+- [[Agent 浏览器自动化 Chrome DevTools MCP 接入实战.md]]
+- [[HermesSkills效率翻倍指南.md]]
 
 ## 来源
 

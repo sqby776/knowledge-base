@@ -104,9 +104,9 @@ Hermes 看板功能被严重低估。
 
 ## 相关链接
 
-- [[Hermes-Agent]]
-- [[Kanban 工作流]]
-- [[MemOS 实操笔记]]
+- [[Hermes_Agent.md]]
+- [[brainstorming工作流.md]]
+- [[MemOS实操笔记.md]]
 
 ## 来源
 

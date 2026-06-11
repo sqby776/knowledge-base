@@ -80,6 +80,6 @@ table.rows[1].cells[1].text = '30'
 
 ## 相关链接
 
-- [[AI 编辑 Word Skill 技术解析]]
+- [[AI编辑WordSkill技术解析.md]]
 - [[办公自动化]]
 - [[Python-pptx 快速开始]]

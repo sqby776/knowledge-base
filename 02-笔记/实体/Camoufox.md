@@ -60,9 +60,9 @@ pip install camoufox
 
 ## 相关链接
 
-- [[crawl4ai]]
-- [[scrapling]]
-- [[网页抓取]]
+- [[crawl4ai.md]]
+- [[Scrapling-自适应爬虫框架详解.md]]
+- [[网页抓取.md]]
 
 ## 来源
 

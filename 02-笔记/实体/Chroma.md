@@ -61,10 +61,10 @@ pip install chromadb
 
 ## 相关链接
 
-- [[MemOS]]
-- [[嵌入模型]]
-- [[向量数据库]]
-- [[RAG]]
+- [[MemOS.md]]
+- [[嵌入模型.md]]
+- [[向量数据库.md]]
+- [[RAG.md]]
 
 ## 来源
 

@@ -185,10 +185,10 @@ Hermes 的真正威力在于**生态配置**！这份清单横跨 **14 大功能
 
 ## 相关链接
 
-- [[Hermes-Agent]]
+- [[Hermes_Agent.md]]
 - [[Scrapling]]
 - [[Crawl4AI]]
-- [[MemOS 实操笔记]]
+- [[MemOS实操笔记.md]]
 - [[Holographic]]
 
 ## 来源

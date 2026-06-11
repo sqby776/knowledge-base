@@ -84,10 +84,10 @@ hermes mcp  # 一键安装认证 MCP
 
 ## 相关链接
 
-- [[Hermes-Agent]]
-- [[Kanban 工作流]]
-- [[MCP 服务器]]
-- [[Skills 管理]]
+- [[Hermes_Agent.md]]
+- [[brainstorming工作流.md]]
+- [[Agent 浏览器自动化 Chrome DevTools MCP 接入实战.md]]
+- [[HermesSkills效率翻倍指南.md]]
 
 ## 来源
 

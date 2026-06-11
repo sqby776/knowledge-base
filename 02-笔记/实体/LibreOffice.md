@@ -57,10 +57,10 @@ libreoffice --headless --invisible
 
 ## 相关链接
 
-- [[办公自动化地图]]
-- [[Python办公库]]
-- [[TesseractOCR]]
-- [[办公工具]]
+- [[办公工具.md]]
+- [[Python办公库.md]]
+- [[TesseractOCR.md]]
+- [[办公工具.md]]
 
 ## 来源
 

@@ -4,7 +4,8 @@ type: source
 tags: [llmwiki, python, 数据可视化, 图表]
 sources: ["01-收件箱/文章/2026-06-04_Data_Visualization_With_Python.md"]
 created: 2026-06-05
-updated: 2026-06-05
+updated: 2026-06-08
+2026-06-05
 ---
 
 # Python 数据可视化

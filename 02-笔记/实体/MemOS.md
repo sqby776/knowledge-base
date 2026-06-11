@@ -70,10 +70,10 @@ memory:
 
 ## 相关链接
 
-- [[MemPalace]]
-- [[Chroma]]
-- [[知识图谱]]
-- [[Hermes-Agent]]
+- [[MemPalace.md]]
+- [[Chroma.md]]
+- [[知识图谱.md]]
+- [[Hermes_Agent.md]]
 
 ## 来源
 

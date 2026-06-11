@@ -191,9 +191,9 @@ web:
 
 ## 相关链接
 
-- [[Hermes Agent]]
-- [[浏览器自动化]]
-- [[MCP 协议]]
+- [[Hermes_Agent.md]]
+- [[Agent 浏览器自动化 Chrome DevTools MCP 接入实战.md]]
+- [[Agent 浏览器自动化 Chrome DevTools MCP 接入实战.md]]
 
 ## 来源
 

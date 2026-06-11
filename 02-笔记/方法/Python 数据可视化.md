@@ -63,6 +63,6 @@ df.groupby('category')['value'].mean().plot(kind='bar')
 
 ## 相关链接
 
-- [[Matplotlib 快速入门]]
+- [[Matplotlib.md]]
 - [[Pandas 快速入门]]
-- [[Python csv 库]]
+- [[Python办公库.md]]

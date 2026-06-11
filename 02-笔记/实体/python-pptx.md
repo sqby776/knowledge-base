@@ -26,4 +26,4 @@ Python 库，用于创建和更新 Microsoft PowerPoint (.pptx) 文件。
 
 ## 来源
 
-- [[python-pptx入门]]
+- [[python-pptx入门.md]]

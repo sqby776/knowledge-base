@@ -68,4 +68,4 @@ for i, row in df.iterrows():
 ## 相关链接
 
 - [[Python-docx 快速开始]]
-- [[AI 编辑 Word Skill 技术解析]]
+- [[AI编辑WordSkill技术解析.md]]

@@ -2,9 +2,10 @@
 title: csv 模块 — CSV 文件读写
 type: source
 tags: [llmwiki, python, csv, 数据处理]
-sources: ["01-收件箱/文章/2026-06-04_csv_CSV_File_Reading_and_Writing.md"]
+sources: ["01-收件箱/文章/2026-06-04_csv_CSV_File_Reading_and_Writing.md", 01-收件箱/自动捕获/2026-06-08_csv_CSV_File_Reading_and_Writing.md]
 created: 2026-06-05
-updated: 2026-06-05
+updated: 2026-06-08
+2026-06-05
 ---
 
 # `csv` 模块 — CSV 文件读写

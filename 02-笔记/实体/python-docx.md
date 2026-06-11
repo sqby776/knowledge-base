@@ -26,4 +26,4 @@ Python 库，用于创建和修改 Microsoft Word (.docx) 文件。
 
 ## 来源
 
-- [[python-docx快速入门]]
+- [[python-docx快速入门.md]]

@@ -50,10 +50,10 @@ embeddings = model.encode(['你好，世界', 'Hello, world'])
 
 ## 相关链接
 
-- [[嵌入模型]]
-- [[M3E]]
-- [[Chroma]]
-- [[RAG]]
+- [[嵌入模型.md]]
+- [[M3E.md]]
+- [[Chroma.md]]
+- [[RAG.md]]
 
 ## 来源
 

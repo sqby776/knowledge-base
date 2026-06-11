@@ -87,7 +87,7 @@ Cron是因为时间流动，Webhook是因为世界变了。来了新客户、Git
 ## 与现有系统的关联
 
 - 与 `[[ai-agent持续工作流]]` 互补 — 本文提供具体操作清单，工作流笔记侧重方法论
-- 与 `[[Kanban 工作流]]` 互补 — Kanban是第7个操作的具体实现
+- 与 `[[brainstorming工作流.md]]` 互补 — Kanban是第7个操作的具体实现
 - 与 `[[定时抓取]]` 相关 — 第3个Cron操作的落地实践
 - 与 `[[long-term-memory-management]]` 相关 — 多Agent分工（第10条）涉及记忆隔离
 

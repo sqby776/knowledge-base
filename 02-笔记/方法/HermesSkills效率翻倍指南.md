@@ -102,10 +102,10 @@ sources: [https://mp.weixin.qq.com/s/KZwLXt9YjxfVYAbpGQ6rQg]
 
 ## 相关链接
 
-- [[Hermes-Agent]]
-- [[Skills 管理]]
+- [[Hermes_Agent.md]]
+- [[HermesSkills效率翻倍指南.md]]
 - [[find-skills]]
-- [[scrapling]]
+- [[Scrapling-自适应爬虫框架详解.md]]
 
 ## 来源
 

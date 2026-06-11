@@ -90,9 +90,9 @@ hermes skills install official/autonomous-ai-agents/openhands
 
 ## 相关链接
 
-- [[Hermes-Agent]]
+- [[Hermes_Agent.md]]
 - [[OpenHands]]
-- [[Claude Code]]
+- [[2026-05-31_`json` — JSON encoder and decoder.md]]
 - [[Codex]]
 - [[OpenCode]]
 

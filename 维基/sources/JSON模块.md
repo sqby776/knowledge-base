@@ -2,9 +2,10 @@
 title: json 模块 — JSON 编码器和解码器
 type: source
 tags: [llmwiki, python, json, 数据序列化]
-sources: ["01-收件箱/文章/2026-06-04_json_JSON_encoder_and_decoder.md"]
+sources: ["01-收件箱/文章/2026-06-04_json_JSON_encoder_and_decoder.md", 01-收件箱/自动捕获/2026-06-08_json_JSON_encoder_and_decoder.md]
 created: 2026-06-05
-updated: 2026-06-05
+updated: 2026-06-08
+2026-06-05
 ---
 
 # `json` 模块 — JSON 编码器和解码器

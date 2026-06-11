@@ -90,6 +90,70 @@
       "wiki_pages": [
         "sources/深度使用Hermes后的总结：15-个被忽略的-Agent-高级能力.md"
       ]
+    },
+    "01-收件箱/自动捕获/2026-06-08_10_minutes_to_pandas.md": {
+      "md5": "3667b391d9b9efe3caed007a384ddfe8",
+      "ingested": "2026-06-08",
+      "wiki_pages": [
+        "sources/pandas-10分钟入门教程.md"
+      ]
+    },
+    "01-收件箱/自动捕获/2026-06-08_Quickstart.md": {
+      "md5": "c156a41d916da623ffbdab0f6330f56d",
+      "ingested": "2026-06-08",
+      "wiki_pages": []
+    },
+    "01-收件箱/自动捕获/2026-06-08_Getting_Started.md": {
+      "md5": "0100dcd25f80ebd91ce6c3fba472b461",
+      "ingested": "2026-06-08",
+      "wiki_pages": []
+    },
+    "01-收件箱/自动捕获/2026-06-08_Quick_start_guide.md": {
+      "md5": "79784199a0f765b5415ab33da36095c4",
+      "ingested": "2026-06-08",
+      "wiki_pages": [
+        "sources/Matplotlib快速入门.md"
+      ]
+    },
+    "01-收件箱/自动捕获/2026-06-08_Tutorial.md": {
+      "md5": "c8a8e10bf4c87ead9f18627dfd8a63c8",
+      "ingested": "2026-06-08",
+      "wiki_pages": [
+        "sources/openpyxl教程.md"
+      ]
+    },
+    "01-收件箱/自动捕获/2026-06-08_csv_CSV_File_Reading_and_Writing.md": {
+      "md5": "1d2ac74ed44979b0b86366830a0e42ef",
+      "ingested": "2026-06-08",
+      "wiki_pages": [
+        "sources/CSV模块读写.md"
+      ]
+    },
+    "01-收件箱/自动捕获/2026-06-08_json_JSON_encoder_and_decoder.md": {
+      "md5": "b3092e6ca7423699479443a231505a98",
+      "ingested": "2026-06-08",
+      "wiki_pages": [
+        "sources/JSON模块.md"
+      ]
+    },
+    "01-收件箱/自动捕获/2026-06-08_pathlib_Object_oriented_filesystem_paths.md": {
+      "md5": "492780dc3350a0800c4c3902ad07a641",
+      "ingested": "2026-06-08",
+      "wiki_pages": [
+        "sources/pathlib模块.md"
+      ]
+    },
+    "01-收件箱/自动捕获/2026-06-08_Data_Visualization_With_Python.md": {
+      "md5": "8414fc42344e3c5aacdd18f218c1700c",
+      "ingested": "2026-06-08",
+      "wiki_pages": [
+        "sources/Python数据可视化指南.md"
+      ]
+    },
+    "01-收件箱/自动捕获/2026-06-08_Hermes_Agent.md": {
+      "md5": "880e6942a031c8bb81e490460f77d74c",
+      "ingested": "2026-06-08",
+      "wiki_pages": []
     }
   }
 }

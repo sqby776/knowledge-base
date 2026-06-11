@@ -63,10 +63,10 @@ embeddings = model.encode(['你好，世界', 'Hermes Agent'])
 
 ## 相关链接
 
-- [[BGE]]
-- [[嵌入模型]]
-- [[Chroma]]
-- [[RAG]]
+- [[BGE.md]]
+- [[嵌入模型.md]]
+- [[Chroma.md]]
+- [[RAG.md]]
 
 ## 来源
 

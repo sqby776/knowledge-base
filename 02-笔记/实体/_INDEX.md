@@ -1,20 +1,44 @@
 ---
 title: 实体索引
 created: 2026-05-30
-updated: 2026-06-06
+updated: 2026-06-09
 tags: [knowledge-base, moc, entities]
 ---
 
 # 实体索引 (Entities Index)
 
-> 工具/库/框架/产品类笔记
+> 工具/库/框架/产品/模型类笔记
 
 ## 当前内容
 
-|| 实体 | 链接 | 说明 ||------|------|------|| Python csv 库 | [[2026-05-31_csv_CSV_File_Reading_and_Writing]] | 官方文档，Python 3.14.5 || Python json 库 | [[2026-05-31_json_JSON_encoder_and_decoder]] | 官方文档，RFC 7159 兼容 || Python pathlib 库 | [[2026-05-31_pathlib_Object_oriented_filesystem_paths]] | 官方文档，面向对象路径操作 || openpyxl | [[openpyxl]] | Excel 2010 xlsx 读写库 || Matplotlib | [[Matplotlib]] | Python 数据可视化库 || Hermes Agent | [[Hermes_Agent]] | AI 代理平台，具备自进化学习循环 |
+| 实体 | 链接 | 说明 |
+|------|------|------|
+| csv 库 | [[2026-05-31_`csv` — CSV File Reading and Writing]] | Python CSV 读写，官方文档 |
+| json 库 | [[2026-05-31_`json` — JSON encoder and decoder]] | Python JSON 编解码，RFC 7159 |
+| pathlib 库 | [[2026-05-31_`pathlib` — Object-oriented filesystem paths]] | Python 面向对象路径操作 |
+| openpyxl | [[openpyxl]] | Excel 2010 xlsx 读写库 |
+| Matplotlib | [[Matplotlib.md]] | Python 数据可视化库 |
+| Python-docx | [[python-docx.md]] | Word 文档读写库 |
+| python-pptx | [[python-pptx.md]] | PowerPoint 文档读写库 |
+| LibreOffice | [[LibreOffice.md]] | 开源办公套件 |
+| Hermes Agent | [[Hermes_Agent.md]] | AI 代理平台，具备自进化学习循环 |
+| Hermes 生态全攻略 | [[Hermes生态全攻略.md]] | 核心技能与用法大全 |
+| Scrapling | [[Scrapling.md]] | 自适应爬虫框架，46K+ Star |
+| BGE | [[BGE.md]] | 向量嵌入模型 |
+| Chroma | [[Chroma.md]] | 向量数据库 |
+| Camoufox | [[Camoufox.md]] | 浏览器自动化工具 |
+| MemOS | [[MemOS.md]] | 混合记忆系统 |
+| MemPalace | [[MemPalace.md]] | 记忆宫殿，MemOS 前端 |
+| TesseractOCR | [[TesseractOCR.md]] | OCR 引擎 |
+| AnySearch | [[AnySearch_万物皆可搜免费搜索基础设施.md_学习要点]] | 免费搜索基础设施，16 垂直领域 |
+| all-MiniLM-L6-v2 | [[all-MiniLM-L6-v2_语义搜索模型.md_学习要点]] | 轻量向量嵌入模型，384 维 |
+| 商汤 SenseNova-Skills | [[商汤SenseNova-Skills_办公自动化Skill系统.md_学习要点]] | 办公自动化 Skill 系统 |
 
 ## 分类统计
 
-- **编程语言标准库**: csv, json, pathlib (3)
-- **第三方库**: openpyxl, Matplotlib (2)
-- **AI 平台**: Hermes Agent (1)
+- **Python 标准库**: csv, json, pathlib (3)
+- **Python 第三方库**: openpyxl, Matplotlib, python-docx, python-pptx, Scrapling, BGE, Chroma, TesseractOCR (8)
+- **AI 平台/框架**: Hermes Agent, Camoufox, MemOS (3)
+- **搜索基础设施**: AnySearch, all-MiniLM-L6-v2 (2)
+- **办公自动化**: LibreOffice, 商汤 SenseNova-Skills (2)
+- **生态资源**: Hermes 生态全攻略 (1)

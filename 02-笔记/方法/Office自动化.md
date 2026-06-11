@@ -31,6 +31,6 @@ updated: 2026-06-05
 
 ## 来源
 
-- [[python-docx快速入门]]
+- [[python-docx快速入门.md]]
 - [[openpyxl教程]]
-- [[python-pptx入门]]
+- [[python-pptx入门.md]]

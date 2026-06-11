@@ -35,8 +35,8 @@ Retrieval-Augmented Generation（检索增强生成）—— 一种将外部知�
 |:----|:----|:----|
 | **文档加载器** | 读取和解析文档 | LangChain Document Loaders |
 | **文本分块** | 将长文档切分成小块 | Character/Recursive/Token Chunking |
-| **嵌入模型** | 将文本转换为向量 | OpenAI text-embedding, [[BGE]], [[M3E]] |
-| **向量数据库** | 存储和检索向量 | [[Chroma]], [[Milvus]], [[Pinecone]], [[Qdrant]] |
+| **嵌入模型** | 将文本转换为向量 | OpenAI text-embedding, [[BGE.md]], [[M3E.md]] |
+| **向量数据库** | 存储和检索向量 | [[Chroma.md]], [[Milvus]], [[Pinecone]], [[Qdrant]] |
 | **检索器** | 根据查询检索相关文档 | 向量检索 + 关键词检索混合 |
 | **生成模型** | 基于检索内容生成答案 | GPT-4, Claude, Qwen, Llama |
 
@@ -44,7 +44,7 @@ Retrieval-Augmented Generation（检索增强生成）—— 一种将外部知�
 
 1. **基础 RAG** — 简单的向量检索 + 上下文拼接
 2. **高级 RAG** — 查询改写、重排序、多跳检索
-3. **[[代理RAG]]** — Agent 自主决定检索策略、多轮检索、自我修正
+3. **[[代理RAG.md]]** — Agent 自主决定检索策略、多轮检索、自我修正
 
 ## 与 LLM Wiki 的关系
 
@@ -54,16 +54,16 @@ Retrieval-Augmented Generation（检索增强生成）—— 一种将外部知�
 
 ## 相关链接
 
-- [[代理RAG]]
-- [[LLM Wiki]]
-- [[知识飞轮]]
-- [[源头优先]]
-- [[嵌入模型]]
-- [[向量数据库]]
+- [[代理RAG.md]]
+- [[LLM知识库.md]]
+- [[知识飞轮.md]]
+- [[源头优先.md]]
+- [[嵌入模型.md]]
+- [[向量数据库.md]]
 
 ## 来源
 
-- [[2026-05-23_RAG技术简析]] — 测试文章
+- [[RAG.md]] — 测试文章
 - 超级猛：《我又把 Obsidian 知识库升级了》
 - Karpathy LLM Wiki 实践
 - LangChain RAG 文档

@@ -35,7 +35,7 @@ AI Agent 能写代码、调 API，但对 GUI 软件无能为力。Claude Code、
 - **Zotero CLI** — 文献管理
 - **Obsidian CLI** — 知识库操作
 - **Kdenlive CLI** — 视频编辑
-- **Safari CLI** — 浏览器自动化（基于 [[MCP]]）
+- **Safari CLI** — 浏览器自动化（基于 [[Agent 浏览器自动化 Chrome DevTools MCP 接入实战.md]]）
 - **Godot CLI** — 游戏引擎控制
 - **MuseScore CLI** — 乐谱编辑
 
@@ -57,13 +57,13 @@ AI Agent 能写代码、调 API，但对 GUI 软件无能为力。Claude Code、
 3. **测试驱动** — 每个封装都有 CI 测试，确保稳定性
 
 ### 可能的集成方向
-1. **[[MCP]] + CLI 互补** — 现有 chrome-devtools-mcp 控制浏览器，[[CLI-Anything]] 补充桌面软件
+1. **[[Agent 浏览器自动化 Chrome DevTools MCP 接入实战.md]] + CLI 互补** — 现有 chrome-devtools-mcp 控制浏览器，[[CLI-Anything]] 补充桌面软件
 2. **技能自动发现** — SKILL.md 模式可直接复用到 Hermes skills 体系
 3. **CLI 封装现有工具** — 我们的 officecli、wx-cli 等本身就是这种思路的产物
 
 ## 关键洞察
 
-[[CLI-Anything]] 的核心洞见：**CLI 是人和 Agent 都能理解的通用界面**。它不改变软件本身，而是在外面包一层命令行壳。这比 [[MCP]] 更轻量，比 GUI 自动化更可靠。
+[[CLI-Anything]] 的核心洞见：**CLI 是人和 Agent 都能理解的通用界面**。它不改变软件本身，而是在外面包一层命令行壳。这比 [[Agent 浏览器自动化 Chrome DevTools MCP 接入实战.md]] 更轻量，比 GUI 自动化更可靠。
 
 AI Agent 正在从"只会聊天"进化到"能干实事"，CLI 封装层可能是关键的桥梁。
 

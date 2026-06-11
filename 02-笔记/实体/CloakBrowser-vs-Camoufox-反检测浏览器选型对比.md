@@ -68,5 +68,5 @@ CloakBrowser 是目前缺失的反检测方案——基于 Chromium、58 个 C++
 
 ## 与现有笔记关联
 
-- 更新自: [[CloakBrowser vs camofox-browser：反检测浏览器选型对比]]
-- 参见: [[browser-harness-ai浏览器自动化工具]], [[Scrapling 自适应爬虫框架]]
+- 更新自: [[CloakBrowser vs camofox-browser：反检测浏览器选型对比_学习要点.md]]
+- 参见: [[browser-harness-ai浏览器自动化工具]], [[Scrapling-自适应爬虫框架详解.md]]

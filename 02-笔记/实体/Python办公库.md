@@ -78,9 +78,9 @@ prs.save('output.pptx')
 
 ## 相关链接
 
-- [[LibreOffice]]
-- [[办公自动化地图]]
-- [[办公工具]]
+- [[LibreOffice.md]]
+- [[办公工具.md]]
+- [[办公工具.md]]
 - [[AI-Word-Skill]] — 第三方 AI 编辑 Word 技能
 
 ## 来源

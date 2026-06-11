@@ -67,6 +67,6 @@ plan → native-mcp → github-pr-workflow → systematic-debugging
 
 ## 相关链接
 
-- [[Hermes-Agent]]
+- [[Hermes_Agent.md]]
 - [[HermesSkills效率翻倍指南]]
 - [[技能迭代法]]

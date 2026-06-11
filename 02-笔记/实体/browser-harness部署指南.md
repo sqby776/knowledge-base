@@ -119,9 +119,9 @@ ln -sf ~/browser-harness/domain-skills ~/.hermes/skills/browser-harness/domain-s
 
 ## 相关链接
 
-- [[Hermes-Agent]]
+- [[Hermes_Agent.md]]
 - [[browser-harness]]
-- [[浏览器自动化]]
+- [[Agent 浏览器自动化 Chrome DevTools MCP 接入实战.md]]
 
 ## 来源
 
