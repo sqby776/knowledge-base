@@ -6,11 +6,11 @@ type: index
 # LLM Wiki 索引
 
 > 知识库结构化索引 — 由 llmwiki-ingest 自动维护
-> 最后更新: 2026-06-08
+|> 最后更新: 2026-06-13
 
 ## 页面分类
 
-### Sources (23 个)
+### Sources (24 个)
 来源文件摘要页，记录原始资料的摄取信息。
 
 - [[10 minutes to pandas]]
@@ -22,10 +22,10 @@ type: index
 - [[Hermes接上OpenHands：这次升级适合谁用]]
 - [[json 模块 — JSON 编码器和解码器]]
 - [[Matplotlib 快速入门指南]]
-- [[Python 数据可视化]]
 - [[openpyxl Tutorial]]
 - [[pandas 10分钟入门教程]]
 - [[pathlib 模块 — 面向对象文件系统路径]]
+- [[Hermes Agent 官方文档首页]]
 - [[python-docx Quickstart]]
 - [[python-pptx Getting Started]]
 - [[【原文】数字生命卡兹克文风复刻 skill 深度拆解]]

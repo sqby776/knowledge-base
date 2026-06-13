@@ -152,8 +152,17 @@
     },
     "01-收件箱/自动捕获/2026-06-08_Hermes_Agent.md": {
       "md5": "880e6942a031c8bb81e490460f77d74c",
-      "ingested": "2026-06-08",
-      "wiki_pages": []
+      "ingested": "2026-06-13",
+      "wiki_pages": [
+        "sources/Hermes-Agent-官方文档首页.md"
+      ]
+    },
+    "01_inbox/articles/2026-06-13_Hermes_Agent.md": {
+      "md5": "880e6942a031c8bb81e490460f77d74c",
+      "ingested": "2026-06-13",
+      "wiki_pages": [
+        "sources/Hermes-Agent-官方文档首页.md"
+      ]
     }
   }
 }

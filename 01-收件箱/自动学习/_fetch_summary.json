@@ -1,0 +1,82 @@
+{
+  "hermes-docs": {
+    "url": "http://hermes-agent.nousresearch.com/docs",
+    "title": null,
+    "content_len": 0,
+    "status": "error exit=2",
+    "error": "error: unexpected argument '--rewrite-urls' found\n\nUsage: actionbook [OPTIONS] [COMMAND]\n\nFor more information, try '--help'.\n",
+    "filepath": null
+  },
+  "hermes-cn-docs": {
+    "url": "http://hermes.xaapi.ai",
+    "title": null,
+    "content_len": 0,
+    "status": "error exit=2",
+    "error": "error: unexpected argument '--rewrite-urls' found\n\nUsage: actionbook [OPTIONS] [COMMAND]\n\nFor more information, try '--help'.\n",
+    "filepath": null
+  },
+  "hermes-cn-faq": {
+    "url": "https://hermesagent.org.cn/docs/reference/faq",
+    "title": null,
+    "content_len": 0,
+    "status": "error exit=2",
+    "error": "error: unexpected argument '--rewrite-urls' found\n\nUsage: actionbook [OPTIONS] [COMMAND]\n\nFor more information, try '--help'.\n",
+    "filepath": null
+  },
+  "runoob": {
+    "url": "https://www.runoob.com/ai-agent/hermes-agent.html",
+    "title": null,
+    "content_len": 0,
+    "status": "error exit=2",
+    "error": "error: unexpected argument '--rewrite-urls' found\n\nUsage: actionbook [OPTIONS] [COMMAND]\n\nFor more information, try '--help'.\n",
+    "filepath": null
+  },
+  "hermes-home": {
+    "url": "https://hermes-agent.nousresearch.com/",
+    "title": null,
+    "content_len": 0,
+    "status": "error exit=2",
+    "error": "error: unexpected argument '--rewrite-urls' found\n\nUsage: actionbook [OPTIONS] [COMMAND]\n\nFor more information, try '--help'.\n",
+    "filepath": null
+  },
+  "github": {
+    "url": "https://github.com/NousResearch/hermes-agent",
+    "title": null,
+    "content_len": 0,
+    "status": "error exit=2",
+    "error": "error: unexpected argument '--rewrite-urls' found\n\nUsage: actionbook [OPTIONS] [COMMAND]\n\nFor more information, try '--help'.\n",
+    "filepath": null
+  },
+  "agentskills": {
+    "url": "http://agentskills.io",
+    "title": null,
+    "content_len": 0,
+    "status": "error exit=2",
+    "error": "error: unexpected argument '--rewrite-urls' found\n\nUsage: actionbook [OPTIONS] [COMMAND]\n\nFor more information, try '--help'.\n",
+    "filepath": null
+  },
+  "huasheng": {
+    "url": "https://huasheng.ai/orange-books/hermes-agent/",
+    "title": null,
+    "content_len": 0,
+    "status": "error exit=2",
+    "error": "error: unexpected argument '--rewrite-urls' found\n\nUsage: actionbook [OPTIONS] [COMMAND]\n\nFor more information, try '--help'.\n",
+    "filepath": null
+  },
+  "x-post": {
+    "url": "https://x.com/LufzzLiz/status/2042237123865297267",
+    "title": null,
+    "content_len": 0,
+    "status": "error exit=2",
+    "error": "error: unexpected argument '--rewrite-urls' found\n\nUsage: actionbook [OPTIONS] [COMMAND]\n\nFor more information, try '--help'.\n",
+    "filepath": null
+  },
+  "discord": {
+    "url": "https://discord.gg/nousresearch",
+    "title": null,
+    "content_len": 0,
+    "status": "error exit=2",
+    "error": "error: unexpected argument '--rewrite-urls' found\n\nUsage: actionbook [OPTIONS] [COMMAND]\n\nFor more information, try '--help'.\n",
+    "filepath": null
+  }
+}

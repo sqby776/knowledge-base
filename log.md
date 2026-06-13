@@ -1,3 +1,25 @@
+
+### 2026-06-11 19:12 后台维护
+
+| 操作 | 详情 |
+|:----|:----|
+| 抓取编译 | 01_inbox/articles/ 1 个文件 (Hermes Agent) — 已编译为实体/已存在 |
+| 归档收件箱 | 01_inbox/articles/ 1 个文件 + archive/duplicate_names/ 10 个文件 → 99-归档/ |
+| 归档自动捕获 | archive/自动捕获/ 9 个文件已存在于 99-归档/，无重复移动 |
+| 归档 .hermes 收件箱 | crawl4ai-50k-star-llm-friendly-crawler 1 个文件 → 99-归档/ |
+| 实体去重 | 删除 5 个完全相同标题的重复学习要点碎片 |
+| 实体补充 | Hermes_Agent.md 补充 2026-06-11 抓取新信息 (多平台网关/Voice/Serverless) |
+| 地图状态 | 无需更新，Hermes Agent 已在 AI技术地图中覆盖 |
+
+最终状态：
+- 实体/ 112 个文件 (删除 5 个)
+- 概念/ 38 个文件
+- 方法/ 53 个文件
+- 地图/ 2 个文件
+- 归档/ 新增 12 个文件
+
+| 收件箱状态 | 01_inbox/articles: 0, 自动捕获: 0, .hermes: 0 |
+
 # 知识库变更日志
 
 
@@ -718,3 +740,83 @@
 | `01_inbox/articles/2026-06-11_Data_Visualization_With_Python.md` | Data Visualization With Python | 自动抓取 |
 
 | `01_inbox/articles/2026-06-11_Hermes_Agent.md` | Hermes Agent | 自动抓取 |
+
+| `01_inbox/articles/2026-06-11_Hermes_Agent.md` | Hermes Agent | 自动抓取 |
+
+### 自动入库 (2026-06-12)
+
+| 文件 | 标题 | 来源 |
+|:----|:----|:----|
+
+| `01_inbox/articles/2026-06-12_Hermes_Agent.md` | Hermes Agent | 自动抓取 |
+
+### 自动维护 (2026-06-12)
+
+| 操作 | 详情 |
+|:----|:----|
+| 归档自动捕获 | 01-收件箱/archive/自动捕获/ 9 个文件 → 99-归档/2026-06-12/ |
+| 归档 01_inbox | 2026-06-12_Hermes_Agent.md → 99-归档/2026-06-12/ |
+| 收件箱 | 已清空 |
+| 实体去重 | 删除 1 个 pandas 重复 (_学习要点.md vs _学习要点.md) |
+| 实体去重 | 删除 1 个 从流水线到蜂巢 重复 (双后缀坏文件) |
+| 实体去重 | 删除 1 个 Getting Started¶_学习要点.md (已由 python-pptx 编译覆盖) |
+| 实体去重 | 删除 1 个 方法索引_学习要点.md (错放至实体目录) |
+| 实体去重 | 删除 1 个 知识库集成 (350 bytes 空占位) |
+| 空壳清理 | 删除 10 个 <500 bytes 空壳实体文件 |
+| 空壳清理 | 删除 1 个 <500 bytes 空壳方法文件 |
+| 空壳清理 | 删除 1 个 方法/index.md (79 bytes 自动生成) |
+| 重命名修复 | 架构变更案例: _学习要点_学习要点 → _学习要点 |
+
+最终状态：
+- 实体/ 97 个文件 (原112, 减少15)
+- 概念/ 38 个文件
+- 方法/ 46 个文件 (原50, 减少4)
+- 地图/ 2 个文件
+- 归档/ 新增 11 个文件
+
+| `01_inbox/articles/2026-06-12_Getting_Started.md` | Getting Started¶ | 自动抓取 |
+
+| `01_inbox/articles/2026-06-12_10_minutes_to_pandas.md` | 10 minutes to pandas# | 自动抓取 |
+
+| `01_inbox/articles/2026-06-12_Quick_start_guide.md` | Quick start guide# | 自动抓取 |
+
+| `01_inbox/articles/2026-06-12_csv_CSV_File_Reading_and_Writing.md` | `csv` — CSV File Reading and Writing¶ | 自动抓取 |
+
+| `01_inbox/articles/2026-06-12_json_JSON_encoder_and_decoder.md` | `json` — JSON encoder and decoder¶ | 自动抓取 |
+
+| `01_inbox/articles/2026-06-12_pathlib_Object_oriented_filesystem_paths.md` | `pathlib` — Object-oriented filesystem paths¶ | 自动抓取 |
+
+| `01_inbox/articles/2026-06-12_Data_Visualization_With_Python.md` | Data Visualization With Python | 自动抓取 |
+
+| `01_inbox/articles/2026-06-12_Hermes_Agent.md` | Hermes Agent | 自动抓取 |
+
+| `01_inbox/articles/2026-06-12_Hermes_Agent.md` | Hermes Agent | 自动抓取 |
+
+### 自动入库 (2026-06-13)
+
+| 文件 | 标题 | 来源 |
+|:----|:----|:----|
+
+| `01_inbox/articles/2026-06-13_Hermes_Agent.md` | Hermes Agent | 自动抓取 |
+
+| `01_inbox/articles/2026-06-13_Quickstart.md` | Quickstart¶ | 自动抓取 |
+
+| `01_inbox/articles/2026-06-13_Tutorial.md` | Tutorial | 自动抓取 |
+
+| `01_inbox/articles/2026-06-13_Getting_Started.md` | Getting Started¶ | 自动抓取 |
+
+| `01_inbox/articles/2026-06-13_10_minutes_to_pandas.md` | 10 minutes to pandas# | 自动抓取 |
+
+| `01_inbox/articles/2026-06-13_Quick_start_guide.md` | Quick start guide# | 自动抓取 |
+
+| `01_inbox/articles/2026-06-13_csv_CSV_File_Reading_and_Writing.md` | `csv` — CSV File Reading and Writing¶ | 自动抓取 |
+
+| `01_inbox/articles/2026-06-13_json_JSON_encoder_and_decoder.md` | `json` — JSON encoder and decoder¶ | 自动抓取 |
+
+| `01_inbox/articles/2026-06-13_pathlib_Object_oriented_filesystem_paths.md` | `pathlib` — Object-oriented filesystem paths¶ | 自动抓取 |
+
+| `01_inbox/articles/2026-06-13_Data_Visualization_With_Python.md` | Data Visualization With Python | 自动抓取 |
+
+| `01_inbox/articles/2026-06-13_Hermes_Agent.md` | Hermes Agent | 自动抓取 |
+
+| `01_inbox/articles/2026-06-13_Hermes_Agent.md` | Hermes Agent | 自动抓取 |
