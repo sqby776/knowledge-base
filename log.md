@@ -1,4 +1,18 @@
 
+### 2026-06-15 04:05 后台维护
+
+| 操作 | 详情 |
+|:----|:----|
+| 抓取编译 | 01_inbox/articles/ 2 个文件 (Hermes Agent 2026-06-14 + 06-15) — 均为同一来源，内容已被现有笔记覆盖 |
+| 归档收件箱 | 2 个文件 → 99-归档/2026-06-15/ |
+| 去重 | 2 个收件箱文件互相重复，且与已有概念笔记 Hermes-Agent.md (source_url 相同) 重复，不保留副本 |
+| 实体补充 | 无需补充 — Hermes_Agent.md 和 Hermes-Agent.md 已覆盖全部要点 |
+| 地图状态 | 无需更新 |
+
+最终状态：
+- 01_inbox/articles: 0 个文件
+- 新归档 2 个文件
+
 ### 2026-06-11 19:12 后台维护
 
 | 操作 | 详情 |
@@ -820,3 +834,158 @@
 | `01_inbox/articles/2026-06-13_Hermes_Agent.md` | Hermes Agent | 自动抓取 |
 
 | `01_inbox/articles/2026-06-13_Hermes_Agent.md` | Hermes Agent | 自动抓取 |
+
+### 自动入库 (2026-06-14)
+
+| 文件 | 标题 | 来源 |
+|:----|:----|:----|
+
+| `01_inbox/articles/2026-06-14_Hermes_Agent.md` | Hermes Agent | 自动抓取 |
+
+| `01_inbox/articles/2026-06-14_Quickstart.md` | Quickstart¶ | 自动抓取 |
+
+| `01_inbox/articles/2026-06-14_Tutorial.md` | Tutorial | 自动抓取 |
+
+| `01_inbox/articles/2026-06-14_Getting_Started.md` | Getting Started¶ | 自动抓取 |
+
+| `01_inbox/articles/2026-06-14_10_minutes_to_pandas.md` | 10 minutes to pandas# | 自动抓取 |
+
+| `01_inbox/articles/2026-06-14_Quick_start_guide.md` | Quick start guide# | 自动抓取 |
+
+| `01_inbox/articles/2026-06-14_csv_CSV_File_Reading_and_Writing.md` | `csv` — CSV File Reading and Writing¶ | 自动抓取 |
+
+| `01_inbox/articles/2026-06-14_json_JSON_encoder_and_decoder.md` | `json` — JSON encoder and decoder¶ | 自动抓取 |
+
+| `01_inbox/articles/2026-06-14_pathlib_Object_oriented_filesystem_paths.md` | `pathlib` — Object-oriented filesystem paths¶ | 自动抓取 |
+
+| `01_inbox/articles/2026-06-14_Data_Visualization_With_Python.md` | Data Visualization With Python | 自动抓取 |
+
+| `01_inbox/articles/2026-06-14_Hermes_Agent.md` | Hermes Agent | 自动抓取 |
+
+| `01_inbox/articles/2026-06-14_Hermes_Agent.md` | Hermes Agent | 自动抓取 |
+
+### 自动入库 (2026-06-15)
+
+| 文件 | 标题 | 来源 |
+|:----|:----|:----|
+
+| `01_inbox/articles/2026-06-15_Hermes_Agent.md` | Hermes Agent | 自动抓取 |
+
+| `01_inbox/articles/2026-06-15_Quickstart.md` | Quickstart¶ | 自动抓取 |
+
+| `01_inbox/articles/2026-06-15_Tutorial.md` | Tutorial | 自动抓取 |
+
+| `01_inbox/articles/2026-06-15_Getting_Started.md` | Getting Started¶ | 自动抓取 |
+
+| `01_inbox/articles/2026-06-15_10_minutes_to_pandas.md` | 10 minutes to pandas# | 自动抓取 |
+
+| `01_inbox/articles/2026-06-15_Quick_start_guide.md` | Quick start guide# | 自动抓取 |
+
+| `01_inbox/articles/2026-06-15_csv_CSV_File_Reading_and_Writing.md` | `csv` — CSV File Reading and Writing¶ | 自动抓取 |
+
+| `01_inbox/articles/2026-06-15_json_JSON_encoder_and_decoder.md` | `json` — JSON encoder and decoder¶ | 自动抓取 |
+
+| `01_inbox/articles/2026-06-15_pathlib_Object_oriented_filesystem_paths.md` | `pathlib` — Object-oriented filesystem paths¶ | 自动抓取 |
+
+| `01_inbox/articles/2026-06-15_Data_Visualization_With_Python.md` | Data Visualization With Python | 自动抓取 |
+
+| `01_inbox/articles/2026-06-15_Hermes_Agent.md` | Hermes Agent | 自动抓取 |
+
+### 2026-06-15 后台维护
+
+| 操作 | 详情 |
+|:----|:----|
+| 归档自动捕获 | 9 个文件 → 99-归档/2026-06-15/ |
+| 归档自动学习 | 7 个文件（5 JSON + 学习报告 + _fetch_summary.json）→ 99-归档/2026-06-15/ |
+| 实体去重清理 | 34 个学习要点模板（内容空洞自动生成）→ 归档 |
+| 实体去重清理 | 37 个 draft 状态小文件（<2000 bytes，status: draft）→ 归档 |
+| 实体目录精简 | 从 106 个 → 34 个（保留高质量完整实体） |
+| 收件箱 | 自动捕获/ 清空，自动学习/ 仅保留学习报告 |
+
+最终状态：
+- 实体/ 34 个文件（含 8 个完整编译 >5KB + 26 个轻量实体 1-5KB）
+- 概念/ 39 个文件
+- 方法/ 46 个文件
+- 地图/ 2 个文件
+- 归档/2026-06-15/ 90 个文件
+- 收件箱：已清空
+
+关键发现：
+- 自动捕获的9个Python文档（pandas/csv/json/pathlib等）已有完整编译实体（2026-05-31版本）
+- 34个学习要点模板是低质量自动生成的占位符，已清理
+- 37个draft小文件是早期编译半成品，已清理
+- 学习报告指出Hermes Agent v0.16.0有Desktop App、远程网关等新功能
+
+| `01_inbox/articles/2026-06-15_Hermes_Agent.md` | Hermes Agent | 自动抓取 |
+
+### 自动入库 (2026-06-16)
+
+| 文件 | 标题 | 来源 |
+|:----|:----|:----|
+
+| `01_inbox/articles/2026-06-16_Hermes_Agent.md` | Hermes Agent | 自动抓取 |
+
+| `01_inbox/articles/2026-06-16_Quickstart.md` | Quickstart¶ | 自动抓取 |
+
+| `01_inbox/articles/2026-06-16_Tutorial.md` | Tutorial | 自动抓取 |
+
+| `01_inbox/articles/2026-06-16_Getting_Started.md` | Getting Started¶ | 自动抓取 |
+
+| `01_inbox/articles/2026-06-16_10_minutes_to_pandas.md` | 10 minutes to pandas# | 自动抓取 |
+
+| `01_inbox/articles/2026-06-16_Quick_start_guide.md` | Quick start guide# | 自动抓取 |
+
+| `01_inbox/articles/2026-06-16_csv_CSV_File_Reading_and_Writing.md` | `csv` — CSV File Reading and Writing¶ | 自动抓取 |
+
+| `01_inbox/articles/2026-06-16_json_JSON_encoder_and_decoder.md` | `json` — JSON encoder and decoder¶ | 自动抓取 |
+
+| `01_inbox/articles/2026-06-16_pathlib_Object_oriented_filesystem_paths.md` | `pathlib` — Object-oriented filesystem paths¶ | 自动抓取 |
+
+| `01_inbox/articles/2026-06-16_Data_Visualization_With_Python.md` | Data Visualization With Python | 自动抓取 |
+
+| `01_inbox/articles/2026-06-16_Hermes_Agent.md` | Hermes Agent | 自动抓取 |
+
+### 2026-06-16 12:20 后台维护
+
+| 操作 | 详情 |
+|:----|:----|
+| 编译 | Agent-Skills — 60k star 项目，将工程开发流程打包为 AI 技能 → 02-笔记/实体/Agent-Skills.md |
+| 归档自动捕获 | 01-收件箱/自动捕获/ 10 个重复文件 → 99-归档/2026-06-16/ |
+| 归档旧管道 | 01_inbox/articles/ 20 个重复文件（06-15 ×9 + 06-16 ×11）→ 99-归档/2026-06-16/ |
+| 实体去重 | 10 个自动生成的 _学习要点.md 占位符（<2000 bytes，空内容）→ 归档 |
+| 地图更新 | AI技术地图 新增 [[Agent-Skills]] 条目，updated 更新至 2026-06-16 |
+
+最终状态：
+- 实体/ 35 个文件（原44，去重-10，新增+1）
+- 概念/ 39 个文件
+- 方法/ 46 个文件
+- 地图/ 2 个文件
+- 归档/2026-06-16/ 新增 30 个文件
+- 收件箱：已清空（含新旧管道）
+
+| `01_inbox/articles/2026-06-16_Hermes_Agent.md` | Hermes Agent | 自动抓取 |
+
+### 自动入库 (2026-06-17)
+
+| 文件 | 标题 | 来源 |
+|:----|:----|:----|
+
+| `01_inbox/articles/2026-06-17_Hermes_Agent.md` | Hermes Agent | 自动抓取 |
+
+### 2026-06-17 06:10 后台维护
+
+| 操作 | 详情 |
+|:----|:----|
+| 抓取编译 | `articles/15个被忽略的Agent高级能力-王二AI进化论.md` — 内容已在 `02-笔记/方法/` 中存在，无需重复编译 |
+| 归档收件箱 | 01_inbox/articles/ 2 个 Heremes Agent 重复文件 + articles/ 1 个方法重复文件 → 99-归档/2026-06-17/ |
+| 去重 | 3 个文件均为已编译笔记的重复捕获，全部归档不保留副本 |
+| 实体补充 | 无需补充 — 概念/Hermes-Agent.md 和 07-地图/AI技术地图.md 均已引用此文章 |
+| 地图状态 | [[15个被忽略的Agent高级能力-王二AI进化论]] 引用已在之前维护中建立，无需更新 |
+
+最终状态：
+- 实体/ 35 个文件（无变化）
+- 概念/ 39 个文件（无变化）
+- 方法/ 46 个文件（无变化）
+- 地图/ 2 个文件（无变化）
+- 归档/2026-06-17/ 新增 3 个文件
+- 收件箱：已清空
