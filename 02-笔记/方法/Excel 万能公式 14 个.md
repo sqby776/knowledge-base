@@ -7,6 +7,7 @@ tags: [Excel, 公式, 办公技巧, 数据处理, auto-compiled]
 category: 办公技能
 status: active
 archived: 2026-06-01
+confidence: medium
 ---
 
 

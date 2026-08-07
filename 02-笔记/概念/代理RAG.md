@@ -3,10 +3,11 @@ title: Agentic RAG
 created: 2026-05-24
 updated: 2026-05-31
 tags: ["rag", "ai-agent", "workflow"]
-status: active
+status: archived
 sources: []
+trust_score: 0.17
+confidence: low
 ---
-
 # Agentic RAG
 
 ## 定义
@@ -54,13 +55,13 @@ Agent 分析：需要检索吗？
 
 ## 相关链接
 
-- [[RAG.md]]
-- [[Hermes_Agent.md]]
-- [[知识飞轮.md]]
+- [[RAG]]
+- ../实体/Hermes_Agent.md
+- [[知识飞轮]]
 
 ## 来源
 
-- [[RAG.md]] — 测试文章
+- [[RAG]] — 测试文章
 - 超级猛：《我又把 Obsidian 知识库升级了》
 
 ---

@@ -2,7 +2,7 @@
 title: Kanban
 type: entity
 tags: [llmwiki, hermes-agent]
-sources: ["01-收件箱/文章/2026-05-26_Hermes Agent价值提升用法.md"]
+sources: ["01-收件箱/文章/2026_05_26_Hermes Agent价值提升用法.md"]
 created: 2026-06-01
 updated: 2026-06-01
 ---
@@ -24,4 +24,4 @@ Kanban 是在多个来源中被提及的重要实体。
 
 ## 来源
 
-- [[2026-05-26_Hermes Agent价值提升用法]]
+- [[深度使用Hermes后的总结：15-个被忽略的-Agent-高级能力]]

@@ -3,10 +3,11 @@ title: MemOS 记忆系统实操笔记
 created: 2026-05-24
 updated: 2026-05-24
 tags: ["knowledge-base", "tutorial"]
-status: active
+status: archived
 sources: []
+trust_score: 0.17
+confidence: low
 ---
-
 # MemOS 记忆系统实操笔记
 
 > 来源：本系统实际配置和使用经验
@@ -37,17 +38,17 @@ memory:
 
 | 系统 | 检索方式 | 去重能力 | 适用场景 |
 |:-----|:---------|:---------|:---------|
-| [[MemOS.md]] | FTS5 + 向量 + 时间 | ✅ 智能去重 | 对话记忆管理 |
-| [[RAG.md]] | 向量检索 | ❌ 需自行实现 | 知识库问答 |
+| [[MemOS]] | FTS5 + 向量 + 时间 | ✅ 智能去重 | 对话记忆管理 |
+| [[RAG]] | 向量检索 | ❌ 需自行实现 | 知识库问答 |
 
 ## 相关链接
 
-- [[MemOS.md]]
-- [[MemPalace.md]]
-- [[Chroma.md]]
-- [[嵌入模型.md]]
-- [[RAG.md]]
-- [[Hermes_Agent.md]]
+- [[MemOS]]
+- [[MemPalace]]
+- [[Chroma]]
+- [[嵌入模型]]
+- [[RAG]]
+- ../实体/Hermes_Agent.md
 
 ---
 

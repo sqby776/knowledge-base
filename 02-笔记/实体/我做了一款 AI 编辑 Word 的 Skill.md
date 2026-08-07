@@ -8,6 +8,7 @@ date: 2026-05-29
 status: active
 type: article
 tags: [Word, Skill, 排版, 办公自动化, GitHub]
+confidence: medium
 ---
 
 # 我做了一款 AI 编辑 word 的 skill，推荐给你试试，效果惊艳

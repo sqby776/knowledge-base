@@ -7,6 +7,7 @@ status: active
 type: article
 tags: [Hermes, v0.15.0, AI-Agent, 发布, auto-compiled]
 archived: 2026-06-01
+confidence: medium
 ---
 
 

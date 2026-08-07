@@ -5,8 +5,10 @@ tags: [llmwiki, python, 数据结构, pandas]
 sources: ["维基/sources/10分钟到Pandas入门教程.md"]
 created: 2026-06-05
 updated: 2026-06-05
+status: archived
+confidence: low
+trust_score: 0.17
 ---
-
 # DataFrame
 
 ## 概览

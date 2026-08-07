@@ -340,9 +340,9 @@ assistant (default profile) → 即时响应用户聊天
 
 ## 相关链接
 
-- [[Hermes_Agent.md]]
-- [[Hermes Agent Profile 创建与使用指南.md]]
-- [[HermesSkills效率翻倍指南.md]]
+- ../实体/Hermes_Agent.md
+- [[Hermes Agent Profile 创建与使用指南]]
+- [[HermesSkills效率翻倍指南]]
 - [[Cron 定时任务]]
 
 ## 来源

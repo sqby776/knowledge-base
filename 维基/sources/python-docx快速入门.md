@@ -26,7 +26,7 @@ python-docx 官方文档快速入门。python-docx 用于创建和修改 Microso
 
 ## 提及的实体
 
-- [[python-docx]]
+- [[python-docx快速入门]]
 
 ## 相关概念
 

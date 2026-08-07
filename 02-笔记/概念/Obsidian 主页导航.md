@@ -3,10 +3,11 @@ title: Obsidian 主页导航
 created: 2026-06-02
 updated: 2026-06-02
 tags: ["obsidian", "navigation", "knowledge-base"]
-status: active
+status: archived
 sources: [https://help.obsidian.md]
+trust_score: 0.17
+confidence: low
 ---
-
 # Obsidian 主页导航
 
 > 来源：Obsidian 帮助文档
@@ -42,6 +43,6 @@ Obsidian 的主页（Home）可以自定义内容：
 
 ## 相关链接
 
-- [[双链交叉引用.md]]
-- [[本地知识库.md]]
-- [[主题地图.md]]
+- [[双链交叉引用]]
+- [[本地知识库]]
+- [[主题地图]]

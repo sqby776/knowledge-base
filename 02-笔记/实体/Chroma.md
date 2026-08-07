@@ -3,10 +3,11 @@ title: Chroma
 created: 2026-05-24
 updated: 2026-05-24
 tags: ["rag", "tool"]
-status: active
+status: archived
 sources: []
+trust_score: 0.17
+confidence: low
 ---
-
 # Chroma
 
 ## 定义
@@ -61,10 +62,10 @@ pip install chromadb
 
 ## 相关链接
 
-- [[MemOS.md]]
-- [[嵌入模型.md]]
-- [[向量数据库.md]]
-- [[RAG.md]]
+- [[MemOS]]
+- [[嵌入模型]]
+- [[向量数据库]]
+- [[RAG]]
 
 ## 来源
 

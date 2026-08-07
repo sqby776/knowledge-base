@@ -36,7 +36,7 @@ Hermes Agent 是由 Nous Research 开发的开源自主 AI 智能体框架，核
 - [[浏览器自动化]]
 - [[Python]]
 - [[Hermes]]
-- [[Nous Research]]
+- [[Nous-Research]]
 
 ## 相关概念
 

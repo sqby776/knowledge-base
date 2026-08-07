@@ -1,12 +1,13 @@
 ---
 title: AI 技术地图
 created: 2026-05-24
-updated: 2026-05-24
+updated: 2026-06-16
 tags: ["knowledge-base", "ai-agent"]
-status: active
+status: archived
 sources: []
+confidence: low
+trust_score: 0.17
 ---
-
 # AI 技术地图
 
 > MOC — 人工智能技术领域主题地图
@@ -40,9 +41,11 @@ LLM Wiki   RAG       Hermes    知识飞轮
 
 ### 3. 框架与工具篇
 
-- [[Hermes-Agent]] — AI 智能体框架（概念）
-- [[Hermes_Agent]] — 官方文档首页（实体/安装/特性速查）
+- [[Hermes_Agent]] — AI 智能体框架（实体/安装/特性速查）
   - [[Hermes能力闭环]] — 7个核心Skill的方法论
+  - [[15个被忽略的Agent高级能力-王二AI进化论]] — 15个高阶用法速查
+  - [[10个神操作让Hermes全天候主动干活]] — 自动化配置技巧
+- [[Agent-Skills]] — AI 开发工作流技能体系（Addy Osmani, 60k+ stars）
 - [[MemOS]] — 记忆操作系统
 - [[MemPalace]] — 记忆宫殿管理
 - [[Chroma]] — 向量数据库
@@ -68,7 +71,7 @@ LLM Wiki   RAG       Hermes    知识飞轮
 
 - 想了解 RAG 技术 → 看 [[RAG]]
 - 想搭建知识库 → 看 [[本地知识库]] + [[Obsidian]]
-- 想用 AI 智能体 → 看 [[Hermes-Agent]]
+- 想用 AI 智能体 → 看 [[Hermes_Agent]]
 - 想管理记忆 → 看 [[MemOS]] + [[MemPalace]]
 - 想抓取网页 → 看 [[Camoufox]] / [[crawl4ai]] / [[scrapling]]
 
@@ -80,4 +83,4 @@ LLM Wiki   RAG       Hermes    知识飞轮
 
 ---
 
-*最后更新：2026-06-13*
+*最后更新：2026-06-16*

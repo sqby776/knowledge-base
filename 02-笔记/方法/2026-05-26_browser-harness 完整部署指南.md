@@ -5,6 +5,7 @@ tags: [browser-harness, 浏览器自动化, AI工具, Hermes集成]
 status: active
 sources: [https://mp.weixin.qq.com/s/6bZshgptd0cY4CxaczffOQ]
 archived: 2026-06-01
+confidence: medium
 ---
 
 

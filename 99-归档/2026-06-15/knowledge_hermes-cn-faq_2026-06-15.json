@@ -1,0 +1,92 @@
+{
+  "source": "https://hermesagent.org.cn/docs/reference/faq",
+  "title": "Hermes Agent 中文社区FAQ",
+  "fetched_at": "2026-06-15",
+  "status": "success",
+  "knowledge_points": [
+    {
+      "title": "支持的LLM提供商",
+      "summary": "任何兼容OpenAI API的提供商(OpenRouter/Ollama/本地等)。通过hermes model或编辑~/.hermes/.env配置。",
+      "tags": [
+        "LLM",
+        "提供商",
+        "OpenAI兼容"
+      ]
+    },
+    {
+      "title": "Windows支持",
+      "summary": "完全支持。提供国内加速镜像: irm https://res1.hermesagent.org.cn/install.ps1 | iex。精简了部分可选组件。",
+      "tags": [
+        "Windows",
+        "国内镜像",
+        "Powershell"
+      ]
+    },
+    {
+      "title": "Android/Termux支持",
+      "summary": "支持。curl安装，注意.[all]不可用(voice依赖faster-whisper→ctranslate2无Android wheels)，使用.[termux]。",
+      "tags": [
+        "Android",
+        "Termux",
+        "限制"
+      ]
+    },
+    {
+      "title": "隐私与数据",
+      "summary": "不收集遥测数据。对话/记忆/技能全部本地存储在~/.hermes/。仅发送至用户配置的LLM提供商。",
+      "tags": [
+        "隐私",
+        "本地存储",
+        "无遥测"
+      ]
+    },
+    {
+      "title": "离线/本地模型",
+      "summary": "支持Ollama/vLLM/llama.cpp/SGLang/LocalAI。在config.yaml配置自定义端点。超时设置: HERMES_STREAM_READ_TIMEOUT=1800。",
+      "tags": [
+        "离线",
+        "本地模型",
+        "Ollama"
+      ]
+    },
+    {
+      "title": "使用成本",
+      "summary": "开源免费(MIT)。仅需支付LLM API调用费用。本地模型无额外成本。",
+      "tags": [
+        "成本",
+        "免费",
+        "MIT"
+      ]
+    },
+    {
+      "title": "配置文件(Profiles)",
+      "summary": "比HERMES_HOME更高级的管理。完全隔离(记忆/会话不共享)。hermes profile export/import跨机器迁移。无硬性运行数量限制。hermes update自动同步技能到所有profile。",
+      "tags": [
+        "Profiles",
+        "导出",
+        "导入",
+        "隔离"
+      ]
+    },
+    {
+      "title": "多模型工作流",
+      "summary": "在config.yaml设置delegation块，子Agent自动使用指定模型。可用于委托配置不同模型执行不同任务。",
+      "tags": [
+        "多模型",
+        "委托",
+        "delegation"
+      ]
+    },
+    {
+      "title": "故障排除清单",
+      "summary": "涵盖安装/提供商/终端/消息通信/性能/MCP六大类问题。关键: hermes doctor诊断、hermes gateway status检查网关、/compress压缩会话、/reload-mcp重启MCP。",
+      "tags": [
+        "故障排除",
+        "诊断",
+        "hermes doctor"
+      ]
+    }
+  ],
+  "new_since_last": true,
+  "change_note": "中文FAQ提供了详细的故障排除和配置指南"
+}

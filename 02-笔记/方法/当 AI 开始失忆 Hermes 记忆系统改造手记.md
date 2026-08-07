@@ -245,10 +245,10 @@ client.add("content", options=AddMemoryOptions(...))
 
 ## 相关链接
 
-- [[Hermes_Agent.md]]
+- ../实体/Hermes_Agent.md
 - [[记忆系统架构]]
 - [[Mem0]]
-- [[Honcho.md]]
+- [[Honcho]]
 
 ## 来源
 

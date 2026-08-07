@@ -3,10 +3,11 @@ title: Python-docx 表格处理
 created: 2026-06-02
 updated: 2026-06-02
 tags: ["python", "docx", "table", "automation", "method"]
-status: active
+status: archived
 sources: [https://python-docx.readthedocs.io/en/latest/user/table.html]
+trust_score: 0.17
+confidence: low
 ---
-
 # Python-docx 表格处理
 
 > 来源：python-docx 官方文档 - 表格
@@ -68,4 +69,4 @@ for i, row in df.iterrows():
 ## 相关链接
 
 - [[Python-docx 快速开始]]
-- [[AI编辑WordSkill技术解析.md]]
+- [[AI编辑WordSkill技术解析]]

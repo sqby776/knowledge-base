@@ -7,6 +7,7 @@ status: compiled
 type: article
 category: 方法
 tags: [公众号文章, 2026-06-01抓取]
+confidence: medium
 ---
 
 # Hermes-Agent进阶补充-会聊天到会干活

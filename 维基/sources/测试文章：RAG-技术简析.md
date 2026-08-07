@@ -5,8 +5,10 @@ tags: [llmwiki, hermes-agent]
 sources: [01-收件箱/文章/2026-05-23_RAG技术简析.md]
 created: 2026-06-01
 updated: 2026-06-01
+status: archived
+confidence: low
+trust_score: 0.17
 ---
-
 # 测试文章：RAG 技术简析
 
 ## 摘要

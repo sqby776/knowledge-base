@@ -3,10 +3,11 @@ title: Hermes + OpenHands 集成评估
 created: 2026-05-30
 updated: 2026-05-30
 tags: ["hermes", "openhands", "integration", "evaluation"]
-status: active
+status: archived
 sources: [https://mp.weixin.qq.com/s/kddlLnc6FEc_tXtacfZfHQ]
+trust_score: 0.17
+confidence: low
 ---
-
 # Hermes + OpenHands 集成评估
 
 > 来源：微信公众号「极客 BIM 设计工坊」，2026-05-26
@@ -90,9 +91,9 @@ hermes skills install official/autonomous-ai-agents/openhands
 
 ## 相关链接
 
-- [[Hermes_Agent.md]]
+- ../实体/Hermes_Agent.md
 - [[OpenHands]]
-- [[2026-05-31_`json` — JSON encoder and decoder.md]]
+- [[2026-05-31_`json` — JSON encoder and decoder]]
 - [[Codex]]
 - [[OpenCode]]
 

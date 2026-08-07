@@ -1,3 +1,12 @@
+---
+title: 2026 06 02_Darwin Skill Ai Skill 自优化系统
+created: 2026-06-02
+updated: 2026-06-02
+tags: []
+status: archived
+confidence: low
+trust_score: 0.17
+---
 # Darwin-Skill: AI Skill 自优化系统
 
 **来源：** 微信公众号 花叔  

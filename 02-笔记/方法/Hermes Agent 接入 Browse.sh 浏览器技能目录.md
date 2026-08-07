@@ -17,7 +17,7 @@ tags: [公众号文章, 2026-06-01抓取]
 
 ## 核心要点
 
-- - [[CloakBrowser vs camofox-browser：反检测浏览器选型对比_学习要点.md]]
+- - [[CloakBrowser vs camofox-browser：反检测浏览器选型对比_学习要点]]
 
 ## 原始内容
 
@@ -181,10 +181,10 @@ Skill 不是炫技，是一种新的网页抽象层。它把"工程师脑子里�
 
 ## 相关链接
 
-- [[Hermes_Agent.md]]
-- [[CloakBrowser vs camofox-browser：反检测浏览器选型对比_学习要点.md]]
-- [[我做了一款 AI 编辑 Word 的 Skill.md]]
-- [[Hermes Agent 接入 Browse.sh 浏览器技能目录.md]]
+- ../实体/Hermes_Agent.md
+- [[CloakBrowser vs camofox-browser：反检测浏览器选型对比_学习要点]]
+- [[我做了一款 AI 编辑 Word 的 Skill]]
+- [[Hermes Agent 接入 Browse.sh 浏览器技能目录]]
 
 ## 来源
 

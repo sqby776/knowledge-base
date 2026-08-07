@@ -24,13 +24,13 @@ RealPython 的数据可视化教程，介绍 Python 中主流可视化库的使�
 
 ## 提及的实体
 
-- [[Matplotlib]]
+- [[Matplotlib快速入门]]
 - [[Seaborn]]
 - [[Plotly]]
 
 ## 相关概念
 
-- [[数据可视化]]
+- [[Python数据可视化指南]]
 - [[图表选择]]
 
 ## 来源

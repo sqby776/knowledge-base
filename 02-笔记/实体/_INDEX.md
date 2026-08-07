@@ -1,7 +1,7 @@
 ---
 title: 实体索引
 created: 2026-05-30
-updated: 2026-06-09
+updated: 2026-06-22
 tags: [knowledge-base, moc, entities]
 ---
 
@@ -17,22 +17,22 @@ tags: [knowledge-base, moc, entities]
 | json 库 | [[2026-05-31_`json` — JSON encoder and decoder]] | Python JSON 编解码，RFC 7159 |
 | pathlib 库 | [[2026-05-31_`pathlib` — Object-oriented filesystem paths]] | Python 面向对象路径操作 |
 | openpyxl | [[openpyxl]] | Excel 2010 xlsx 读写库 |
-| Matplotlib | [[Matplotlib.md]] | Python 数据可视化库 |
-| Python-docx | [[python-docx.md]] | Word 文档读写库 |
-| python-pptx | [[python-pptx.md]] | PowerPoint 文档读写库 |
-| LibreOffice | [[LibreOffice.md]] | 开源办公套件 |
-| Hermes Agent | [[Hermes_Agent.md]] | AI 代理平台，具备自进化学习循环 |
-| Hermes 生态全攻略 | [[Hermes生态全攻略.md]] | 核心技能与用法大全 |
-| Scrapling | [[Scrapling.md]] | 自适应爬虫框架，46K+ Star |
-| BGE | [[BGE.md]] | 向量嵌入模型 |
-| Chroma | [[Chroma.md]] | 向量数据库 |
-| Camoufox | [[Camoufox.md]] | 浏览器自动化工具 |
-| MemOS | [[MemOS.md]] | 混合记忆系统 |
-| MemPalace | [[MemPalace.md]] | 记忆宫殿，MemOS 前端 |
-| TesseractOCR | [[TesseractOCR.md]] | OCR 引擎 |
-| AnySearch | [[AnySearch_万物皆可搜免费搜索基础设施.md_学习要点]] | 免费搜索基础设施，16 垂直领域 |
-| all-MiniLM-L6-v2 | [[all-MiniLM-L6-v2_语义搜索模型.md_学习要点]] | 轻量向量嵌入模型，384 维 |
-| 商汤 SenseNova-Skills | [[商汤SenseNova-Skills_办公自动化Skill系统.md_学习要点]] | 办公自动化 Skill 系统 |
+| Matplotlib | [[Matplotlib]] | Python 数据可视化库 |
+| Python-docx | [[python-docx]] | Word 文档读写库 |
+| python-pptx | [[python-pptx]] | PowerPoint 文档读写库 |
+| LibreOffice | [[LibreOffice]] | 开源办公套件 |
+| Hermes Agent | ../实体/Hermes_Agent.md | AI 代理平台，具备自进化学习循环 |
+| Hermes 生态全攻略 | [[Hermes生态全攻略]] | 核心技能与用法大全 |
+| Scrapling | [[Scrapling]] | 自适应爬虫框架，46K+ Star |
+| BGE | [[BGE]] | 向量嵌入模型 |
+| Chroma | [[Chroma]] | 向量数据库 |
+| Camoufox | [[Camoufox]] | 浏览器自动化工具 |
+| MemOS | [[MemOS]] | 混合记忆系统 |
+| MemPalace | [[MemPalace]] | 记忆宫殿，MemOS 前端 |
+| TesseractOCR | [[TesseractOCR]] | OCR 引擎 |
+| AnySearch | [[AnySearch_万物皆可搜免费搜索基础设施]] | 免费搜索基础设施，16 垂直领域 |
+| all-MiniLM-L6-v2 | [[all-MiniLM-L6-v2]] | 轻量向量嵌入模型，384 维 |
+| 商汤 SenseNova-Skills | [[商汤SenseNova-Skills]] | 办公自动化 Skill 系统 |
 
 ## 分类统计
 

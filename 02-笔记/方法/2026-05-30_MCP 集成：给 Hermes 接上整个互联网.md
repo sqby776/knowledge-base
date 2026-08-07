@@ -3,16 +3,13 @@ title: MCP 集成：给 Hermes 接上整个互联网
 created: 2026-05-30
 updated: 2026-05-30
 tags: [auto-extract, wechat, auto-compiled]
-status: active
+status: archived
 sources: [https://mp.weixin.qq.com/s/rmRbiXeRMyJxPUexfHWlsw]
 date: 2026-06-01
 archived: 2026-06-01
+confidence: low
+trust_score: 0.17
 ---
-
-
-
-
-
 # MCP 集成：给 Hermes 接上整个互联网
 
 > 来源：https://mp.weixin.qq.com/s/rmRbiXeRMyJxPUexfHWlsw

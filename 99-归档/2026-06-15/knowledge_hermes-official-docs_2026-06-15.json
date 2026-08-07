@@ -1,0 +1,89 @@
+{
+  "source": "https://hermes-agent.nousresearch.com/docs",
+  "title": "Hermes Agent 官方文档",
+  "fetched_at": "2026-06-15",
+  "status": "success",
+  "knowledge_points": [
+    {
+      "title": "安装方式",
+      "summary": "Linux/macOS: curl一键脚本；Windows: PowerShell脚本；Desktop: 原生应用安装器，支持自更新。国内有加速镜像(res1.hermesagent.org.cn)。",
+      "tags": [
+        "安装",
+        "Linux",
+        "macOS",
+        "Windows"
+      ]
+    },
+    {
+      "title": "快速启动路径",
+      "summary": "最快路径: hermes setup --portal (OAuth一站式完成模型+工具网关)。之后 hermes --tui 启动TUI界面。",
+      "tags": [
+        "快速开始",
+        "Portal",
+        "TUI"
+      ]
+    },
+    {
+      "title": "记忆系统",
+      "summary": "两个有界文本文件: MEMORY.md(2200字符/代理笔记)和USER.md(1375字符/用户画像)。冻结快照注入系统提示词，会话中不变。支持add/replace/remove操作。注入和泄露安全扫描。",
+      "tags": [
+        "记忆",
+        "MEMORY.md",
+        "USER.md",
+        "持久化"
+      ]
+    },
+    {
+      "title": "技能系统",
+      "summary": "渐进式按需加载: L0列表→L1全文→L2引用文件。SKILL.md格式含frontmatter。条件激活(fallback_for_toolsets/requires_toolsets)。支持平台限定(macos/linux/windows)。技能输出自动检测媒体路径并原生交付。",
+      "tags": [
+        "技能",
+        "SKILL.md",
+        "渐进加载",
+        "条件激活"
+      ]
+    },
+    {
+      "title": "MCP集成",
+      "summary": "支持Stdio和HTTP两种MCP服务器。内置精选目录(hermes mcp)。One-click安装，工具选择清单。OAuth认证的HTTP MCP服务器。运行时环境变量替换${VAR}。",
+      "tags": [
+        "MCP",
+        "目录",
+        "Stdio",
+        "HTTP",
+        "OAuth"
+      ]
+    },
+    {
+      "title": "语音模式",
+      "summary": "CLI/Telegram/Discord全面语音支持。CLI中Ctrl+B录音，静音3秒自动结束。流式TTS逐句播放。幻觉过滤(26个短语+正则)。本地faster-whisper无需API Key。",
+      "tags": [
+        "语音",
+        "TTS",
+        "STT",
+        "Whisper"
+      ]
+    },
+    {
+      "title": "安全模型",
+      "summary": "命令审批、DM配对、容器隔离、多层防御。可在config.yaml配置允许列表/私信配对/公开三种访问控制模式。",
+      "tags": [
+        "安全",
+        "命令审批",
+        "容器隔离"
+      ]
+    },
+    {
+      "title": "架构概览",
+      "summary": "入口层(CLI/Gateway/ACP) → AIAgent核心(Prompt Builder/Provider Resolution/Tool Dispatch) → 会话存储(SQLite+FTS5) + 工具后端(6种终端/5种浏览器/4种Web/MCP动态)。约25,000测试。",
+      "tags": [
+        "架构",
+        "AIAgent",
+        "SQLite",
+        "FTS5"
+      ]
+    }
+  ],
+  "new_since_last": true,
+  "change_note": "文档结构完整，记忆系统/技能系统/MCP集成/语音模式均有详细文档"
+}

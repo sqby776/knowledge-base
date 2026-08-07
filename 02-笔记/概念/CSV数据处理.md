@@ -5,8 +5,10 @@ tags: [llmwiki, python, csv, 数据处理]
 sources: ["维基/sources/CSV模块读写.md"]
 created: 2026-06-05
 updated: 2026-06-05
+status: archived
+confidence: low
+trust_score: 0.17
 ---
-
 # CSV 数据处理
 
 ## 概览

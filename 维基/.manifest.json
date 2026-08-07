@@ -1,168 +1,340 @@
 {
   "sources": {
-    "01-收件箱/文章/2026-05-27_agent-browser部署指南.md": {
-      "md5": "3c4b6cad31db093596596bf06bf9efb9",
-      "ingested": "2026-06-01",
+    "01-收件箱/自动捕获/2026-06-08_10_minutes_to_pandas.md": {
+      "md5": "ARCHIVED",
+      "ingested": "2026-06-22",
       "wiki_pages": [
-        "sources/从零到一，手把手教你部署-Hermes-Agent-浏览器自动化引擎.md"
+        "sources/pandas-10分钟入门教程.md"
       ]
     },
-    "01-收件箱/文章/2026-05-27_HermesAgent操控电脑指南.md": {
-      "md5": "bbca60cdc3eb5781628b3e68cfed4a11",
-      "ingested": "2026-06-01",
+    "01-收件箱/文章/2026-05-26_Brainstorming Skill测评.md": {
+      "md5": "ARCHIVED",
+      "ingested": "2026-06-22",
       "wiki_pages": [
-        "sources/怎么让-Hermes-Agent-操控电脑？.md"
+        "sources/AI-Skill深度测评第一期：Brainstorming.md"
       ]
     },
-    "01-收件箱/文章/2026-05-26_Hermes Skills效率翻倍.md": {
-      "md5": "41463e52b9c7b7f1d1ffebd90efb4ef2",
-      "ingested": "2026-06-01",
+    "01-收件箱/自动捕获/2026-06-08_csv_CSV_File_Reading_and_Writing.md": {
+      "md5": "ARCHIVED",
+      "ingested": "2026-06-22",
       "wiki_pages": [
-        "sources/我用了3个月-Hermes-agent，这几个-Skills-让我效率翻倍.md"
+        "sources/CSV模块读写.md"
       ]
     },
-    "01-收件箱/文章/2026-05-24_卡兹克文风技能与知识库构建.md": {
-      "md5": "e706dbda9848899da3c834d6b688849e",
-      "ingested": "2026-06-01",
+    "01-收件箱/自动学习/03-GitHub_NousResearch_hermes-agent.md": {
+      "md5": "ARCHIVED",
+      "ingested": "2026-06-22",
       "wiki_pages": [
-        "sources/【原文】数字生命卡兹克文风复刻-skill-深度拆解.md"
+        "sources/Hermes Agent GitHub仓库统计.md"
+      ]
+    },
+    "01-收件箱/自动学习/06-中文快速入门_hermesagent.org.cn_quickstart.md": {
+      "md5": "ARCHIVED",
+      "ingested": "2026-06-22",
+      "wiki_pages": [
+        "sources/Hermes Agent中文快速入门.md"
+      ]
+    },
+    "01-收件箱/自动学习/04-中文文档_hermes.xaapi.ai.md": {
+      "md5": "ARCHIVED",
+      "ingested": "2026-06-22",
+      "wiki_pages": [
+        "sources/Hermes Agent中文文档站.md"
+      ]
+    },
+    "01-收件箱/自动学习/05-中文社区FAQ_hermesagent.org.cn.md": {
+      "md5": "ARCHIVED",
+      "ingested": "2026-06-22",
+      "wiki_pages": [
+        "sources/Hermes Agent中文社区FAQ.md"
+      ]
+    },
+    "01-收件箱/自动学习/02-官方文档_hermes-agent.nousresearch.com_docs.md": {
+      "md5": "ARCHIVED",
+      "ingested": "2026-06-22",
+      "wiki_pages": [
+        "sources/Hermes Agent官方文档导航.md"
+      ]
+    },
+    "01-收件箱/自动学习/01-官网_hermes-agent.nousresearch.com.md": {
+      "md5": "ARCHIVED",
+      "ingested": "2026-06-22",
+      "wiki_pages": [
+        "sources/Hermes Agent官网核心信息.md"
+      ]
+    },
+    "01_inbox/articles/2026-06-13_Hermes_Agent.md": {
+      "md5": "ARCHIVED",
+      "ingested": "2026-06-22",
+      "wiki_pages": [
+        "sources/Hermes-Agent-官方文档首页.md"
       ]
     },
     "01-收件箱/文章/2026-05-27_HermesAgent工具详解.md": {
-      "md5": "d6a1bb77d7b69ddf4a9aa0eaad00ef5f",
-      "ingested": "2026-06-01",
+      "md5": "ARCHIVED",
+      "ingested": "2026-06-22",
       "wiki_pages": [
         "sources/Hermes-Agent-工具.md"
       ]
     },
-    "01-收件箱/文章/测试会议转写-2026-05-24.md": {
-      "md5": "68c1665bec30e63391f9c8ff580b747c",
-      "ingested": "2026-06-01",
+    "01-收件箱/文章/2026-05-27_HermesAgent生态全攻略.md": {
+      "md5": "ARCHIVED",
+      "ingested": "2026-06-22",
       "wiki_pages": [
-        "sources/测试会议转写---2026-05-24.md"
+        "sources/Hermes-Agent-生态全攻略：一文搞定-80+-高阶工具配置.md"
       ]
     },
     "01-收件箱/文章/2026-05-27_HermesAgent浏览器自动化插件安装.md": {
-      "md5": "f9619ffa3106119ed1510fdb4f1b3eef",
-      "ingested": "2026-06-01",
+      "md5": "ARCHIVED",
+      "ingested": "2026-06-22",
       "wiki_pages": [
         "sources/HermesAgent浏览器自动化插件安装_让AI自动操作网页的完整流程.md"
       ]
     },
     "01-收件箱/文章/2026-05-26_Hermes OpenHands升级评估.md": {
-      "md5": "122cc66e11729ff2858e276420d450e1",
-      "ingested": "2026-06-01",
+      "md5": "ARCHIVED",
+      "ingested": "2026-06-22",
       "wiki_pages": [
         "sources/Hermes接上OpenHands：这次升级适合谁用.md"
       ]
     },
-    "01-收件箱/文章/2026-05-27_HermesAgent生态全攻略.md": {
-      "md5": "74482389ee8242684dd938e42454f95e",
-      "ingested": "2026-06-01",
-      "wiki_pages": [
-        "sources/Hermes-Agent-生态全攻略：一文搞定-80+-高阶工具配置.md"
-      ]
-    },
-    "01-收件箱/文章/2026-05-26_Hermes Agent价值提升用法.md": {
-      "md5": "692f79acec6a6526dcb60fb059da71a5",
-      "ingested": "2026-06-01",
-      "wiki_pages": [
-        "sources/让你的Hermes-Agent发挥更大的价值.md"
-      ]
-    },
-    "01-收件箱/文章/2026-05-23_RAG技术简析.md": {
-      "md5": "73cbd489e7a18b29234faf4fe4a44b71",
-      "ingested": "2026-06-01",
-      "wiki_pages": [
-        "sources/测试文章：RAG-技术简析.md"
-      ]
-    },
-    "01-收件箱/文章/2026-05-26_Brainstorming Skill测评.md": {
-      "md5": "2e65f080781bea66ef6e96a0d03e603d",
-      "ingested": "2026-06-01",
-      "wiki_pages": [
-        "sources/AI-Skill深度测评第一期：Brainstorming.md"
-      ]
-    },
-    "articles/15个被忽略的Agent高级能力-王二AI进化论.md": {
-      "md5": "05d4a1f2a0641aba4411d8127ee19a62",
-      "ingested": "2026-06-01",
-      "wiki_pages": [
-        "sources/深度使用Hermes后的总结：15-个被忽略的-Agent-高级能力.md"
-      ]
-    },
-    "01-收件箱/自动捕获/2026-06-08_10_minutes_to_pandas.md": {
-      "md5": "3667b391d9b9efe3caed007a384ddfe8",
-      "ingested": "2026-06-08",
-      "wiki_pages": [
-        "sources/pandas-10分钟入门教程.md"
-      ]
-    },
-    "01-收件箱/自动捕获/2026-06-08_Quickstart.md": {
-      "md5": "c156a41d916da623ffbdab0f6330f56d",
-      "ingested": "2026-06-08",
-      "wiki_pages": []
-    },
-    "01-收件箱/自动捕获/2026-06-08_Getting_Started.md": {
-      "md5": "0100dcd25f80ebd91ce6c3fba472b461",
-      "ingested": "2026-06-08",
-      "wiki_pages": []
-    },
-    "01-收件箱/自动捕获/2026-06-08_Quick_start_guide.md": {
-      "md5": "79784199a0f765b5415ab33da36095c4",
-      "ingested": "2026-06-08",
-      "wiki_pages": [
-        "sources/Matplotlib快速入门.md"
-      ]
-    },
-    "01-收件箱/自动捕获/2026-06-08_Tutorial.md": {
-      "md5": "c8a8e10bf4c87ead9f18627dfd8a63c8",
-      "ingested": "2026-06-08",
-      "wiki_pages": [
-        "sources/openpyxl教程.md"
-      ]
-    },
-    "01-收件箱/自动捕获/2026-06-08_csv_CSV_File_Reading_and_Writing.md": {
-      "md5": "1d2ac74ed44979b0b86366830a0e42ef",
-      "ingested": "2026-06-08",
-      "wiki_pages": [
-        "sources/CSV模块读写.md"
-      ]
-    },
     "01-收件箱/自动捕获/2026-06-08_json_JSON_encoder_and_decoder.md": {
-      "md5": "b3092e6ca7423699479443a231505a98",
-      "ingested": "2026-06-08",
+      "md5": "ARCHIVED",
+      "ingested": "2026-06-22",
       "wiki_pages": [
         "sources/JSON模块.md"
       ]
     },
-    "01-收件箱/自动捕获/2026-06-08_pathlib_Object_oriented_filesystem_paths.md": {
-      "md5": "492780dc3350a0800c4c3902ad07a641",
-      "ingested": "2026-06-08",
+    "01-收件箱/自动捕获/2026-06-08_Quick_start_guide.md": {
+      "md5": "ARCHIVED",
+      "ingested": "2026-06-22",
       "wiki_pages": [
-        "sources/pathlib模块.md"
+        "sources/Matplotlib快速入门.md"
       ]
     },
     "01-收件箱/自动捕获/2026-06-08_Data_Visualization_With_Python.md": {
-      "md5": "8414fc42344e3c5aacdd18f218c1700c",
-      "ingested": "2026-06-08",
+      "md5": "ARCHIVED",
+      "ingested": "2026-06-22",
       "wiki_pages": [
         "sources/Python数据可视化指南.md"
       ]
     },
-    "01-收件箱/自动捕获/2026-06-08_Hermes_Agent.md": {
-      "md5": "880e6942a031c8bb81e490460f77d74c",
-      "ingested": "2026-06-13",
+    "01-收件箱/自动捕获/2026-06-08_Tutorial.md": {
+      "md5": "ARCHIVED",
+      "ingested": "2026-06-22",
       "wiki_pages": [
-        "sources/Hermes-Agent-官方文档首页.md"
+        "sources/openpyxl教程.md"
       ]
     },
-    "01_inbox/articles/2026-06-13_Hermes_Agent.md": {
-      "md5": "880e6942a031c8bb81e490460f77d74c",
-      "ingested": "2026-06-13",
+    "01-收件箱/自动捕获/2026-06-08_pathlib_Object_oriented_filesystem_paths.md": {
+      "md5": "ARCHIVED",
+      "ingested": "2026-06-22",
       "wiki_pages": [
-        "sources/Hermes-Agent-官方文档首页.md"
+        "sources/pathlib模块.md"
       ]
+    },
+    "01-收件箱/自动捕获/2026-06-08_Quickstart.md": {
+      "md5": "ARCHIVED",
+      "ingested": "2026-06-22",
+      "wiki_pages": [
+        "sources/python-docx快速入门.md"
+      ]
+    },
+    "01-收件箱/文章/2026-05-24_卡兹克文风技能与知识库构建.md": {
+      "md5": "ARCHIVED",
+      "ingested": "2026-06-22",
+      "wiki_pages": [
+        "sources/【原文】数字生命卡兹克文风复刻-skill-深度拆解.md"
+      ]
+    },
+    "01-收件箱/文章/2026-05-27_agent-browser部署指南.md": {
+      "md5": "ARCHIVED",
+      "ingested": "2026-06-22",
+      "wiki_pages": [
+        "sources/从零到一，手把手教你部署-Hermes-Agent-浏览器自动化引擎.md"
+      ]
+    },
+    "01-收件箱/文章/2026-05-27_HermesAgent操控电脑指南.md": {
+      "md5": "ARCHIVED",
+      "ingested": "2026-06-22",
+      "wiki_pages": [
+        "sources/怎么让-Hermes-Agent-操控电脑？.md"
+      ]
+    },
+    "01-收件箱/文章/2026-05-26_Hermes Skills效率翻倍.md": {
+      "md5": "ARCHIVED",
+      "ingested": "2026-06-22",
+      "wiki_pages": [
+        "sources/我用了3个月-Hermes-agent，这几个-Skills-让我效率翻倍.md"
+      ]
+    },
+    "01-收件箱/文章/测试会议转写-2026-05-24.md": {
+      "md5": "ARCHIVED",
+      "ingested": "2026-06-22",
+      "wiki_pages": [
+        "sources/测试会议转写---2026-05-24.md"
+      ]
+    },
+    "01-收件箱/文章/2026-05-23_RAG技术简析.md": {
+      "md5": "ARCHIVED",
+      "ingested": "2026-06-22",
+      "wiki_pages": [
+        "sources/测试文章：RAG-技术简析.md"
+      ]
+    },
+    "articles/15个被忽略的Agent高级能力-王二AI进化论.md": {
+      "md5": "ARCHIVED",
+      "ingested": "2026-06-22",
+      "wiki_pages": [
+        "sources/深度使用Hermes后的总结：15-个被忽略的-Agent-高级能力.md"
+      ]
+    },
+    "01-收件箱/文章/2026-05-26_Hermes Agent价值提升用法.md": {
+      "md5": "ARCHIVED",
+      "ingested": "2026-06-22",
+      "wiki_pages": [
+        "sources/让你的Hermes-Agent发挥更大的价值.md"
+      ]
+    },
+    "01-收件箱/自动捕获/2026-06-08_Getting_Started.md": {
+      "md5": "f1cd281d159f09fd6783d5349851f218",
+      "ingested": "2026-06-22",
+      "wiki_pages": []
+    },
+    "01-收件箱/自动捕获/2026-06-08_Hermes_Agent.md": {
+      "md5": "76e9dffaf3f6fcc41590390ee5989a06",
+      "ingested": "2026-06-22",
+      "wiki_pages": []
+    },
+    "03_Resources/awesome-evals.md": {
+      "md5": "0791634fbef79c3ef355e9ec90959f08",
+      "ingested": "2026-06-29",
+      "wiki_pages": [
+        "sources/awesome-evals-AI-Agent评估资源库.md"
+      ]
+    },
+    "03_Resources/公众号文章/Agent-Reach-23k星联网神器.md": {
+      "md5": "agent_reach_v1",
+      "ingested": "2026-06-29",
+      "status": "tracked",
+      "wiki_pages": [
+        "sources/Agent-Reach-AI-Agent联网工具.md",
+        "entities/Agent Reach.md"
+      ]
+    },
+    "03_Resources/公众号文章/Agnes-2.0-Flash-集成指南.md": {
+      "md5": "agnes_v1",
+      "ingested": "2026-06-29",
+      "status": "tracked",
+      "wiki_pages": [
+        "sources/Agnes-2.0-Flash-多模态集成指南.md",
+        "entities/Agnes.md"
+      ]
+    },
+    "03_Resources/公众号文章/AI写简历的15个提示词.md": {
+      "md5": "resume_ai_v1",
+      "ingested": "2026-06-29",
+      "status": "tracked",
+      "wiki_pages": [
+        "sources/AI写简历-15个提示词.md",
+        "entities/ATS.md"
+      ]
+    },
+    "03_Resources/公众号文章/Python+SQLite经营分析数据基座.md": {
+      "md5": "sqlite_ops_v1",
+      "ingested": "2026-06-29",
+      "status": "tracked",
+      "wiki_pages": [
+        "sources/Python-SQLite经营分析数据基座.md",
+        "entities/SQLite.md"
+      ]
+    },
+    "03_Resources/公众号文章/build-your-own-x-51万star项目.md": {
+      "md5": "byox_v1",
+      "ingested": "2026-06-29",
+      "status": "tracked",
+      "wiki_pages": [
+        "sources/build-your-own-x-造轮子地图.md"
+      ]
+    },
+    "03_Resources/公众号文章/officecli-Agent原生Office控制.md": {
+      "md5": "officecli_v1",
+      "ingested": "2026-06-29",
+      "status": "tracked",
+      "wiki_pages": [
+        "sources/OfficeCLI-Agent原生Office自动化.md",
+        "entities/Office.md"
+      ]
+    },
+    "01-收件箱/自动捕获/2026-07-13_10_minutes_to_pandas.md": {
+      "md5": "ec77c365e27ae3ac61c1b75042da2453",
+      "ingested": "2026-07-13",
+      "status": "archived_skipped",
+      "wiki_pages": [],
+      "note": "Re-capture of already-covered topic, skipped ingestion"
+    },
+    "01-收件箱/自动捕获/2026-07-13_Data_Visualization_With_Python.md": {
+      "md5": "f2a99fb80655817b5d9e441e7b4ee34a",
+      "ingested": "2026-07-13",
+      "status": "archived_skipped",
+      "wiki_pages": [],
+      "note": "Re-capture of already-covered topic, skipped ingestion"
+    },
+    "01-收件箱/自动捕获/2026-07-13_Getting_Started.md": {
+      "md5": "a3ed92ce693202c0ebf75a7a3f944c1e",
+      "ingested": "2026-07-13",
+      "status": "archived_skipped",
+      "wiki_pages": [],
+      "note": "Re-capture of already-covered topic, skipped ingestion"
+    },
+    "01-收件箱/自动捕获/2026-07-13_Quick_start_guide.md": {
+      "md5": "5705fddf8add4600ba6a1f23adc922c8",
+      "ingested": "2026-07-13",
+      "status": "archived_skipped",
+      "wiki_pages": [],
+      "note": "Re-capture of already-covered topic, skipped ingestion"
+    },
+    "01-收件箱/自动捕获/2026-07-13_Quickstart.md": {
+      "md5": "78108e875a929d07475fcd32930a2eec",
+      "ingested": "2026-07-13",
+      "status": "archived_skipped",
+      "wiki_pages": [],
+      "note": "Re-capture of already-covered topic, skipped ingestion"
+    },
+    "01-收件箱/自动捕获/2026-07-13_Tutorial.md": {
+      "md5": "7338ee17daf2f8ae69285426ba7bbffd",
+      "ingested": "2026-07-13",
+      "status": "archived_skipped",
+      "wiki_pages": [],
+      "note": "Re-capture of already-covered topic, skipped ingestion"
+    },
+    "01-收件箱/自动捕获/2026-07-13_csv_CSV_File_Reading_and_Writing.md": {
+      "md5": "8b9818657a7c6e274cd0e2c0fd8fb70b",
+      "ingested": "2026-07-13",
+      "status": "archived_skipped",
+      "wiki_pages": [],
+      "note": "Re-capture of already-covered topic, skipped ingestion"
+    },
+    "01-收件箱/自动捕获/2026-07-13_json_JSON_encoder_and_decoder.md": {
+      "md5": "c69df950fd5f8b02033882f18d55e1fb",
+      "ingested": "2026-07-13",
+      "status": "archived_skipped",
+      "wiki_pages": [],
+      "note": "Re-capture of already-covered topic, skipped ingestion"
+    },
+    "01-收件箱/自动捕获/2026-07-13_pathlib_Object_oriented_filesystem_paths.md": {
+      "md5": "9be165e8c25d4ea0b90a6951a185813b",
+      "ingested": "2026-07-13",
+      "status": "archived_skipped",
+      "wiki_pages": [],
+      "note": "Re-capture of already-covered topic, skipped ingestion"
+    },
+    "01_inbox/articles/2026-07-13_Hermes_Agent.md": {
+      "md5": "daba60f3136ea322d77ad54b55f3ab44",
+      "ingested": "2026-07-13",
+      "status": "archived_skipped",
+      "wiki_pages": [],
+      "note": "Re-capture of already-covered topic, skipped ingestion"
     }
   }
 }

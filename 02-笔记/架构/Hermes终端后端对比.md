@@ -1,3 +1,12 @@
+---
+title: Hermes终端后端对比
+created: 2026-06-12
+updated: 2026-06-12
+tags: []
+status: archived
+confidence: low
+trust_score: 0.17
+---
 # Hermes 终端后端对比
 
 | 后端 | 适用场景 | 持久化 | 成本 |

@@ -3,10 +3,11 @@ title: MemOS
 created: 2026-05-24
 updated: 2026-05-24
 tags: ["knowledge-base", "tool"]
-status: active
+status: archived
 sources: []
+trust_score: 0.17
+confidence: low
 ---
-
 # MemOS
 
 ## 定义
@@ -70,10 +71,10 @@ memory:
 
 ## 相关链接
 
-- [[MemPalace.md]]
-- [[Chroma.md]]
-- [[知识图谱.md]]
-- [[Hermes_Agent.md]]
+- [[MemPalace]]
+- [[Chroma]]
+- [[知识图谱]]
+- ../实体/Hermes_Agent.md
 
 ## 来源
 

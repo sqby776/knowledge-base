@@ -5,8 +5,10 @@ tags: [llmwiki, hermes-agent]
 sources: [01-收件箱/文章/2026-05-26_Brainstorming Skill测评.md]
 created: 2026-06-01
 updated: 2026-06-01
+status: archived
+confidence: low
+trust_score: 0.17
 ---
-
 # AI Skill深度测评第一期：Brainstorming
 
 ## 摘要

@@ -3,10 +3,11 @@ title: BGE
 created: 2026-05-24
 updated: 2026-05-24
 tags: ["rag", "tool"]
-status: active
+status: archived
 sources: []
+trust_score: 0.17
+confidence: low
 ---
-
 # BGE
 
 ## 定义
@@ -50,10 +51,10 @@ embeddings = model.encode(['你好，世界', 'Hello, world'])
 
 ## 相关链接
 
-- [[嵌入模型.md]]
-- [[M3E.md]]
-- [[Chroma.md]]
-- [[RAG.md]]
+- [[嵌入模型]]
+- [[M3E]]
+- [[Chroma]]
+- [[RAG]]
 
 ## 来源
 

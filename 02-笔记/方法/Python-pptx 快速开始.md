@@ -3,10 +3,11 @@ title: Python-pptx 快速开始
 created: 2026-06-02
 updated: 2026-06-02
 tags: ["python", "powerpoint", "pptx", "automation", "method"]
-status: active
+status: archived
 sources: [https://python-pptx.readthedocs.io/en/latest/user/quickstart.html]
+trust_score: 0.17
+confidence: low
 ---
-
 # Python-pptx 快速开始
 
 > 来源：python-pptx 官方文档
@@ -73,5 +74,5 @@ for paragraph in tf.paragraphs:
 
 ## 相关链接
 
-- [[AI编辑WordSkill技术解析.md]]
+- [[AI编辑WordSkill技术解析]]
 - [[办公自动化]]

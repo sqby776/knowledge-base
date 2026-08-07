@@ -2,7 +2,7 @@
 title: OpenHands
 type: entity
 tags: [llmwiki, hermes-agent]
-sources: ["01-收件箱/文章/2026-05-26_Hermes OpenHands升级评估.md"]
+sources: ["01-收件箱/文章/2026_05_26_Hermes OpenHands升级评估.md"]
 created: 2026-06-01
 updated: 2026-06-01
 ---
@@ -24,4 +24,4 @@ OpenHands 是在多个来源中被提及的重要实体。
 
 ## 来源
 
-- [[2026-05-26_Hermes OpenHands升级评估]]
+- [[Hermes接上OpenHands：这次升级适合谁用]]

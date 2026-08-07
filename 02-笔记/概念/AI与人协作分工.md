@@ -3,10 +3,11 @@ title: AI-人协作分工
 created: 2026-05-24
 updated: 2026-05-24
 tags: ["knowledge-base", "concept", "skill"]
-status: active
+status: archived
 sources: ["卡兹克文风 skill 与知识库构建"]
+confidence: low
+trust_score: 0.17
 ---
-
 # AI-人协作分工
 
 > AI 辅助写作中的职责划分

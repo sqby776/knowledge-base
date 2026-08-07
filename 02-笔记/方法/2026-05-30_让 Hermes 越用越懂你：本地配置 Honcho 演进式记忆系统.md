@@ -3,16 +3,13 @@ title: 让 Hermes 越用越懂你：本地配置 Honcho 演进式记忆系统
 created: 2026-05-30
 updated: 2026-05-30
 tags: [auto-extract, wechat, auto-compiled]
-status: active
+status: archived
 sources: [https://mp.weixin.qq.com/s/S-IqzjTcr4Vf1xTSQhUWfw]
 date: 2026-06-01
 archived: 2026-06-01
+confidence: low
+trust_score: 0.17
 ---
-
-
-
-
-
 # 让 Hermes 越用越懂你：本地配置 Honcho 演进式记忆系统
 
 > 来源：https://mp.weixin.qq.com/s/S-IqzjTcr4Vf1xTSQhUWfw

@@ -1,3 +1,12 @@
+---
+title: Anysearch_万物皆可搜免费搜索基础设施
+created: 2026-06-09
+updated: 2026-06-09
+tags: []
+status: archived
+confidence: low
+trust_score: 0.17
+---
 # AnySearch "万物皆可搜" — 免费开放的搜索基础设施
 
 **来源**: 智能运维前线

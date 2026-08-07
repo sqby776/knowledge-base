@@ -1,31 +1,50 @@
 ---
 title: openpyxl
-type: entity
-tags: [llmwiki, python, office, excel, 库]
+created: 2026-06-17
+updated: 2026-06-17
+tags: ["tool", "python", "excel"]
+status: archived
 sources: ["维基/sources/openpyxl教程.md"]
-created: 2026-06-05
-updated: 2026-06-05
+confidence: low
+trust_score: 0.17
 ---
-
 # openpyxl
 
-## 概览
+## 定义
 
-Python 库，用于读写 Excel 2010 xlsx/xlsm 文件格式。
+openpyxl — Python 读写 Excel 2010 xlsx/xlsm/xltx/xltm 格式的库，支持单元格样式、公式、图表、图片等高级功能。
 
-## 关键信息
+## 核心功能
 
-- **用途**：自动化读写 Excel 文件
-- **核心对象**：Workbook、Worksheet、Cell
-- **功能**：数据读写、样式设置、公式计算、图表插入
-- **适用场景**：自动化报表生成、Excel 数据批量处理
+| 功能 | 描述 |
+|:-----|:-----|
+| **读写 xlsx** | 读取和写入 Excel 2010 及以上格式 |
+| **样式** | Font、PatternFill、Alignment、Border |
+| **公式** | 直接写入 Excel 公式如 `=SUM(A1:A10)` |
+| **图表** | 折线图、柱状图、散点图 |
+| **图片** | 插入图片到工作表 |
+| **条件格式** | 数据条、色阶、图标集 |
 
-## 相关概念
+## 使用场景
 
-- [[Excel自动化]]
-- [[Office自动化]]
-- [[电子表格]]
+- 读取 Excel 报表进行数据分析
+- 生成带格式和公式的工资表
+- 创建包含多工作表的统计报表
+- 批量处理 Excel 文件
+
+## 安装
+
+```bash
+pip install openpyxl
+```
+
+## 相关
+
+- [[openpyxl教程]] — 使用详解
+- [[Excel自动化]] — Excel 自动化实践
+- [[Python办公库]] — Python 办公库汇总
 
 ## 来源
 
-- [[openpyxl教程]]
+- openpyxl 官方文档
+- 本系统实际使用经验

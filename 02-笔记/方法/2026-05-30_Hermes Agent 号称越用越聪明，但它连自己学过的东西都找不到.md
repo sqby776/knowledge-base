@@ -3,16 +3,13 @@ title: Hermes Agent 号称越用越聪明，但它连自己学过的东西都找
 created: 2026-05-30
 updated: 2026-05-30
 tags: [auto-extract, wechat, auto-compiled]
-status: active
+status: archived
 sources: [https://mp.weixin.qq.com/s/M_HNzSstaNNm_21AsLK7WA]
 date: 2026-06-01
 archived: 2026-06-01
+confidence: low
+trust_score: 0.17
 ---
-
-
-
-
-
 # Hermes Agent 号称越用越聪明，但它连自己学过的东西都找不到
 
 > 来源：https://mp.weixin.qq.com/s/M_HNzSstaNNm_21AsLK7WA

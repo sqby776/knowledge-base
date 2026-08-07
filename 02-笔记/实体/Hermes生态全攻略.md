@@ -3,10 +3,11 @@ title: Hermes 生态全攻略 — 80+ 工具配置指南
 created: 2026-05-30
 updated: 2026-05-30
 tags: ["hermes", "ecosystem", "tools", "configuration"]
-status: active
+status: archived
 sources: [http://chenxutan.com/d/2194.html]
+trust_score: 0.17
+confidence: low
 ---
-
 # Hermes 生态全攻略 — 80+ 工具配置指南
 
 > 来源：程序员茄子（chenxutan.com）
@@ -185,10 +186,10 @@ Hermes 的真正威力在于**生态配置**！这份清单横跨 **14 大功能
 
 ## 相关链接
 
-- [[Hermes_Agent.md]]
+- ../实体/Hermes_Agent.md
 - [[Scrapling]]
 - [[Crawl4AI]]
-- [[MemOS实操笔记.md]]
+- [[MemOS实操笔记]]
 - [[Holographic]]
 
 ## 来源

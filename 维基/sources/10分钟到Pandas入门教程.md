@@ -5,8 +5,10 @@ tags: [llmwiki, python, pandas, 数据科学]
 sources: ["01-收件箱/文章/2026-06-04_10_minutes_to_pandas.md"]
 created: 2026-06-05
 updated: 2026-06-05
+status: archived
+confidence: low
+trust_score: 0.17
 ---
-
 # 10 minutes to pandas
 
 ## 摘要

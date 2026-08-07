@@ -43,7 +43,7 @@ status: compiled
 
 ## 相关概念
 
-- [[DevTools Protocol]]
+- [[DevTools-Protocol]]
 - [[Agent]]
 - [[浏览器自动化]]
 - [[部署]]

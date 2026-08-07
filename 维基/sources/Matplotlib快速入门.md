@@ -2,10 +2,9 @@
 title: Matplotlib 快速入门指南
 type: source
 tags: [llmwiki, python, matplotlib, 数据可视化]
-sources: ["01-收件箱/文章/2026-06-04_Quick_start_guide.md", 01-收件箱/自动捕获/2026-06-08_Quick_start_guide.md]
+sources: ["01-收件箱/自动捕获/2026-06-15_Quick_start_guide.md"]
 created: 2026-06-05
-updated: 2026-06-08
-2026-06-05
+updated: 2026-06-15
 ---
 
 # Matplotlib 快速入门指南
@@ -26,11 +25,11 @@ Matplotlib 官方快速入门指南，介绍使用 matplotlib 进行可视化的
 
 ## 提及的实体
 
-- [[Matplotlib]]
+- [[Matplotlib快速入门]]
 
 ## 相关概念
 
-- [[数据可视化]]
+- [[Python数据可视化指南]]
 - [[图表类型]]
 - [[绘图接口]]
 

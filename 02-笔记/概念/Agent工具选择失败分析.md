@@ -3,10 +3,11 @@ title: Agent 工具选择失败分析 — MCP/Skills 不可见问题
 created: 2026-05-30
 updated: 2026-05-30
 tags: ["hermes", "mcp", "skills", "agent", "debugging"]
-status: active
+status: archived
 sources: [https://developer.microsoft.com/blog/how-ai-coding-agents-actually-use-your-technology]
+trust_score: 0.17
+confidence: low
 ---
-
 # Agent 工具选择失败分析 — MCP/Skills 不可见问题
 
 > 来源：微软开发者博客
@@ -79,9 +80,9 @@ sources: [https://developer.microsoft.com/blog/how-ai-coding-agents-actually-use
 
 ## 相关链接
 
-- [[Hermes_Agent.md]]
-- [[Agent 浏览器自动化 Chrome DevTools MCP 接入实战.md]]
-- [[HermesSkills效率翻倍指南.md]]
+- ../实体/Hermes_Agent.md
+- [[Agent 浏览器自动化 Chrome DevTools MCP 接入实战]]
+- [[HermesSkills效率翻倍指南]]
 
 ## 来源
 

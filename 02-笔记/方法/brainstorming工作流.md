@@ -3,12 +3,13 @@ title: 让AI先想清楚再动手 — Brainstorming工作流
 created: 2026-05-26
 updated: 2026-05-26
 tags: [workflow, brainstorming, ai-productivity]
-status: active
+status: archived
 sources:
   - 01-收件箱/文章/2026-05-26_Brainstorming Skill测评.md
   - 06-查询/2026-05-26_Hermes技能升级评估.md
+confidence: low
+trust_score: 0.17
 ---
-
 # 让AI先想清楚再动手 — Brainstorming工作流
 
 > 基于Brainstorming skill的核心逻辑，提炼为可手动执行的工作流

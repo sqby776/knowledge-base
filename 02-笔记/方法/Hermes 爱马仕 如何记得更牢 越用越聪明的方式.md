@@ -142,10 +142,10 @@ Hermes 的记忆已经比多数框架更像"长期搭档"，但它还可以再�
 
 ## 相关话题
 
-- [[Hermes_Agent.md]]
+- ../实体/Hermes_Agent.md
 - [[记忆系统架构]]
-- [[我做了一款 AI 编辑 Word 的 Skill.md]]
-- [[代理RAG.md]]
+- [[我做了一款 AI 编辑 Word 的 Skill]]
+- [[代理RAG]]
 
 ## 来源
 

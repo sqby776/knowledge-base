@@ -5,8 +5,10 @@ tags: [llmwiki, hermes-agent]
 sources: [01-收件箱/文章/2026-05-27_HermesAgent工具详解.md]
 created: 2026-06-01
 updated: 2026-06-01
+status: archived
+confidence: low
+trust_score: 0.17
 ---
-
 # Hermes Agent 工具
 
 ## 摘要

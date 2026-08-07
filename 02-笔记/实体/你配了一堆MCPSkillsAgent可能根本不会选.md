@@ -8,6 +8,7 @@ date: 2026-05-29
 status: active
 type: article
 tags: [Hermes, MCP, Skills, Agent, 工具调用]
+confidence: medium
 ---
 
 # 你配了一堆的MCP、Skills，Agent可能根本不会选

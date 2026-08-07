@@ -3,14 +3,13 @@ title: `json` — JSON encoder and decoder[¶](https://docs.python.org/3/library
 created: 2026-05-31
 updated: 2026-05-31
 tags: ["auto-capture", auto-compiled]
-status: active
+status: archived
 sources: [https://docs.python.org/3/library/json.html]
 source_url: https://docs.python.org/3/library/json.html
 archived: 2026-06-01
+confidence: low
+trust_score: 0.17
 ---
-
-
-
 # `json` — JSON encoder and decoder[¶](https://docs.python.org/3/library/json.html#module-json "Link to this heading")
 
 > 自动抓取自: [https://docs.python.org/3/library/json.html](https://docs.python.org/3/library/json.html)

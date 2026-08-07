@@ -208,5 +208,5 @@ pip install "scrapling[all]" && scrapling install
 
 ## 与现有笔记关联
 
-- 参见: [[Camoufox.md]], [[browser-harness-ai浏览器自动化工具]], [[Scrapling.md]]
-- 互补: [[Scrapling.md]] 是另一方案（基于 Playwright Chromium）
+- 参见: [[Camoufox]], [[browser-harness-ai浏览器自动化工具]], [[Scrapling]]
+- 互补: [[Scrapling]] 是另一方案（基于 Playwright Chromium）

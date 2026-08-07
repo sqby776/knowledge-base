@@ -3,10 +3,11 @@ title: Python 数据可视化学习路径
 created: 2026-05-30
 updated: 2026-05-30
 tags: ["python", "visualization", "learning-path", "method"]
-status: active
+status: archived
 sources: [https://realpython.com/python-data-visualization/]
+trust_score: 0.17
+confidence: low
 ---
-
 # Python 数据可视化学习路径
 
 > 来源：Real Python 数据可视化学习路径
@@ -88,8 +89,8 @@ pandas 基础绘图 → Matplotlib/Seaborn → Bokeh 交互 → Dash 应用 → 
 
 ## 相关链接
 
-- [[Matplotlib.md]]
-- [[Python办公库.md]]
+- [[Matplotlib]]
+- [[Python办公库]]
 - [[Seaborn]]
 - [[Bokeh]]
 

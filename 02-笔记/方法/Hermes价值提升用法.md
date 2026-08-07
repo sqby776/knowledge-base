@@ -3,10 +3,11 @@ title: Hermes Agent 价值提升用法
 created: 2026-05-30
 updated: 2026-05-30
 tags: ["hermes", "workflow", "ai-productivity", "tutorial"]
-status: active
+status: archived
 sources: [https://mp.weixin.qq.com/s/up8UslmWkvL64TjTRqDUuQ]
+trust_score: 0.17
+confidence: low
 ---
-
 # Hermes Agent 价值提升用法
 
 > 来源：微信公众号「i 龙虾」，2026-05-26 抓取
@@ -104,9 +105,9 @@ Hermes 看板功能被严重低估。
 
 ## 相关链接
 
-- [[Hermes_Agent.md]]
-- [[brainstorming工作流.md]]
-- [[MemOS实操笔记.md]]
+- ../实体/Hermes_Agent.md
+- [[brainstorming工作流]]
+- [[MemOS实操笔记]]
 
 ## 来源
 

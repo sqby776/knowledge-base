@@ -3,10 +3,11 @@ title: Hermes Skills 效率翻倍指南
 created: 2026-05-30
 updated: 2026-05-30
 tags: ["hermes", "skills", "productivity", "tutorial"]
-status: active
+status: archived
 sources: [https://mp.weixin.qq.com/s/KZwLXt9YjxfVYAbpGQ6rQg]
+trust_score: 0.17
+confidence: low
 ---
-
 # Hermes Skills 效率翻倍指南
 
 > 来源：微信公众号「科技奇遇寨」，2026-05-26 抓取
@@ -102,10 +103,10 @@ sources: [https://mp.weixin.qq.com/s/KZwLXt9YjxfVYAbpGQ6rQg]
 
 ## 相关链接
 
-- [[Hermes_Agent.md]]
-- [[HermesSkills效率翻倍指南.md]]
+- ../实体/Hermes_Agent.md
+- [[HermesSkills效率翻倍指南]]
 - [[find-skills]]
-- [[Scrapling-自适应爬虫框架详解.md]]
+- [[Scrapling]]
 
 ## 来源
 

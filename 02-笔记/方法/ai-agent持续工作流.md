@@ -3,12 +3,13 @@ title: AI Agent工作流 — 让Agent持续工作而非偶尔问答
 created: 2026-05-26
 updated: 2026-05-26
 tags: [workflow, hermes-agent, ai-productivity]
-status: active
+status: archived
 sources:
   - 01-收件箱/文章/2026-05-26_Hermes Agent价值提升用法.md
   - 02-笔记/methods/brainstorming工作流.md
+confidence: low
+trust_score: 0.17
 ---
-
 # AI Agent工作流 — 让Agent持续工作而非偶尔问答
 
 > 基于《让你的Hermes Agent发挥更大的价值》提炼的工作流

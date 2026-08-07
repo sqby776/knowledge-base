@@ -7,6 +7,7 @@ status: compiled
 type: article
 category: 实体
 tags: [公众号文章, 2026-06-02抓取]
+confidence: medium
 ---
 
 # Hermes Agent 6个必备Skills评测：让AI效率翻倍

@@ -2,7 +2,7 @@
 title: Rust
 type: entity
 tags: [llmwiki, hermes-agent]
-sources: ["01-收件箱/文章/2026-05-27_agent-browser部署指南.md", "01-收件箱/文章/2026-05-27_HermesAgent生态全攻略.md"]
+sources: ["01-收件箱/文章/2026_05_27_agent-browser部署指南.md", "01-收件箱/文章/2026_05_27_HermesAgent生态全攻略.md"]
 created: 2026-06-01
 updated: 2026-06-01
 ---
@@ -24,5 +24,5 @@ Rust 是在多个来源中被提及的重要实体。
 
 ## 来源
 
-- [[2026-05-27_agent-browser部署指南]]
-- [[2026-05-27_HermesAgent生态全攻略]]
+- [[从零到一，手把手教你部署-Hermes-Agent-浏览器自动化引擎]]
+- [[Hermes-Agent-生态全攻略：一文搞定-80+-高阶工具配置]]

@@ -1,0 +1,70 @@
+{
+  "source": "https://github.com/NousResearch/hermes-agent",
+  "title": "Hermes Agent GitHub 仓库",
+  "fetched_at": "2026-06-15",
+  "status": "success",
+  "knowledge_points": [
+    {
+      "title": "仓库规模",
+      "summary": "⭐189k Stars · 🍴32.6k Forks · 📝11,182 Commits · 👥1,387 Contributors · MIT License。v0.16.0是最新版(2026.6.5)。",
+      "tags": [
+        "规模",
+        "Stars",
+        "Contributors"
+      ]
+    },
+    {
+      "title": "v0.16.0 关键更新",
+      "summary": "874 commits, 542 merged PRs, 1,962 files changed, 399 issues closed。核心: Hermes Desktop原生应用(Electron)、远程网关连接(OAuth/密码)、Web管理面板全面升级、简体中文翻译、精简默认技能集、模糊模型选择器、/undo [N]命令、默认界面选择(cli/tui)。",
+      "tags": [
+        "v0.16.0",
+        "Desktop",
+        "远程网关",
+        "中文",
+        "undo"
+      ]
+    },
+    {
+      "title": "新模型支持",
+      "summary": "新增 deepseek-v4-flash, MiniMax-M3(1M上下文), qwen3.7-plus。模型目录每小时刷新。",
+      "tags": [
+        "模型",
+        "deepseek-v4-flash",
+        "MiniMax-M3",
+        "qwen3.7"
+      ]
+    },
+    {
+      "title": "Desktop App 详情",
+      "summary": "Electron原生应用，跨100个PR/159 commits/一周内完成。功能: 自更新、拖拽文件、剪贴板图片粘贴、Cmd+K命令面板、状态栏模型选择器、并发多Profile会话、简体中文全界面翻译、远程Hermes网关连接。",
+      "tags": [
+        "Desktop",
+        "Electron",
+        "自更新",
+        "多Profile"
+      ]
+    },
+    {
+      "title": "Web Dashboard 升级",
+      "summary": "完整管理面板: MCP目录、频道管理(Telegram/Discord/Slack)、凭证管理、Webhooks、记忆管理、网关控制、系统页面(更新前检查+Debug Share)。",
+      "tags": [
+        "Web Dashboard",
+        "管理",
+        "MCP",
+        "频道"
+      ]
+    },
+    {
+      "title": "技能系统变化",
+      "summary": "精简默认技能集: 移除冗余技能(spotify, linear, kanban-codex-lane等)，重型/小众技能移至可选。新增environments: frontmatter相关性门控。Curator可裁剪内置技能。NVIDIA/skills成为默认可信tap。",
+      "tags": [
+        "技能",
+        "精简",
+        "NVIDIA",
+        "curator"
+      ]
+    }
+  ],
+  "new_since_last": true,
+  "change_note": "v0.16.0 是重大版本，所有功能都是新增或改进"
+}

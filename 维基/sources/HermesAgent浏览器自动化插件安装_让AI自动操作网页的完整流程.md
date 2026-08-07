@@ -5,8 +5,10 @@ tags: [llmwiki, hermes-agent]
 sources: [01-收件箱/文章/2026-05-27_HermesAgent浏览器自动化插件安装.md]
 created: 2026-06-01
 updated: 2026-06-01
+status: archived
+confidence: low
+trust_score: 0.17
 ---
-
 # HermesAgent浏览器自动化插件安装_让AI自动操作网页的完整流程
 
 ## 摘要

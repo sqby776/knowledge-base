@@ -2,7 +2,7 @@
 title: Python
 type: entity
 tags: [llmwiki, hermes-agent]
-sources: ["01-收件箱/文章/2026-05-27_agent-browser部署指南.md", "01-收件箱/文章/2026-05-27_HermesAgent操控电脑指南.md", "01-收件箱/文章/2026-05-27_HermesAgent工具详解.md", "01-收件箱/文章/测试会议转写-2026-05-24.md", "01-收件箱/文章/2026-05-27_HermesAgent浏览器自动化插件安装.md"]
+sources: ["01-收件箱/文章/2026_05_27_agent-browser部署指南.md", "01-收件箱/文章/2026_05_27_HermesAgent操控电脑指南.md", "01-收件箱/文章/2026_05_27_HermesAgent工具详解.md", "01-收件箱/文章/测试会议转写---2026-05-24.md", "01-收件箱/文章/2026_05_27_HermesAgent浏览器自动化插件安装.md"]
 created: 2026-06-01
 updated: 2026-06-01
 ---
@@ -24,8 +24,8 @@ Python 是在多个来源中被提及的重要实体。
 
 ## 来源
 
-- [[2026-05-27_agent-browser部署指南]]
-- [[2026-05-27_HermesAgent操控电脑指南]]
-- [[2026-05-27_HermesAgent工具详解]]
-- [[测试会议转写-2026-05-24]]
-- [[2026-05-27_HermesAgent浏览器自动化插件安装]]
+- [[从零到一，手把手教你部署-Hermes-Agent-浏览器自动化引擎]]
+- [[怎么让-Hermes-Agent-操控电脑？]]
+- [[Hermes-Agent-工具]]
+- [[测试会议转写---2026-05-24]]
+- [[HermesAgent浏览器自动化插件安装_让AI自动操作网页的完整流程]]

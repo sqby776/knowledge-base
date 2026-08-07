@@ -3,10 +3,11 @@ title: MemPalace
 created: 2026-05-24
 updated: 2026-05-24
 tags: ["knowledge-base", "tool"]
-status: active
+status: archived
 sources: []
+trust_score: 0.17
+confidence: low
 ---
-
 # MemPalace
 
 ## 定义
@@ -54,10 +55,10 @@ MemOS 智能去重
 
 ## 相关链接
 
-- [[MemOS.md]]
-- [[Chroma.md]]
-- [[知识图谱.md]]
-- [[Hermes_Agent.md]]
+- [[MemOS]]
+- [[Chroma]]
+### 知识图谱（引用维度）
+- ../实体/Hermes_Agent.md
 
 ## 来源
 

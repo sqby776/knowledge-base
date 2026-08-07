@@ -7,6 +7,7 @@ status: compiled
 type: article
 category: 方法
 tags: [公众号文章, 2026-06-02抓取]
+confidence: medium
 ---
 
 # Hermes Agent Skill 系统深度解析

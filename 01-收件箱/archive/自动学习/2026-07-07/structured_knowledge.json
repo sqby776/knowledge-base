@@ -1,0 +1,167 @@
+{
+  "hermes-agent.nousresearch.com_homepage": {
+    "title": "Hermes Agent 官方网站",
+    "extracted_at": "2026-07-06_16-03-16",
+    "points": [
+      {
+        "tag": "版本",
+        "summary": "当前版本 v0.18.0",
+        "detail": "最新稳定版，MIT 协议开源"
+      },
+      {
+        "tag": "安装方式",
+        "summary": "支持命令行和桌面应用安装",
+        "detail": "macOS/Linux: curl -fsSL https://hermes-agent.nousresearch.com/install.sh | bash；Windows: PowerShell iex (irm ...install.ps1)；桌面版提供 .dmg (macOS) 和 .exe (Windows)"
+      },
+      {
+        "tag": "核心特性",
+        "summary": "6大核心能力",
+        "detail": "1) Connect - 多平台连接(Telegram/Discord/Slack/WhatsApp/Signal/Email/CLI)；2) Remember - 持久记忆(自动生成技能、跨会话学习)；3) Schedule - 自动化调度(自然语言定时任务)；4) Delegate - 任务委派(隔离子代理)；5) Search - 网页浏览(搜索/浏览器/视觉/图片生成/TTS)；6) Experiment - 隔离沙箱(5种后端: Docker/SSH/Singularity/Modal)"
+      },
+      {
+        "tag": "定价",
+        "summary": "Free/Plus/Super/Ultra 四级",
+        "detail": "通过 Nous Portal 订阅，付费层级含月配额积分，可访问300+前沿模型和内置工具"
+      }
+    ]
+  },
+  "hermes-agent.nousresearch.com_docs": {
+    "title": "Hermes Agent 官方文档",
+    "extracted_at": "2026-07-06_16-03-16",
+    "points": [
+      {
+        "tag": "文档概览",
+        "summary": "完整文档结构",
+        "detail": "涵盖：Home / Docs / Skills / Download / Getting Started / Using Hermes / Features / Messaging Platforms / Integrations / Guides / Developer Guide / Reference"
+      },
+      {
+        "tag": "核心定位",
+        "summary": "自我进化的 AI 智能体",
+        "detail": "不是 IDE 绑定的编程助手或单一 API 包装器，而是一个自主智能体，运行时间越长能力越强。可部署在 $5 VPS、GPU 集群或无服务器基础设施上"
+      },
+      {
+        "tag": "安装方式",
+        "summary": "多种安装方式",
+        "detail": "Linux/macOS/WSL2/Android(Termux): curl 脚本安装；Windows (native): PowerShell 安装；也可下载 Hermes Desktop 桌面应用"
+      },
+      {
+        "tag": "快速启动",
+        "summary": "最快路径",
+        "detail": "安装后运行 `hermes setup --portal`，一次 OAuth 覆盖模型 + 4个工具网关(网络搜索/图片生成/TTS/浏览器)"
+      }
+    ]
+  },
+  "github.com": {
+    "title": "GitHub 仓库 - NousResearch/hermes-agent",
+    "extracted_at": "2026-07-06_16-03-16",
+    "points": [
+      {
+        "tag": "仓库概况",
+        "summary": "官方 GitHub 仓库",
+        "detail": "https://github.com/NousResearch/hermes-agent - 由 Nous Research 维护"
+      },
+      {
+        "tag": "协议",
+        "summary": "MIT License",
+        "detail": "完全开源免费"
+      },
+      {
+        "tag": "社区规模",
+        "summary": "28,000+ Stars",
+        "detail": "据中文文档数据，GitHub 已获得 28,000+ Star（实际数字需从 GitHub API 确认）"
+      }
+    ]
+  },
+  "hermes.xaapi.ai": {
+    "title": "Hermes Agent 中文文档 (XAAPI)",
+    "extracted_at": "2026-07-06_16-03-16",
+    "points": [
+      {
+        "tag": "文档结构",
+        "summary": "简体中文文档",
+        "detail": "导航：指南 / 功能 / 消息平台 / 参考 / 开发者"
+      },
+      {
+        "tag": "核心定位",
+        "summary": "自托管 AI 智能体框架",
+        "detail": "由 Nous Research 打造 · 自我进化 · 跨平台 · 开源免费"
+      },
+      {
+        "tag": "自我学习",
+        "summary": "从对话中自动生成可复用技能",
+        "detail": "构建持久记忆，跨会话累积用户画像"
+      },
+      {
+        "tag": "消息平台",
+        "summary": "14+ 消息平台",
+        "detail": "Telegram、Discord、Slack、WhatsApp、Signal、微信企业版、飞书、钉钉等一站式接入"
+      },
+      {
+        "tag": "部署方式",
+        "summary": "完全自托管",
+        "detail": "数据完全掌控在自己手中，支持 Docker、SSH、本地、Singularity、Modal 等多种部署方式"
+      },
+      {
+        "tag": "模型支持",
+        "summary": "模型无关",
+        "detail": "支持 OpenAI、Claude、Gemini、DeepSeek、通义千问、Ollama 等 200+ 模型，一键切换"
+      },
+      {
+        "tag": "内置工具",
+        "summary": "47 个内置工具",
+        "detail": "网页搜索、终端操作、浏览器自动化、图片生成、语音识别、代码执行等"
+      },
+      {
+        "tag": "MCP 协议",
+        "summary": "MCP 双向支持",
+        "detail": "既可作为 MCP 客户端消费外部工具，也可作为 MCP 服务器供 IDE 调用"
+      },
+      {
+        "tag": "社区",
+        "summary": "28,000+ Star",
+        "detail": "GitHub Star 数量，由 XAAPI 社区翻译维护"
+      }
+    ]
+  },
+  "hermesagent.org.cn": {
+    "title": "Hermes Agent 中文社区 FAQ",
+    "extracted_at": "2026-07-06_16-03-16",
+    "points": [
+      {
+        "tag": "LLM 提供商",
+        "summary": "支持哪些模型提供商",
+        "detail": "支持任何兼容 OpenAI 的 API。包括：OpenRouter(推荐灵活性)、Nous Portal(推荐新用户，一次 OAuth 300+模型)、OpenAI(GPT-5.4/GPT-5-codex/GPT-4.1/GPT-4o)、Anthropic(Claude 系列)、Google(Gemini)、z.ai/GML(智谱AI)、Kimi/Moonshot、MiniMax(全球和中国端点)、本地模型(Ollama/vLLM/llama.cpp/SGLang)"
+      },
+      {
+        "tag": "平台支持",
+        "summary": "Win/Android/Termux 支持",
+        "detail": "完整的平台可用性矩阵见 Platform Support 文档"
+      },
+      {
+        "tag": "WSL2 浏览器",
+        "summary": "WSL2 中控制 Windows Chrome",
+        "detail": "推荐使用 MCP 桥接而非 /browser connect。在 WSL2 内运行 Hermes，在 Windows 使用正常 Chrome，通过 chrome-devtools-mcp 添加为 MCP 服务器"
+      },
+      {
+        "tag": "数据隐私",
+        "summary": "数据不会外泄",
+        "detail": "API 调用仅发送到配置的 LLM 提供商。Hermes Agent 不收集遥测数据、使用数据或分析数据。对话、记忆和技能都本地存储在 ~/.hermes/ 中"
+      },
+      {
+        "tag": "离线使用",
+        "summary": "支持离线/本地模型",
+        "detail": "可运行 `hermes model` 选择 Custom endpoint 并输入本地服务器 URL。示例配置：qwen3.5:27b 通过 localhost:11434/v1。配置持久化在 config.yaml 中"
+      },
+      {
+        "tag": "平台限流",
+        "summary": "平台限流(rate limit)处理",
+        "detail": "带有详细限流排查指导"
+      },
+      {
+        "tag": "社区促销",
+        "summary": "优云智算 Agent Plan",
+        "detail": "支持 GLM-5.2，49元/月起，按次调用"
+      }
+    ]
+  }
+}

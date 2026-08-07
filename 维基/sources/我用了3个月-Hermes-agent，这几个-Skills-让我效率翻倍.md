@@ -5,8 +5,10 @@ tags: [llmwiki, hermes-agent]
 sources: [01-收件箱/文章/2026-05-26_Hermes Skills效率翻倍.md]
 created: 2026-06-01
 updated: 2026-06-01
+status: archived
+confidence: low
+trust_score: 0.17
 ---
-
 # 我用了3个月 Hermes agent，这几个 Skills 让我效率翻倍
 
 ## 摘要

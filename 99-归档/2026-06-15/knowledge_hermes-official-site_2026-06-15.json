@@ -1,0 +1,48 @@
+{
+  "source": "https://hermes-agent.nousresearch.com/",
+  "title": "Hermes Agent 官网",
+  "fetched_at": "2026-06-15",
+  "status": "success",
+  "knowledge_points": [
+    {
+      "title": "Hermes Agent 核心定位",
+      "summary": "开源(MIT)自主AI代理，非IDE绑定型编程助手或单API聊天包装器。运行在服务器上，具备持续学习和记忆能力，使用时间越长越强大。",
+      "tags": [
+        "定位",
+        "MIT",
+        "自主代理"
+      ]
+    },
+    {
+      "title": "跨平台部署",
+      "summary": "支持 macOS/Linux/Windows 一键安装。提供 Desktop App (Electron) 和 CLI 两种使用形态。",
+      "tags": [
+        "安装",
+        "跨平台",
+        "Desktop"
+      ]
+    },
+    {
+      "title": "当前版本",
+      "summary": "v0.16.0 (2026.6.5) - \"The Surface Release\"，强调表面层（用户界面）重大升级。",
+      "tags": [
+        "版本",
+        "v0.16.0"
+      ]
+    },
+    {
+      "title": "六大核心特性",
+      "summary": "①多平台通信(Telegram/Discord/Slack/WhatsApp/Signal/Email/CLI)；②持续学习(持久记忆+自动生成技能)；③定时自动化(自然语言cron)；④委托并行(隔离子代理)；⑤五类沙箱后端(local/Docker/SSH/Singularity/Modal)；⑥完整Web控制(搜索/浏览器/视觉/图片生成/TTS)。",
+      "tags": [
+        "特性",
+        "多平台",
+        "学习",
+        "自动化",
+        "沙箱",
+        "Web"
+      ]
+    }
+  ],
+  "new_since_last": true,
+  "change_note": "v0.16.0 新增 Desktop App，这是以前版本没有的"
+}

@@ -1,3 +1,12 @@
+---
+title: Hermes Agent 生态资源导航
+created: 2026-06-05
+updated: 2026-06-05
+tags: []
+status: archived
+confidence: low
+trust_score: 0.17
+---
 # 建议收藏！Hermes Agent 全网最硬核学习资源与 GitHub 开源项目合集
 
 **来源**: 智同道合.AI (浪子无为)

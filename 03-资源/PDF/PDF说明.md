@@ -3,10 +3,11 @@ title: PDF 资源索引
 created: 2026-05-24
 updated: 2026-05-24
 tags: ["knowledge-base", "tutorial"]
-status: active
+status: archived
 sources: []
+trust_score: 0.17
+confidence: low
 ---
-
 # PDF 资源索引
 
 ## 说明

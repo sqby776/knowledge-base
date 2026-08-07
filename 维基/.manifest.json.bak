@@ -1,0 +1,217 @@
+{
+  "sources": {
+    "01-收件箱/自动捕获/2026-06-08_10_minutes_to_pandas.md": {
+      "md5": "ARCHIVED",
+      "ingested": "2026-06-22",
+      "wiki_pages": [
+        "sources/pandas-10分钟入门教程.md"
+      ]
+    },
+    "01-收件箱/文章/2026-05-26_Brainstorming Skill测评.md": {
+      "md5": "ARCHIVED",
+      "ingested": "2026-06-22",
+      "wiki_pages": [
+        "sources/AI-Skill深度测评第一期：Brainstorming.md"
+      ]
+    },
+    "01-收件箱/自动捕获/2026-06-08_csv_CSV_File_Reading_and_Writing.md": {
+      "md5": "ARCHIVED",
+      "ingested": "2026-06-22",
+      "wiki_pages": [
+        "sources/CSV模块读写.md"
+      ]
+    },
+    "01-收件箱/自动学习/03-GitHub_NousResearch_hermes-agent.md": {
+      "md5": "ARCHIVED",
+      "ingested": "2026-06-22",
+      "wiki_pages": [
+        "sources/Hermes Agent GitHub仓库统计.md"
+      ]
+    },
+    "01-收件箱/自动学习/06-中文快速入门_hermesagent.org.cn_quickstart.md": {
+      "md5": "ARCHIVED",
+      "ingested": "2026-06-22",
+      "wiki_pages": [
+        "sources/Hermes Agent中文快速入门.md"
+      ]
+    },
+    "01-收件箱/自动学习/04-中文文档_hermes.xaapi.ai.md": {
+      "md5": "ARCHIVED",
+      "ingested": "2026-06-22",
+      "wiki_pages": [
+        "sources/Hermes Agent中文文档站.md"
+      ]
+    },
+    "01-收件箱/自动学习/05-中文社区FAQ_hermesagent.org.cn.md": {
+      "md5": "ARCHIVED",
+      "ingested": "2026-06-22",
+      "wiki_pages": [
+        "sources/Hermes Agent中文社区FAQ.md"
+      ]
+    },
+    "01-收件箱/自动学习/02-官方文档_hermes-agent.nousresearch.com_docs.md": {
+      "md5": "ARCHIVED",
+      "ingested": "2026-06-22",
+      "wiki_pages": [
+        "sources/Hermes Agent官方文档导航.md"
+      ]
+    },
+    "01-收件箱/自动学习/01-官网_hermes-agent.nousresearch.com.md": {
+      "md5": "ARCHIVED",
+      "ingested": "2026-06-22",
+      "wiki_pages": [
+        "sources/Hermes Agent官网核心信息.md"
+      ]
+    },
+    "01_inbox/articles/2026-06-13_Hermes_Agent.md": {
+      "md5": "ARCHIVED",
+      "ingested": "2026-06-22",
+      "wiki_pages": [
+        "sources/Hermes-Agent-官方文档首页.md"
+      ]
+    },
+    "01-收件箱/文章/2026-05-27_HermesAgent工具详解.md": {
+      "md5": "ARCHIVED",
+      "ingested": "2026-06-22",
+      "wiki_pages": [
+        "sources/Hermes-Agent-工具.md"
+      ]
+    },
+    "01-收件箱/文章/2026-05-27_HermesAgent生态全攻略.md": {
+      "md5": "ARCHIVED",
+      "ingested": "2026-06-22",
+      "wiki_pages": [
+        "sources/Hermes-Agent-生态全攻略：一文搞定-80+-高阶工具配置.md"
+      ]
+    },
+    "01-收件箱/文章/2026-05-27_HermesAgent浏览器自动化插件安装.md": {
+      "md5": "ARCHIVED",
+      "ingested": "2026-06-22",
+      "wiki_pages": [
+        "sources/HermesAgent浏览器自动化插件安装_让AI自动操作网页的完整流程.md"
+      ]
+    },
+    "01-收件箱/文章/2026-05-26_Hermes OpenHands升级评估.md": {
+      "md5": "ARCHIVED",
+      "ingested": "2026-06-22",
+      "wiki_pages": [
+        "sources/Hermes接上OpenHands：这次升级适合谁用.md"
+      ]
+    },
+    "01-收件箱/自动捕获/2026-06-08_json_JSON_encoder_and_decoder.md": {
+      "md5": "ARCHIVED",
+      "ingested": "2026-06-22",
+      "wiki_pages": [
+        "sources/JSON模块.md"
+      ]
+    },
+    "01-收件箱/自动捕获/2026-06-08_Quick_start_guide.md": {
+      "md5": "ARCHIVED",
+      "ingested": "2026-06-22",
+      "wiki_pages": [
+        "sources/Matplotlib快速入门.md"
+      ]
+    },
+    "01-收件箱/自动捕获/2026-06-08_Data_Visualization_With_Python.md": {
+      "md5": "ARCHIVED",
+      "ingested": "2026-06-22",
+      "wiki_pages": [
+        "sources/Python数据可视化指南.md"
+      ]
+    },
+    "01-收件箱/自动捕获/2026-06-08_Tutorial.md": {
+      "md5": "ARCHIVED",
+      "ingested": "2026-06-22",
+      "wiki_pages": [
+        "sources/openpyxl教程.md"
+      ]
+    },
+    "01-收件箱/自动捕获/2026-06-08_pathlib_Object_oriented_filesystem_paths.md": {
+      "md5": "ARCHIVED",
+      "ingested": "2026-06-22",
+      "wiki_pages": [
+        "sources/pathlib模块.md"
+      ]
+    },
+    "01-收件箱/自动捕获/2026-06-08_Quickstart.md": {
+      "md5": "ARCHIVED",
+      "ingested": "2026-06-22",
+      "wiki_pages": [
+        "sources/python-docx快速入门.md"
+      ]
+    },
+    "01-收件箱/文章/2026-05-24_卡兹克文风技能与知识库构建.md": {
+      "md5": "ARCHIVED",
+      "ingested": "2026-06-22",
+      "wiki_pages": [
+        "sources/【原文】数字生命卡兹克文风复刻-skill-深度拆解.md"
+      ]
+    },
+    "01-收件箱/文章/2026-05-27_agent-browser部署指南.md": {
+      "md5": "ARCHIVED",
+      "ingested": "2026-06-22",
+      "wiki_pages": [
+        "sources/从零到一，手把手教你部署-Hermes-Agent-浏览器自动化引擎.md"
+      ]
+    },
+    "01-收件箱/文章/2026-05-27_HermesAgent操控电脑指南.md": {
+      "md5": "ARCHIVED",
+      "ingested": "2026-06-22",
+      "wiki_pages": [
+        "sources/怎么让-Hermes-Agent-操控电脑？.md"
+      ]
+    },
+    "01-收件箱/文章/2026-05-26_Hermes Skills效率翻倍.md": {
+      "md5": "ARCHIVED",
+      "ingested": "2026-06-22",
+      "wiki_pages": [
+        "sources/我用了3个月-Hermes-agent，这几个-Skills-让我效率翻倍.md"
+      ]
+    },
+    "01-收件箱/文章/测试会议转写-2026-05-24.md": {
+      "md5": "ARCHIVED",
+      "ingested": "2026-06-22",
+      "wiki_pages": [
+        "sources/测试会议转写---2026-05-24.md"
+      ]
+    },
+    "01-收件箱/文章/2026-05-23_RAG技术简析.md": {
+      "md5": "ARCHIVED",
+      "ingested": "2026-06-22",
+      "wiki_pages": [
+        "sources/测试文章：RAG-技术简析.md"
+      ]
+    },
+    "articles/15个被忽略的Agent高级能力-王二AI进化论.md": {
+      "md5": "ARCHIVED",
+      "ingested": "2026-06-22",
+      "wiki_pages": [
+        "sources/深度使用Hermes后的总结：15-个被忽略的-Agent-高级能力.md"
+      ]
+    },
+    "01-收件箱/文章/2026-05-26_Hermes Agent价值提升用法.md": {
+      "md5": "ARCHIVED",
+      "ingested": "2026-06-22",
+      "wiki_pages": [
+        "sources/让你的Hermes-Agent发挥更大的价值.md"
+      ]
+    },
+    "01-收件箱/自动捕获/2026-06-08_Getting_Started.md": {
+      "md5": "f1cd281d159f09fd6783d5349851f218",
+      "ingested": "2026-06-22",
+      "wiki_pages": []
+    },
+    "01-收件箱/自动捕获/2026-06-08_Hermes_Agent.md": {
+      "md5": "76e9dffaf3f6fcc41590390ee5989a06",
+      "ingested": "2026-06-22",
+      "wiki_pages": []
+    },
+    "03_Resources/awesome-evals.md": {
+      "md5": "0791634fbef79c3ef355e9ec90959f08",
+      "ingested": "2026-06-29",
+      "wiki_pages": [
+        "sources/awesome-evals-AI-Agent评估资源库.md"
+      ]
+    }
+  }
+}

@@ -6,8 +6,10 @@ sources: ["01-收件箱/文章/2026-06-04_pathlib_Object_oriented_filesystem_pat
 created: 2026-06-05
 updated: 2026-06-08
 2026-06-05
+status: archived
+confidence: low
+trust_score: 0.17
 ---
-
 # `pathlib` 模块 — 面向对象文件系统路径
 
 ## 摘要

@@ -3,10 +3,11 @@ title: Python Office 库
 created: 2026-05-24
 updated: 2026-05-30
 tags: ["tool", "automation", "office"]
-status: active
+status: archived
 sources: []
+trust_score: 0.17
+confidence: low
 ---
-
 # Python Office 库
 
 > [!INFO] 合并说明
@@ -78,9 +79,8 @@ prs.save('output.pptx')
 
 ## 相关链接
 
-- [[LibreOffice.md]]
-- [[办公工具.md]]
-- [[办公工具.md]]
+- [[LibreOffice]]
+- [[办公工具]]
 - [[AI-Word-Skill]] — 第三方 AI 编辑 Word 技能
 
 ## 来源

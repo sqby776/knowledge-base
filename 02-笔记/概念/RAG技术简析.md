@@ -3,10 +3,11 @@ title: RAG 技术简析
 created: 2026-05-24
 updated: 2026-05-30
 tags: ["rag", "knowledge-base", "ai", "concept"]
-status: active
+status: archived
 sources: []
+trust_score: 0.17
+confidence: low
 ---
-
 # RAG 技术简析
 
 > 来源：综合多篇技术文章整理
@@ -60,11 +61,11 @@ RAG 通过检索外部知识库，让模型基于真实文档生成答案，有�
 
 ## 相关链接
 
-- [[本地知识库.md]]
-- [[Chroma.md]]
-- [[BGE.md]]
-- [[M3E.md]]
-- [[MemOS实操笔记.md]]
+- [[本地知识库]]
+- [[Chroma]]
+- [[BGE]]
+- [[M3E]]
+- [[MemOS实操笔记]]
 
 ## 来源
 

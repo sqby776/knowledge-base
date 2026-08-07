@@ -3,12 +3,13 @@ title: delegate_task 与 Kanban 的多代理协作对比
 created: 2026-06-05
 updated: 2026-06-05
 tags: [delegate_task, kanban, 多代理, 工作队列, 任务管理, 状态机]
-status: active
+status: archived
 sources: ["https://mp.weixin.qq.com/s/jObS8xmcrrVoizArKXRtTg"]
 source_url: https://mp.weixin.qq.com/s/jObS8xmcrrVoizArKXRtTg
 related: [[Kanban]], [[delegate_task]]
+confidence: low
+trust_score: 0.17
 ---
-
 # delegate_task 与 Kanban 的多代理协作对比
 
 > 来源：微信公众号「量子智元」

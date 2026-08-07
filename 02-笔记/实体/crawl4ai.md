@@ -3,10 +3,11 @@ title: crawl4ai
 created: 2026-05-24
 updated: 2026-05-24
 tags: ["tool", "automation"]
-status: active
+status: archived
 sources: []
+trust_score: 0.17
+confidence: low
 ---
-
 # crawl4ai
 
 ## 定义
@@ -54,9 +55,9 @@ result = scraper.fetch(
 
 ## 相关链接
 
-- [[Camoufox.md]]
-- [[Scrapling-自适应爬虫框架详解.md]]
-- [[网页抓取.md]]
+- [[Camoufox]]
+- [[Scrapling]]
+- [[网页抓取]]
 
 ## 来源
 

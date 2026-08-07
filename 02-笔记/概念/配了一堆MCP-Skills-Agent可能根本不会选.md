@@ -7,6 +7,7 @@ status: compiled
 type: article
 category: 方法
 tags: [公众号文章, 2026-06-01抓取]
+confidence: medium
 ---
 
 # 配了一堆MCP-Skills-Agent可能根本不会选

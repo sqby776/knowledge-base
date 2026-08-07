@@ -5,8 +5,10 @@ tags: [llmwiki, hermes-agent]
 sources: [articles/15个被忽略的Agent高级能力-王二AI进化论.md]
 created: 2026-06-01
 updated: 2026-06-01
+status: archived
+confidence: low
+trust_score: 0.17
 ---
-
 # 深度使用Hermes后的总结：15 个被忽略的 Agent 高级能力
 
 ## 摘要

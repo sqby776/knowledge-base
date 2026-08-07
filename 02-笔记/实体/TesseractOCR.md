@@ -3,10 +3,11 @@ title: Tesseract OCR
 created: 2026-05-24
 updated: 2026-05-24
 tags: ["tool", "config"]
-status: active
+status: archived
 sources: []
+trust_score: 0.17
+confidence: low
 ---
-
 # Tesseract OCR
 
 ## 定义
@@ -66,9 +67,8 @@ Obsidian 的 Omnisearch 插件支持 Tesseract OCR，可自动识别图片/PDF �
 
 ## 相关链接
 
-- [[办公工具.md]]
-- [[LibreOffice.md]]
-- [[办公工具.md]]
+- [[办公工具]]
+- [[LibreOffice]]
 
 ## 来源
 

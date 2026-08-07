@@ -5,8 +5,10 @@ tags: [llmwiki, python, json, 数据序列化]
 sources: ["维基/sources/JSON模块.md"]
 created: 2026-06-05
 updated: 2026-06-05
+status: archived
+confidence: low
+trust_score: 0.17
 ---
-
 # JSON 数据交换
 
 ## 概览

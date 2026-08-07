@@ -3,10 +3,11 @@ title: M3E
 created: 2026-05-24
 updated: 2026-05-24
 tags: ["rag", "tool"]
-status: active
+status: archived
 sources: []
+trust_score: 0.17
+confidence: low
 ---
-
 # M3E
 
 ## 定义
@@ -63,10 +64,10 @@ embeddings = model.encode(['你好，世界', 'Hermes Agent'])
 
 ## 相关链接
 
-- [[BGE.md]]
-- [[嵌入模型.md]]
-- [[Chroma.md]]
-- [[RAG.md]]
+- [[BGE]]
+- [[嵌入模型]]
+- [[Chroma]]
+- [[RAG]]
 
 ## 来源
 

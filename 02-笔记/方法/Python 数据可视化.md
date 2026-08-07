@@ -3,10 +3,11 @@ title: Python 数据可视化
 created: 2026-06-02
 updated: 2026-06-02
 tags: ["python", "data-visualization", "matplotlib", "seaborn", "method"]
-status: active
+status: archived
 sources: [https://realpython.com/python-data-visualization/]
+trust_score: 0.17
+confidence: low
 ---
-
 # Python 数据可视化
 
 > 来源：RealPython - Python Data Visualization
@@ -63,6 +64,6 @@ df.groupby('category')['value'].mean().plot(kind='bar')
 
 ## 相关链接
 
-- [[Matplotlib.md]]
+- [[Matplotlib]]
 - [[Pandas 快速入门]]
-- [[Python办公库.md]]
+- [[Python办公库]]

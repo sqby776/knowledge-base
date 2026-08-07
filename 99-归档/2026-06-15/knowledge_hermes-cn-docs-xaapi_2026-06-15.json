@@ -1,0 +1,56 @@
+{
+  "source": "http://hermes.xaapi.ai",
+  "title": "Hermes Agent 中文文档 (XAAPI社区)",
+  "fetched_at": "2026-06-15",
+  "status": "success",
+  "knowledge_points": [
+    {
+      "title": "中文文档概况",
+      "summary": "非官方中文文档，由 XAAPI 社区翻译维护。提供完整入门指南(简介/安装/快速开始/配置)，以及进阶指南(安全模型/从 OpenClaw 迁移)。",
+      "tags": [
+        "中文",
+        "社区翻译",
+        "XAAPI"
+      ]
+    },
+    {
+      "title": "支持14+消息平台",
+      "summary": "Telegram/Discord/Slack/WhatsApp/Signal/微信企业版/飞书/钉钉/Matrix/IRC/Mattermost/Rocket.Chat/SMS(Twilio)/Email(IMAP/SMTP)。一套配置多平台在线。",
+      "tags": [
+        "消息平台",
+        "微信企业版",
+        "飞书",
+        "钉钉"
+      ]
+    },
+    {
+      "title": "模型提供商覆盖",
+      "summary": "云端: Nous Portal/OpenRouter/OpenAI/Anthropic/Google Gemini/DeepSeek/智谱AI/Kimi/MiniMax/阿里云通义千问/HuggingFace。本地: Ollama/vLLM/llama.cpp/SGLang。",
+      "tags": [
+        "模型",
+        "提供商",
+        "本地部署"
+      ]
+    },
+    {
+      "title": "技能创建三种方式",
+      "summary": "方式1: 从对话中自动提炼(核心学习机制)；方式2: 手动创建YAML文件在~/.hermes/skills/；方式3: 对话描述自动生成(hermes chat描述功能→自动生成技能文件)。",
+      "tags": [
+        "技能创建",
+        "自动提炼",
+        "YAML"
+      ]
+    },
+    {
+      "title": "中文社区特色内容",
+      "summary": "文档版本标注为v0.2.0(与英文版v0.16.0有差异)。提供国内镜像安装地址。覆盖中国特有平台(微信企业版/飞书/钉钉)。",
+      "tags": [
+        "中文社区",
+        "国内镜像",
+        "中国企业平台"
+      ]
+    }
+  ],
+  "new_since_last": true,
+  "change_note": "中文文档持续维护，版本号与官网不完全同步"
+}

@@ -1,3 +1,12 @@
+---
+title: Hermes Agent 微信操作 Obsidian 实践
+created: 2026-05-31
+updated: 2026-05-31
+tags: []
+status: archived
+confidence: low
+trust_score: 0.17
+---
 # Hermes Agent 实践：让微信 AI 接管 Obsidian
 
 **作者**：Original Sophia  

@@ -30,13 +30,13 @@ Hermes Agent 官方文档的首页/入口页，由 Nous Research 构建。概述
 
 ## 提及的实体
 
-- [[Hermes-Agent]]（概念笔记，含详细使用总结）
+- [[Hermes]]（概念笔记，含详细使用总结）
 - Nous Research
 - agentskills.io
 
 ## 相关概念
 
-- [[AI 记忆系统完全指南 Squish Longhand]]
+- [[Hermes-Agent-生态全攻略：一文搞定-80+-高阶工具配置]]
 - [[双链交叉引用]]
 
 ## 来源

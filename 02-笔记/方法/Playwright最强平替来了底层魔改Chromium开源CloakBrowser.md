@@ -1,5 +1,5 @@
 ---
-title: [[Playwright]] 最强平替来了，底层魔改 Chromium 开源 — [[CloakBrowser vs camofox-browser：反检测浏览器选型对比_学习要点.md]]
+title: [[Playwright]] 最强平替来了，底层魔改 Chromium 开源 — [[CloakBrowser vs camofox-browser：反检测浏览器选型对比_学习要点]]
 source: 微信公众号
 url: https://mp.weixin.qq.com/s/cSiyubzxraNObBOguHW0IQ
 date: 2026-06-02
@@ -9,7 +9,7 @@ category: 方法
 tags: [公众号文章, 2026-06-02抓取]
 ---
 
-# [[Playwright]] 最强平替来了，底层魔改 Chromium 开源 — [[CloakBrowser vs camofox-browser：反检测浏览器选型对比_学习要点.md]]
+# [[Playwright]] 最强平替来了，底层魔改 Chromium 开源 — [[CloakBrowser vs camofox-browser：反检测浏览器选型对比_学习要点]]
 
 > 来源: 微信公众号
 原文链接: https://mp.weixin.qq.com/s/cSiyubzxraNObBOguHW0IQ
@@ -28,19 +28,19 @@ tags: [公众号文章, 2026-06-02抓取]
 - - 不同代理、不同持久会话、不同 cookie 和 localStorage
 - - 容器启动后 `http://localhost:8080` 管理面板
 - - 支持 `launch_persistent_context()` 保留 cookie/localStorage
-- - 之前分析 29 篇公众号文章时 P3 推荐过 [[CloakBrowser vs camofox-browser：反检测浏览器选型对比_学习要点.md]]（可选装）
+- - 之前分析 29 篇公众号文章时 P3 推荐过 [[CloakBrowser vs camofox-browser：反检测浏览器选型对比_学习要点]]（可选装）
 - - 现在看到详细介绍，核心价值是源码级反检测，比 stealth 插件更长期
-- - [[CloakBrowser vs camofox-browser：反检测浏览器选型对比_学习要点.md]] = Chromium 源码改造（更稳定，维护成本低）
-- - [[Camoufox.md]] = Firefox 改造 + Docker 部署（部署更复杂）
+- - [[CloakBrowser vs camofox-browser：反检测浏览器选型对比_学习要点]] = Chromium 源码改造（更稳定，维护成本低）
+- - [[Camoufox]] = Firefox 改造 + Docker 部署（部署更复杂）
 - - 与 Chrome DevTools MCP 对比：
-- - [[CloakBrowser vs camofox-browser：反检测浏览器选型对比_学习要点.md]] 解决"不被检测"
+- - [[CloakBrowser vs camofox-browser：反检测浏览器选型对比_学习要点]] 解决"不被检测"
 - - 安装：pip install cloakbrowser（仅 Linux x86_64）
 - - 当前 [[Playwright]] 后端够用，但如果遇到 Cloudflare/fingerprintJS 拦截时可以换
 
 ## 原始内容
 
 ---
-title: [[Playwright]] 最强平替来了，底层魔改 Chromium 开源 — [[CloakBrowser vs camofox-browser：反检测浏览器选型对比_学习要点.md]]
+title: [[Playwright]] 最强平替来了，底层魔改 Chromium 开源 — [[CloakBrowser vs camofox-browser：反检测浏览器选型对比_学习要点]]
 source: 微信公众号（摸鱼挖开源）
 url: https://mp.weixin.qq.com/s/cSiyubzxraNObBOguHW0IQ
 date: 2026-06-02
@@ -50,12 +50,12 @@ tags: [cloakbrowser, chromium, anti-detection, playwright, puppeteer, automation
 category: 浏览器自动化
 ---
 
-# [[Playwright]] 最强平替来了，底层魔改 Chromium 开源 — [[CloakBrowser vs camofox-browser：反检测浏览器选型对比_学习要点.md]]（摘要）
+# [[Playwright]] 最强平替来了，底层魔改 Chromium 开源 — [[CloakBrowser vs camofox-browser：反检测浏览器选型对比_学习要点]]（摘要）
 
 ## 核心定位
-[[CloakBrowser vs camofox-browser：反检测浏览器选型对比_学习要点.md]] — 改过 Chromium 源码的浏览器二进制 + [[Playwright]]/Puppeteer 薄封装，让自动化脚本看起来像正常人在用浏览器。
+[[CloakBrowser vs camofox-browser：反检测浏览器选型对比_学习要点]] — 改过 Chromium 源码的浏览器二进制 + [[Playwright]]/Puppeteer 薄封装，让自动化脚本看起来像正常人在用浏览器。
 
-开源地址：https://github.com/CloakHQ/[[CloakBrowser vs camofox-browser：反检测浏览器选型对比_学习要点.md]]
+开源地址：https://github.com/CloakHQ/[[CloakBrowser vs camofox-browser：反检测浏览器选型对比_学习要点]]
 
 ## 解决的核心问题
 - 网站通过浏览器指纹、图形渲染、网络时序、自动化痕迹识别并拦截自动化工具
@@ -90,7 +90,7 @@ category: 浏览器自动化
 
 ## 与传统方案对比
 
-| 维度 | stealth 插件 | undetected-chromedriver | [[CloakBrowser vs camofox-browser：反检测浏览器选型对比_学习要点.md]] |
+| 维度 | stealth 插件 | undetected-chromedriver | [[CloakBrowser vs camofox-browser：反检测浏览器选型对比_学习要点]] |
 |------|-------------|------------------------|-------------|
 | 伪装层级 | 运行时 JS 注入 | 驱动层补丁 | 浏览器源码级 |
 | 稳定性 | Chrome 升级后失效 | Chrome 升级后失效 | 相对稳定 |
@@ -106,13 +106,13 @@ category: 浏览器自动化
 - 个人折腾 OK，团队落地需补验证
 
 ## 对当前系统的参考价值
-- 之前分析 29 篇公众号文章时 P3 推荐过 [[CloakBrowser vs camofox-browser：反检测浏览器选型对比_学习要点.md]]（可选装）
+- 之前分析 29 篇公众号文章时 P3 推荐过 [[CloakBrowser vs camofox-browser：反检测浏览器选型对比_学习要点]]（可选装）
 - 现在看到详细介绍，核心价值是源码级反检测，比 stealth 插件更长期
-- 与 [[Camoufox.md]] 对比：
-  - [[CloakBrowser vs camofox-browser：反检测浏览器选型对比_学习要点.md]] = Chromium 源码改造（更稳定，维护成本低）
-  - [[Camoufox.md]] = Firefox 改造 + Docker 部署（部署更复杂）
+- 与 [[Camoufox]] 对比：
+  - [[CloakBrowser vs camofox-browser：反检测浏览器选型对比_学习要点]] = Chromium 源码改造（更稳定，维护成本低）
+  - [[Camoufox]] = Firefox 改造 + Docker 部署（部署更复杂）
 - 与 Chrome DevTools MCP 对比：
-  - [[CloakBrowser vs camofox-browser：反检测浏览器选型对比_学习要点.md]] 解决"不被检测"
+  - [[CloakBrowser vs camofox-browser：反检测浏览器选型对比_学习要点]] 解决"不被检测"
   - MCP 解决"复用登录态"
   - 两者互补，不冲突
 - 安装：pip install cloakbrowser（仅 Linux x86_64）

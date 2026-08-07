@@ -3,14 +3,13 @@ title: `csv` — CSV File Reading and Writing[¶](https://docs.python.org/3/libr
 created: 2026-05-31
 updated: 2026-05-31
 tags: ["auto-capture", auto-compiled]
-status: active
+status: archived
 sources: [https://docs.python.org/3/library/csv.html]
 source_url: https://docs.python.org/3/library/csv.html
 archived: 2026-06-01
+confidence: low
+trust_score: 0.17
 ---
-
-
-
 # `csv` — CSV File Reading and Writing[¶](https://docs.python.org/3/library/csv.html#module-csv "Link to this heading")
 
 > 自动抓取自: [https://docs.python.org/3/library/csv.html](https://docs.python.org/3/library/csv.html)

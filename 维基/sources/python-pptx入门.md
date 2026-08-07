@@ -25,7 +25,7 @@ python-pptx 官方文档快速入门。python-pptx 是一个用于创建和更�
 
 ## 提及的实体
 
-- [[python-pptx]]
+- [[python-pptx入门]]
 
 ## 相关概念
 

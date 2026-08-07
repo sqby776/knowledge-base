@@ -3,10 +3,11 @@ title: browser-harness 部署指南
 created: 2026-05-30
 updated: 2026-05-30
 tags: ["browser-harness", "browser-automation", "cdp", "tool"]
-status: active
+status: archived
 sources: [https://mp.weixin.qq.com/s/6bZshgptd0cY4CxaczffOQ]
+trust_score: 0.17
+confidence: low
 ---
-
 # browser-harness 部署指南
 
 > 来源：微信公众号
@@ -119,9 +120,9 @@ ln -sf ~/browser-harness/domain-skills ~/.hermes/skills/browser-harness/domain-s
 
 ## 相关链接
 
-- [[Hermes_Agent.md]]
+- ../实体/Hermes_Agent.md
 - [[browser-harness]]
-- [[Agent 浏览器自动化 Chrome DevTools MCP 接入实战.md]]
+- [[Agent 浏览器自动化 Chrome DevTools MCP 接入实战]]
 
 ## 来源
 

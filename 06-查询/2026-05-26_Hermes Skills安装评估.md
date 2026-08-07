@@ -3,12 +3,13 @@ title: 2026-05-26 Hermes Skills 安装评估
 created: 2026-05-26
 updated: 2026-05-26
 tags: [hermes-agent, decision, skills]
-status: active
+status: archived
 sources:
   - 01-收件箱/文章/2026-05-26_Hermes Skills效率翻倍.md
   - 06-查询/2026-05-26_Hermes技能升级评估.md
+confidence: low
+trust_score: 0.17
 ---
-
 # 2026-05-26 Hermes Skills 安装评估
 
 > 基于《我用了3个月 Hermes agent，这几个 Skills 让我效率翻倍》的评估结论

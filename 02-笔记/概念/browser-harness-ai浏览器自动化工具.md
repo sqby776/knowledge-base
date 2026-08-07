@@ -4,6 +4,7 @@ created: 2026-05-26
 tags: [browser-harness, 浏览器自动化, AI工具, Hermes集成, CDP]
 status: draft
 sources: [https://github.com/browser-use/browser-harness]
+confidence: medium
 ---
 
 # browser-harness - AI 浏览器自动化工具

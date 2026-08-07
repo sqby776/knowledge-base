@@ -3,14 +3,13 @@ title: `pathlib` — Object-oriented filesystem paths[¶](https://docs.python.or
 created: 2026-05-31
 updated: 2026-05-31
 tags: ["auto-capture", auto-compiled]
-status: active
+status: archived
 sources: [https://docs.python.org/3/library/pathlib.html]
 source_url: https://docs.python.org/3/library/pathlib.html
 archived: 2026-06-01
+confidence: low
+trust_score: 0.17
 ---
-
-
-
 # `pathlib` — Object-oriented filesystem paths[¶](https://docs.python.org/3/library/pathlib.html#module-pathlib "Link to this heading")
 
 > 自动抓取自: [https://docs.python.org/3/library/pathlib.html](https://docs.python.org/3/library/pathlib.html)

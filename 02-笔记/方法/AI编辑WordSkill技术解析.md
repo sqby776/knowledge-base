@@ -3,10 +3,11 @@ title: AI 编辑 Word Skill 技术解析
 created: 2026-05-30
 updated: 2026-05-30
 tags: ["word", "skill", "automation", "python-docx"]
-status: active
+status: archived
 sources: [https://mp.weixin.qq.com/s/Fnp8Ly9qv9QCweqpmWqyaw]
+trust_score: 0.17
+confidence: low
 ---
-
 # AI 编辑 Word Skill 技术解析
 
 > 来源：微信公众号-AI 干货家老明
@@ -77,7 +78,7 @@ for table in doc.tables:
 
 ## 相关链接
 
-- [[Python办公库.md]]
+- [[Python办公库]]
 - [[公文排版标准]]
 - [[office-toolchain]]
 

@@ -7,6 +7,7 @@ status: compiled
 type: article
 category: 方法
 tags: [公众号文章, 2026-06-01抓取]
+confidence: medium
 ---
 
 # 276个Hermes-Agent用例-数字员工基础设施

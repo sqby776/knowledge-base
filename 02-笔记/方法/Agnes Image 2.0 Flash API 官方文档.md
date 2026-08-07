@@ -7,6 +7,7 @@ status: compiled
 type: article
 category: 方法
 tags: [公众号文章, 2026-06-02抓取]
+confidence: medium
 ---
 
 # Agnes Image 2.0 Flash API 官方文档

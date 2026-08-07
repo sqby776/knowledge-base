@@ -6,8 +6,10 @@ sources: ["01-收件箱/文章/2026-06-04_json_JSON_encoder_and_decoder.md", 01-
 created: 2026-06-05
 updated: 2026-06-08
 2026-06-05
+status: archived
+confidence: low
+trust_score: 0.17
 ---
-
 # `json` 模块 — JSON 编码器和解码器
 
 ## 摘要

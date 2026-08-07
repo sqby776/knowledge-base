@@ -3,10 +3,11 @@ title: Pandas 快速入门
 created: 2026-06-02
 updated: 2026-06-02
 tags: ["python", "pandas", "data-analysis", "method"]
-status: active
+status: archived
 sources: [https://pandas.pydata.org/docs/user_guide/10min.html]
+trust_score: 0.17
+confidence: low
 ---
-
 # Pandas 快速入门
 
 > 来源：Pandas 官方文档 - 10分钟快速入门
@@ -74,6 +75,6 @@ df.to_json('data.json', orient='records', force_ascii=False)
 
 ## 相关链接
 
-- [[Python办公库.md]]
+- [[Python办公库]]
 - [[Python 数据可视化]]
-- [[Python办公库.md]]
+- [[Python办公库]]

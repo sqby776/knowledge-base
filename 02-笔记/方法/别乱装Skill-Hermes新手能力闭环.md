@@ -3,10 +3,11 @@ title: 别乱装 Skill：Hermes Agent 新手的第一套能力闭环
 created: 2026-05-24
 updated: 2026-05-31
 tags: [Hermes-Agent, Skill, 系统设计, 能力闭环, 方法]
-status: active
+status: archived
 sources: [https://mp.weixin.qq.com/s/MrNesthFH4AeqFGzuSXOpQ]
+confidence: low
+trust_score: 0.17
 ---
-
 # 别乱装 Skill：Hermes Agent 新手的第一套能力闭环
 
 > 来源：微信公众号，2026-05-24 抓取
@@ -67,6 +68,6 @@ plan → native-mcp → github-pr-workflow → systematic-debugging
 
 ## 相关链接
 
-- [[Hermes_Agent.md]]
+- ../实体/Hermes_Agent.md
 - [[HermesSkills效率翻倍指南]]
 - [[技能迭代法]]

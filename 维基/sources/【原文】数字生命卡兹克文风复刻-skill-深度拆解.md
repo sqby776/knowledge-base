@@ -5,8 +5,10 @@ tags: [llmwiki, hermes-agent]
 sources: [01-收件箱/文章/2026-05-24_卡兹克文风技能与知识库构建.md]
 created: 2026-06-01
 updated: 2026-06-01
+status: archived
+confidence: low
+trust_score: 0.17
 ---
-
 # 【原文】数字生命卡兹克文风复刻 skill 深度拆解
 
 ## 摘要

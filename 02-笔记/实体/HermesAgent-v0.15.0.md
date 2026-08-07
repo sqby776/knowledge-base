@@ -3,10 +3,11 @@ title: Hermes Agent v0.15.0 Velocity Release
 created: 2026-05-30
 updated: 2026-05-30
 tags: ["hermes", "release", "v0.15.0", "performance"]
-status: active
+status: archived
 sources: [https://mp.weixin.qq.com/s/upOzw2FtUVWsslcgi9nHPA]
+trust_score: 0.17
+confidence: low
 ---
-
 # Hermes Agent v0.15.0 — Velocity Release（速度革命）
 
 > 来源：Nous Research 2026 年 5 月 28 日发布
@@ -84,10 +85,10 @@ hermes mcp  # 一键安装认证 MCP
 
 ## 相关链接
 
-- [[Hermes_Agent.md]]
-- [[brainstorming工作流.md]]
-- [[Agent 浏览器自动化 Chrome DevTools MCP 接入实战.md]]
-- [[HermesSkills效率翻倍指南.md]]
+- ../实体/Hermes_Agent.md
+- [[brainstorming工作流]]
+- [[Agent 浏览器自动化 Chrome DevTools MCP 接入实战]]
+- [[HermesSkills效率翻倍指南]]
 
 ## 来源
 

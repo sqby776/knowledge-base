@@ -305,10 +305,10 @@ longhand replay def456        # → 回放审查过程
 
 ## 相关链接
 
-- [[当 AI 开始失忆 Hermes 记忆系统改造手记.md]]
-- [[Agent 浏览器自动化 Chrome DevTools MCP 接入实战.md]]
-- [[Hermes_Agent.md]]
-- [[MemOS.md]]
+- [[当 AI 开始失忆 Hermes 记忆系统改造手记]]
+- [[Agent 浏览器自动化 Chrome DevTools MCP 接入实战]]
+- ../实体/Hermes_Agent.md
+- [[MemOS]]
 
 ## 来源
 

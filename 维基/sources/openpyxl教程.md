@@ -2,7 +2,7 @@
 title: openpyxl Tutorial
 type: source
 tags: [llmwiki, python, office, excel, openpyxl]
-sources: ["01-收件箱/文章/2026-06-04_Tutorial.md", "01-收件箱/自动捕获/2026-06-08_Tutorial.md"]
+sources: ["01-收件箱/自动捕获/2026-06-15_Tutorial.md"]
 created: 2026-06-05
 updated: 2026-06-08
 ---
@@ -27,7 +27,7 @@ openpyxl 官方教程。openpyxl 用于读写 Excel 2010 xlsx/xlsm 文件格式�
 
 ## 提及的实体
 
-- [[openpyxl]]
+- [[openpyxl教程]]
 
 ## 相关概念
 

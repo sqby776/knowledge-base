@@ -3,10 +3,11 @@ title: LibreOffice
 created: 2026-05-24
 updated: 2026-05-24
 tags: ["tool", "config"]
-status: active
+status: archived
 sources: []
+trust_score: 0.17
+confidence: low
 ---
-
 # LibreOffice
 
 ## 定义
@@ -57,10 +58,9 @@ libreoffice --headless --invisible
 
 ## 相关链接
 
-- [[办公工具.md]]
-- [[Python办公库.md]]
-- [[TesseractOCR.md]]
-- [[办公工具.md]]
+- [[办公工具]]
+- [[Python办公库]]
+- [[TesseractOCR]]
 
 ## 来源
 
