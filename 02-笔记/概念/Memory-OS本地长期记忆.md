@@ -3,11 +3,11 @@ title: Memory OS — Hermes Agent 本地长期记忆系统
 created: 2026-07-14
 updated: 2026-07-14
 tags: [hermes-agent, memory, knowledge-base]
-status: active
-confidence: high
+status: needs-review
+confidence: medium
 source: 公众号 arduino
+trust_score: 0.41
 ---
-
 # Memory OS — Hermes Agent 本地长期记忆系统
 
 > 1045 Star 开源项目，用 Qdrant + SQLite 给 Hermes Agent 装 7 层本地长期记忆，不绑云服务。

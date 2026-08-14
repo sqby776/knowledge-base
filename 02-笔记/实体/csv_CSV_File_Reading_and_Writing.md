@@ -3,10 +3,10 @@ title: csv — CSV 文件读写
 created: 2026-06-18
 updated: 2026-07-03
 tags: [knowledge-base, python, csv, data-io]
-status: needs-review
+status: archived
 sources: [https://docs.python.org/3/library/csv.html]
 confidence: low
-trust_score: 0.21
+trust_score: 0.17
 ---
 # csv — CSV 文件读写
 

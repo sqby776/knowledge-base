@@ -3,10 +3,10 @@ title: python-docx 快速开始
 created: 2026-06-18
 updated: 2026-07-03
 tags: [knowledge-base, python, office-automation]
-status: needs-review
+status: archived
 sources: [https://python-docx.readthedocs.io/en/latest/user/quickstart.html]
 confidence: low
-trust_score: 0.21
+trust_score: 0.17
 ---
 # python-docx 快速开始
 

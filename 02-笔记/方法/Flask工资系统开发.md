@@ -3,11 +3,11 @@ title: Flask工资系统开发方法论
 created: 2026-07-14
 updated: 2026-07-14
 tags: [flask, workflow, architecture]
-status: active
-confidence: high
+status: needs-review
+confidence: medium
 sources: [01-收件箱/archive/工资管理系统开发记录]
+trust_score: 0.41
 ---
-
 # Flask 工资系统开发方法论
 
 ## 项目结构

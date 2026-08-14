@@ -1,16 +1,101 @@
 ---
-title: Pandas 10分钟入门
-created: 2026-06-18
-updated: 2026-07-03
-tags: [knowledge-base, pandas, python, data-analysis]
-status: archived
+title: 10 minutes to pandas#
+created: 2026-08-15
+updated: 2026-08-15
+tags: ["auto-capture", auto-compiled]
+status: compiled
 sources: [https://pandas.pydata.org/docs/user_guide/10min.html]
-confidence: low
-trust_score: 0.17
+source_url: https://pandas.pydata.org/docs/user_guide/10min.html
 ---
-# Pandas 10分钟入门
 
-> 摘自 pandas 官方文档 [10 minutes to pandas](https://pandas.pydata.org/docs/user_guide/10min.html)，2026-07-03 更新
+# 10 minutes to pandas#
+
+> 自动抓取自: [https://pandas.pydata.org/docs/user_guide/10min.html](https://pandas.pydata.org/docs/user_guide/10min.html)
+
+Skip to main content
+
+__Back to top __` Ctrl`+`K`
+
+[ ![pandas 3.0.5 documentation - Home](../_static/pandas.svg)![pandas 3.0.5 documentation - Home](https://pandas.pydata.org/static/img/pandas_white.svg)](../index.html)
+
+  * [ Getting started ](../getting_started/index.html)
+  * [ User Guide ](index.html)
+  * [ API reference ](../reference/index.html)
+  * [ Development ](../development/index.html)
+  * [ Release notes ](../whatsnew/index.html)
+
+
+
+__ Search `Ctrl`+`K`
+
+Choose version 
+
+______
+
+  * [__ GitHub](https://github.com/pandas-dev/pandas "GitHub")
+  * [__ X](https://x.com/pandas_dev "X")
+  * [__ Mastodon](https://fosstodon.org/@pandas_dev "Mastodon")
+
+
+
+__ Search `Ctrl`+`K`
+
+  * [ Getting started ](../getting_started/index.html)
+  * [ User Guide ](index.html)
+  * [ API reference ](../reference/index.html)
+  * [ Development ](../development/index.html)
+  * [ Release notes ](../whatsnew/index.html)
+
+
+
+Choose version 
+
+______
+
+  * [__ GitHub](https://github.com/pandas-dev/pandas "GitHub")
+  * [__ X](https://x.com/pandas_dev "X")
+  * [__ Mastodon](https://fosstodon.org/@pandas_dev "Mastodon")
+
+
+
+  * 10 minutes to pandas
+  * [Intro to data structures](dsintro.html)
+  * [Essential basic functionality](basics.html)
+  * [IO tools (text, CSV, HDF5, …)](io.html)
+  * [PyArrow Functionality](pyarrow.html)
+  * [Indexing and selecting data](indexing.html)
+  * [MultiIndex / advanced indexing](advanced.html)
+  * [Copy-on-Write (CoW)](copy_on_write.html)
+  * [Merge, join, concatenate and compare](merging.html)
+  * [Reshaping and pivot tables](reshaping.html)
+  * [Working with text data](text.html)
+  * [Working with missing data](missing_data.html)
+  * [Duplicate Labels](duplicates.html)
+  * [Categorical data](categorical.html)
+  * [Nullable integer data type](integer_na.html)
+  * [Nullable Boolean data type](boolean.html)
+  * [Chart visualization](visualization.html)
+  * [Table Visualization](style.html)
+  * [User-Defined Functions (UDFs)](user_defined_functions.html)
+  * [Group by: split-apply-combine](groupby.html)
+  * [Windowing operations](window.html)
+  * [Time series / date functionality](timeseries.html)
+  * [Time deltas](timedeltas.html)
+  * [Options and settings](options.html)
+  * [Enhancing performance](enhancingperf.html)
+  * [Scaling to large datasets](scale.html)
+  * [Sparse data structures](sparse.html)
+  * [Migration guide for the new string data type (pandas 3.0)](migration-3-strings.html)
+  * [Frequently Asked Questions (FAQ)](gotchas.html)
+  * [Cookbook](cookbook.html)
+
+
+
+  * [ __](../index.html)
+  * [User Guide](index.html)
+  * 10 minutes to pandas
+
+
 
 # 10 minutes to pandas#
 
@@ -34,6 +119,8 @@ pandas provides two types of classes for handling data:
 such as integers, strings, Python objects etc.
 
   2. [`DataFrame`](../reference/api/pandas.DataFrame.html#pandas.DataFrame "pandas.DataFrame"): a two-dimensional data structure that holds data like a two-dimension array or a table with rows and columns.
+
+
 
 
 ## Object creation#
@@ -898,6 +985,8 @@ By “group by” we are referring to a process involving one or more of the fol
   * **Combining** the results into a data structure
 
 
+
+
 See the [Grouping section](groupby.html#groupby).
     
     
@@ -1398,8 +1487,44 @@ See [Comparisons](basics.html#basics-compare) and [Gotchas](gotchas.html#gotchas
 
 [ __ previous User Guide ](index.html "previous page") [ next Intro to data structures __](dsintro.html "next page")
 
+__On this page
+
+  * Basic data structures in pandas
+  * Object creation
+  * Viewing data
+  * Selection
+    * Getitem (`[]`)
+    * Selection by label
+    * Selection by position
+    * Boolean indexing
+    * Setting
+  * Missing data
+  * Operations
+    * Stats
+    * User defined functions
+    * Value Counts
+    * String Methods
+  * Merge
+    * Concat
+    * Join
+  * Grouping
+  * Reshaping
+    * Stack
+    * Pivot tables
+  * Time series
+  * Categoricals
+  * Plotting
+  * Importing and exporting data
+    * CSV
+    * Parquet
+    * Excel
+  * Gotchas
 
 
----
 
-*最后更新：2026-07-03*
+© 2026, pandas via [NumFOCUS, Inc.](https://numfocus.org) Hosted by [OVHcloud](https://www.ovhcloud.com). 
+
+Created using [Sphinx](https://www.sphinx-doc.org/) 9.0.4.   
+
+
+Built with the [PyData Sphinx Theme](https://pydata-sphinx-theme.readthedocs.io/en/stable/index.html) 0.16.1. 

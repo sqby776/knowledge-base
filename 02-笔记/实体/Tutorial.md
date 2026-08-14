@@ -3,10 +3,10 @@ title: openpyxl 教程
 created: 2026-06-18
 updated: 2026-07-03
 tags: [knowledge-base, python, office-automation]
-status: needs-review
+status: archived
 sources: [https://openpyxl.readthedocs.io/en/latest/tutorial.html]
 confidence: low
-trust_score: 0.21
+trust_score: 0.17
 ---
 # openpyxl 教程
 

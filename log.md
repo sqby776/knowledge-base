@@ -1,3 +1,319 @@
+### 2026-08-15 07:00:00 后台维护
+
+#### 抓取编译
+| 操作 | 详情 |
+|:----|:------|
+| 收件箱扫描 | 01-收件箱/自动捕获 与 01_inbox/articles 各 6 个捕获文件（pandas/Data_Visualization/Quick_start_guide/csv/json/pathlib），跨收件箱 MD5 完全一致（双路径例行写入） |
+| 内容比对 | 6 个捕获与 2026-08-14 存档归一化比对：全部内容一致（规范化 hash 相同），均无实质变化。csv 的 08-13 版为 Sniffer 结构性更新唯一版本（保留），08-14/08-15 内容相同 |
+| 编译判断 | 全部为已知来源例行捕获，无新知识点，不触发编译/实体笔记更新 |
+
+#### 整理归档
+| 操作 | 详情 |
+|:----|:------|
+| 两份归档 | 01-收件箱/archive/自动捕获/2026-08-15/ 与 01_inbox/archive/articles/2026-08-15/ 各 6 文件 |
+| 收件箱状态 | 全部清空（01-收件箱/ 各子目录、01_inbox/articles/ 均无待处理 md） |
+| 重复副本删除 | 02-笔记/实体/学习报告_2026_08_10md.md 为 archive/自动学习/2026-08-10/学习报告_2026-08-10.md 的字节相同副本（md5: b91bebad...），auto-compile 错误命名产物，删除 |
+
+#### 去重归纳
+| 操作 | 详情 |
+|:----|:------|
+| 归档精确去重 | 内容规范化 hash 去重：01-收件箱/archive/自动捕获 删 11 份（08-13/08-14 重复→保留 08-15），01_inbox/archive/articles 删 11 份，共 22 份。csv 08-13 唯一版（Sniffer 更新）保留 |
+| Hermes_Agent | 66 份归档中 65 组内容唯一（每日 llms hash 引用变化），按参考规范不修剪，保持现状 |
+| 小文件验证 | 13 个 <1KB 文件逐一检查：12 个合法速查卡/概念卡（结构化内容保留），Quick_start_guide.md 为已知自动重建 stub（方案A跳过，enriched 版 Quickstart-Guide.md 70KB 兜底） |
+| 补充笔记 | Hermes_站点学习报告.md 从 v0.17 stub（774B）升级为 v0.20.0 完整版（3695B，含版本基线/亮点/文档体系/站点状态/信息缺口），落实 08-10 学习报告建议 |
+| 地图更新 | 07_moc/知识地图.md 实体统计 62→61，updated → 2026-08-15 |
+
+#### 知识库统计
+| 分类 | 文件数 | 变动 |
+|:----|:------|:-----|
+| 实体 | 61 | -1（删除重复副本） |
+| 概念 | 39 | 不变 |
+| 方法 | 50 | 不变 |
+| 学习要点 | 0 | 不变 |
+
+#### 跟踪文件
+| 操作 | 详情 |
+|:----|:------|
+| _hash_tracker.md | 上次更新 2026-08-01，今天无 Hermes_Agent 捕获，无需更新 |
+| .last-compile | 更新中 |
+
+---
+
+### 2026-08-14 07:00:00 后台维护
+
+#### 抓取编译
+| 操作 | 详情 |
+|:----|:------|
+| 收件箱扫描 | 01-收件箱/自动捕获 与 01_inbox/articles 各 6 个捕获文件（pandas/Data_Visualization/Quick_start_guide/csv/json/pathlib） |
+| 内容比对 | 6 个捕获与 2026-08-13 存档归一化比对：10_minutes_to_pandas、Data_Visualization_With_Python、Quick_start_guide 内容完全一致；json/pathlib 仅"Last updated"日期变化（无实质性）；csv 有结构性变化——Sniffer 类文档更新（硬编码优先顺序列表→引用 `preferred` 属性，新增 `Sniffer` 类属性说明） |
+| 实体笔记更新 | csv 实体笔记已有 10 处 Sniffer 引用且已包含 preferred 属性，不触发更新 |
+
+#### 整理归档
+| 操作 | 详情 |
+|:----|:------|
+| 两份归档 | 01-收件箱/archive/自动捕获/2026-08-14/ 与 01_inbox/archive/articles/2026-08-14/ 各 6 文件，MD5 完全一致（双路径例行写入） |
+| 收件箱状态 | 全部清空（01-收件箱/ 各子目录、01_inbox/articles/ 均空） |
+
+#### 去重归纳
+| 操作 | 详情 |
+|:----|:------|
+| 归档重复 | 01_inbox/archive/articles/ 中 Hermes_Agent 累计 66 份（较上次 41 份增 25 份），建议择机修剪 |
+| 内容验证 | 6 个文件仅 csv 有实质更新（Sniffer 类文档改进），其余无实质性内容变化 |
+| 补充笔记 | 0 篇（无新知识点） |
+| 地图更新 | 否（例行捕获，无新领域/新知识点） |
+
+#### 知识库统计
+| 分类 | 文件数 | 变动 |
+|:----|:------|:-----|
+| 实体 | 62 | 不变 |
+| 概念 | 39 | 不变 |
+| 方法 | 50 | 不变 |
+| 学习要点 | 0 | 不变 |
+
+#### 跟踪文件
+| 操作 | 详情 |
+|:----|:------|
+| _hash_tracker.md | 上次更新 2026-08-01，今天无 Hermes_Agent 捕获，无需更新 |
+| .last-compile | 更新中 |
+
+---
+
+### 2026-08-13 20:03:38 后台维护（补充）
+
+#### 抓取编译
+| 操作 | 详情 |
+|:----|:------|
+| 收件箱扫描 | 所有活跃目录为空（01-收件箱/自动学习/仅_hash_tracker.md、自动捕获/空、已处理/空、文章/空、_from_user/空；01_inbox/articles/空） |
+| 内容比对 | 6 个捕获文件（08-13 07:00）与 2026-07-16 存档版本内容归一化对比：Data_Visualization_With_Python 仅登录参数变化，csv/json/pathlib 仅 Python 版本号 3.14.6→3.14.7，Quick_start_guide 仅 Matplotlib 版本号 3.11.0→3.11.1，均无实质性内容变化 |
+| 小文件检查 | 13 个 <1KB 文件逐一验证：12 个为合法速查卡（含 wikilinks/表格/结构化内容/archived 状态），Quick_start_guide.md 为已知自动重建 stub（指向 Quickstart-Guide.md 70KB enriched 版） |
+
+#### 整理归档
+| 操作 | 详情 |
+|:----|:------|
+| 两份归档 | 01-收件箱/archive/自动捕获/2026-08-13/ 与 01_inbox/archive/articles/2026-08-13/ 各 6 文件，MD5 完全一致（双路径例行写入） |
+| 收件箱状态 | 全部清空（01-收件箱/ 各子目录、01_inbox/articles/ 均空） |
+
+#### 去重归纳
+| 操作 | 详情 |
+|:----|:------|
+| 归档重复 | 01_inbox/archive/articles/ 中 Hermes_Agent 累计 41 份（含 v2/v3 变体），建议下次修剪；Python 文档各 2-4 份可接受 |
+| 内容验证 | 6 个文件无实质性内容变化（仅版本号/导航链接微小差异），不触发实体笔记更新 |
+| 补充笔记 | 0 篇（无新知识点） |
+| 地图更新 | 否（例行捕获，无新领域/新知识点） |
+
+#### 知识库统计
+| 分类 | 文件数 | 变动 |
+|:----|:------|:-----|
+| 实体 | 62 | 不变 |
+| 概念 | 39 | 不变 |
+| 方法 | 50 | 不变 |
+| 架构 | 1 | 不变 |
+| 学习要点 | 0 | 不变 |
+
+#### 跟踪文件
+| 操作 | 详情 |
+|:----|:------|
+| _hash_tracker.md | 上次更新 2026-08-01，今天无 Hermes_Agent 捕获，无需更新 |
+| .last-compile | 两个路径均已更新至 2026-08-13 20:03:38 |
+
+---
+
+### 2026-08-13 07:00:00 后台维护
+
+#### 抓取编译
+| 操作 | 详情 |
+|:----|:------|
+| 收件箱扫描 | 01-收件箱/自动捕获 与 01_inbox/articles 各 6 个捕获文件（pandas/Data_Visualization/Quick_start_guide/csv/json/pathlib） |
+| 内容比对 | 6 个捕获与 2026-08-12 存档归一化比对：10_minutes_to_pandas、Data_Visualization_With_Python、Quick_start_guide 内容完全一致；csv/json/pathlib 仅 frontmatter 创建日期变化（08-12→08-13），正文无结构性变更 |
+| hash_tracker | 无新捕获（Hermes Agent 未捕获），_hash_tracker.md 上次更新 2026-08-01，无待处理条目 |
+
+#### 整理归档
+| 操作 | 详情 |
+|:----|:------|
+| 已归档 | 01-收件箱/archive/自动捕获/2026-08-13/ 6 文件 |
+| 已归档 | 01_inbox/archive/articles/2026-08-13/ 6 文件 |
+| 收件箱状态 | 全部清空（01-收件箱/ 各子目录、01_inbox/articles/ 均空） |
+
+#### 去重归纳
+| 操作 | 详情 |
+|:----|:------|
+| 归档去重（内容归一化 hash） | 01-收件箱/archive/自动捕获/ 删 78 重复 → 余 19 文件；01_inbox/archive/articles/ 删 69 重复 → 余 95 文件 |
+| 小文件检查 | 12 个 <1KB 文件逐一验证：全部为合法速查卡（含 wikilinks/表格/结构化内容），无空壳 stub |
+| 补充笔记 | 0 篇（无新知识点，均为例行捕获） |
+| 陈旧备份 | 0 个（99-归档/ 无 .bak 文件） |
+
+#### 知识库统计
+| 分类 | 文件数 | 变动 |
+|:----|:------|:-----|
+| 实体 | 62 | 不变 |
+| 概念 | 39 | 不变 |
+| 方法 | 50 | 不变 |
+
+### 2026-08-12 07:04:00 后台维护
+
+#### 抓取编译
+| 操作 | 详情 |
+|:----|:------|
+| 收件箱扫描 | 01-收件箱/自动捕获 与 01_inbox/articles 各 7 个捕获文件（pandas/Data_Visualization/Getting_Started/Quick_start_guide/csv/json/pathlib） |
+| 内容比对 | 6 个常规捕获与 2026-08-11 存档归一化比对：内容完全一致，仅 frontmatter created/updated 日期变化（08-11→08-12），无结构性变更；Getting_Started.md（python-pptx 快速入门）为新增捕获，实体笔记已存在（8KB），无新增知识点 |
+
+#### 整理归档
+| 操作 | 详情 |
+|:----|:------|
+| 已归档 | 01-收件箱/archive/自动捕获/2026-08-12/ 7 文件 |
+| 已归档 | 01_inbox/archive/articles/2026-08-12/ 7 文件 |
+| 收件箱状态 | 全部清空（01-收件箱/ 各子目录、01_inbox/articles/ 均空） |
+
+#### 去重归纳
+| 操作 | 详情 |
+|:----|:------|
+| 重复文件 | 0 个（Quick_start_guide.md 840B 为已知自动重建 stub，跳过；Quickstart-Guide.md 70KB enriched 版为引用目标） |
+| 小文件检查 | 12 个 <1KB 文件逐一验证：11 个为合法速查卡（含 wikilinks/表格/结构化内容），Quick_start_guide.md 为已知 stub |
+| 归档去重 | 无需处理（前几轮已清理，本轮无 _N 后缀目录） |
+| 补充笔记 | 0 篇（无新知识点，均为例行捕获） |
+| 陈旧备份 | 0 个（99-归档/ 无 .bak/.bak.old/_old.md） |
+
+#### 统计更新
+| 操作 | 详情 |
+|:----|:------|
+| 实体 | 62 篇 |
+| 概念 | 39 篇 |
+| 方法 | 50 篇 |
+| 地图 | 07_moc/知识地图.md 实体统计 57→62 修正，updated → 2026-08-12（无新领域，主题地图本身无需变更） |
+
+#### 最终状态
+- 收件箱全部清空：01-收件箱/（各子目录）、01_inbox/articles/ 均空
+- last-compile 同步: 是（knowledge/.last-compile 与 01_inbox/.last-compile 均已更新至 2026-08-12 07:04:17）
+
+### 2026-08-11 07:02:54 后台维护
+
+#### 抓取编译
+| 操作 | 详情 |
+|:----|:------|
+| 收件箱扫描 | 所有收件箱目录为空（01-收件箱/ 各子目录、01_inbox/articles/ 均无待处理文件） |
+| 自动捕获 | 6 个标准捕获文件已直接归档到 01-收件箱/archive/自动捕获/2026-08-11/（pandas/Data_Visualization/Quick_start_guide/csv/json/pathlib） |
+
+#### 整理归档
+| 操作 | 详情 |
+|:----|:------|
+| 双路径归档 | 01-收件箱/archive/自动捕获/2026-08-11/ ✓（06:00 捕获脚本直接写入） |
+| 双路径补齐 | 01_inbox/archive/articles/2026-08-11/ 6 文件（从 自动捕获 复制以保持双路径一致） |
+
+#### 去重归纳
+| 操作 | 详情 |
+|:----|:------|
+| 重复文件 | 0 个（Quick_start_guide.md 为已知自动重建 stub，840B，已跳过） |
+| 小文件检查 | 实体 7 个 + 概念 5 个 + 架构 1 个 <1KB，均为合法速查卡（status: archived/含结构化表格），无需处理 |
+| 补充笔记 | 0 篇（无新知识点，均为例行捕获） |
+| 归档二次去重 | 5 天（08-06/08-08/08-09/08-10/08-11）X 6 文件 = 30 个归档条目，文件大小一致，属正常连续捕获，跳过归档去重 |
+| Hermes_Agent 追踪 | 上次捕获 2026-08-01，`_hash_tracker.md` 已重置，本轮无新捕获，无需更新 |
+
+#### 统计更新
+| 操作 | 详情 |
+|:----|:------|
+| 实体 | 62 篇 |
+| 概念 | 39 篇 |
+| 方法 | 50 篇 |
+| 架构 | 1 篇 |
+| 地图 | 无需更新（无新实体/概念/方法，三个地图均为 status: archived） |
+
+#### 最终状态
+- 收件箱全部清空：01-收件箱/（各子目录）、01_inbox/articles/ 均空
+- last-compile 同步: 是（knowledge/.last-compile 与 01_inbox/.last-compile 均已更新至 2026-08-11 07:02:54，由捕获脚本自动更新）
+
+### 2026-08-10 07:02:54 后台维护
+
+#### 抓取编译
+| 操作 | 详情 |
+|:----|:------|
+| 收件箱扫描 | 01-收件箱/自动捕获 与 01_inbox/articles 各 6 个标准捕获（pandas/Data_Visualization/Quick_start_guide/csv/json/pathlib） |
+| 内容比对 | 与 2026-08-06 存档内容归一化比对：全部 6 个文件内容一致，仅 footer "Last updated" 时间戳变化（Aug 05→Aug 09），无结构性变更 |
+
+#### 整理归档
+| 操作 | 详情 |
+|:----|:------|
+| 已归档 | 01-收件箱/archive/自动捕获/2026-08-10/ 6 文件 |
+| 已归档 | 01_inbox/archive/articles/2026-08-10/ 6 文件 |
+| 重复草稿 | 99-归档/2026-08-10/实体-重复草稿/Quick_start_guide.md (840B) — 已知自动重建 stub，已隔离 |
+
+#### 去重归纳
+| 操作 | 详情 |
+|:----|:------|
+| 重复文件 | 1 个（Quick_start_guide.md stub，跨收件箱 6 对文件均为字节相同，各归档一份） |
+| 小文件检查 | 实体 6 个 + 概念 5 个 <1KB，均为合法速查卡（status: archived/含结构化表格），无需处理 |
+| 补充笔记 | 0 篇（无新知识点，均为例行捕获） |
+
+#### 统计更新
+| 操作 | 详情 |
+|:----|:------|
+| 实体 | 57 篇 |
+| 概念 | 39 篇 |
+| 方法 | 50 篇 |
+| 地图 | 无需更新（无新实体/概念/方法） |
+
+#### 最终状态
+- 收件箱全部清空：01-收件箱/（各子目录）、01_inbox/articles/ 均空
+- last-compile 同步: 是（knowledge/.last-compile 与 01_inbox/.last-compile 均已更新至 2026-08-10 07:02:54）
+
+### 2026-08-09 13:03:43 后台维护
+
+#### 抓取编译
+| 操作 | 详情 |
+|:----|:------|
+| 收件箱扫描 | 所有收件箱目录为空（01-收件箱/ 各子目录、01_inbox/articles/、articles/ 均无待处理文件） |
+| 预报告 | 新抓取 1 / 待编译 0 — 实际对应 7 个标准捕获已归档（见下） |
+
+#### 整理归档
+| 操作 | 详情 |
+|:----|:------|
+| 已归档 | 01-收件箱/archive/自动捕获/2026-08-09/ 7 个标准捕获（pandas/Data_Visualization/Getting_Started/Quick_start_guide/csv/json/pathlib）已在上一轮处理 |
+| 重复草稿 | 99-归档/2026-08-09/实体-重复草稿/Quick_start_guide.md (840B) — 已知自动重建 stub，已隔离 |
+
+#### 去重归纳
+| 操作 | 详情 |
+|:----|:------|
+| 重复文件 | 0 个（无跨收件箱重复） |
+| 小文件检查 | 实体 5 个 + 概念 5 个 <1KB，均为合法速查卡（status: archived，含结构化表格/定义），无需处理 |
+| 补充笔记 | 0 篇（无新知识点，均为例行捕获） |
+| 过期备份 | 清理 1 个：维基/.manifest.json.bak (6909B) |
+
+#### 统计更新
+| 操作 | 详情 |
+|:----|:------|
+| 07_moc/知识地图.md | 实体 58→57（因 Quick_start_guide stub 移入归档），概念 39 / 方法 50 不变，updated 同步至 2026-08-09 |
+| last-compile 同步 | 两个 .last-compile 更新至 2026-08-09 13:03:43 |
+
+#### 无操作
+- 地图主题更新：无需更新（无新领域/实体信息，Hermes-能力地图.md 例行捕获无结构变化）
+
+### 2026-08-08 13:02:55 后台维护
+
+#### 抓取编译
+| 操作 | 详情 |
+|:----|:------|
+| 新抓取 | 6 个（pandas/Data_Visualization/Quick_start_guide/csv/json/pathlib） |
+| 编译 | 全部 6 个已有编译笔记（02-笔记/下均已存在），无新内容 |
+
+#### 整理归档
+| 操作 | 详情 |
+|:----|:------|
+| 字节级去重 | 01_inbox/articles/ 6 个文件与 01-收件箱/archive/自动捕获/2026-08-08/ 字节完全相同，已删除 inbox 副本 |
+
+#### 去重归纳
+| 操作 | 详情 |
+|:----|:------|
+| 重复文件 | 0 个（仅清理跨收件箱重复的 raw 副本） |
+| 补充笔记 | 0 篇（无新知识点） |
+
+#### 统计更新
+| 操作 | 详情 |
+|:----|:------|
+| 07_moc/知识地图.md | 实体 58 / 概念 39 / 方法 50（与前次一致，无变化） |
+| last-compile 同步 | 两个 .last-compile 更新至 2026-08-08 13:02:55 |
+
+#### 无操作
+- 地图更新：无需更新（无新领域/实体信息）
+
 ### 2026-08-07 20:00 后台维护
 
 #### 检查
@@ -3261,3 +3577,153 @@
 | `01_inbox/articles/2026-08-06_pathlib_Object_oriented_filesystem_paths.md` | `pathlib` — Object-oriented filesystem paths¶ | 自动抓取 |
 
 | `01_inbox/articles/2026-08-06_Data_Visualization_With_Python.md` | Data Visualization With Python | 自动抓取 |
+
+### 自动入库 (2026-08-08)
+
+| 文件 | 标题 | 来源 |
+|:----|:----|:----|
+
+| `01_inbox/articles/2026-08-08_10_minutes_to_pandas.md` | 10 minutes to pandas# | 自动抓取 |
+
+| `01_inbox/articles/2026-08-08_Quick_start_guide.md` | Quick start guide# | 自动抓取 |
+
+| `01_inbox/articles/2026-08-08_csv_CSV_File_Reading_and_Writing.md` | `csv` — CSV File Reading and Writing¶ | 自动抓取 |
+
+| `01_inbox/articles/2026-08-08_json_JSON_encoder_and_decoder.md` | `json` — JSON encoder and decoder¶ | 自动抓取 |
+
+| `01_inbox/articles/2026-08-08_pathlib_Object_oriented_filesystem_paths.md` | `pathlib` — Object-oriented filesystem paths¶ | 自动抓取 |
+
+| `01_inbox/articles/2026-08-08_Data_Visualization_With_Python.md` | Data Visualization With Python | 自动抓取 |
+
+### 自动入库 (2026-08-09)
+
+| 文件 | 标题 | 来源 |
+|:----|:----|:----|
+
+| `01_inbox/articles/2026-08-09_Getting_Started.md` | Getting Started¶ | 自动抓取 |
+
+| `01_inbox/articles/2026-08-09_10_minutes_to_pandas.md` | 10 minutes to pandas# | 自动抓取 |
+
+| `01_inbox/articles/2026-08-09_Quick_start_guide.md` | Quick start guide# | 自动抓取 |
+
+| `01_inbox/articles/2026-08-09_csv_CSV_File_Reading_and_Writing.md` | `csv` — CSV File Reading and Writing¶ | 自动抓取 |
+
+| `01_inbox/articles/2026-08-09_json_JSON_encoder_and_decoder.md` | `json` — JSON encoder and decoder¶ | 自动抓取 |
+
+| `01_inbox/articles/2026-08-09_pathlib_Object_oriented_filesystem_paths.md` | `pathlib` — Object-oriented filesystem paths¶ | 自动抓取 |
+
+| `01_inbox/articles/2026-08-09_Data_Visualization_With_Python.md` | Data Visualization With Python | 自动抓取 |
+
+### 知识库维护 (2026-08-09)
+
+| 操作 | 详情 |
+|:----|:-----|
+| 归档重复捕获 | 7 个 Python 文档（10_minutes_to_pandas、csv、json、pathlib、Data_Visualization、Getting_Started、Quick_start_guide）→ `archive/自动捕获/2026-08-09/` |
+| 删除空壳 stub | Quick_start_guide.md（Matplotlib 导航页）→ `99-归档/2026-08-09/实体-重复草稿/` |
+| 内容变化 | 无实质内容变化（仅元数据日期差异） |
+| 地图更新 | 无需更新 |
+| last-compile | 已同步为 2026-08-09 07:05:21 |
+
+### 自动入库 (2026-08-10)
+
+| 文件 | 标题 | 来源 |
+|:----|:----|:----|
+
+| `01_inbox/articles/2026-08-10_10_minutes_to_pandas.md` | 10 minutes to pandas# | 自动抓取 |
+
+| `01_inbox/articles/2026-08-10_Quick_start_guide.md` | Quick start guide# | 自动抓取 |
+
+| `01_inbox/articles/2026-08-10_csv_CSV_File_Reading_and_Writing.md` | `csv` — CSV File Reading and Writing¶ | 自动抓取 |
+
+| `01_inbox/articles/2026-08-10_json_JSON_encoder_and_decoder.md` | `json` — JSON encoder and decoder¶ | 自动抓取 |
+
+| `01_inbox/articles/2026-08-10_pathlib_Object_oriented_filesystem_paths.md` | `pathlib` — Object-oriented filesystem paths¶ | 自动抓取 |
+
+| `01_inbox/articles/2026-08-10_Data_Visualization_With_Python.md` | Data Visualization With Python | 自动抓取 |
+
+### 自动入库 (2026-08-11)
+
+| 文件 | 标题 | 来源 |
+|:----|:----|:----|
+
+| `01_inbox/articles/2026-08-11_10_minutes_to_pandas.md` | 10 minutes to pandas# | 自动抓取 |
+
+| `01_inbox/articles/2026-08-11_Quick_start_guide.md` | Quick start guide# | 自动抓取 |
+
+| `01_inbox/articles/2026-08-11_csv_CSV_File_Reading_and_Writing.md` | `csv` — CSV File Reading and Writing¶ | 自动抓取 |
+
+| `01_inbox/articles/2026-08-11_json_JSON_encoder_and_decoder.md` | `json` — JSON encoder and decoder¶ | 自动抓取 |
+
+| `01_inbox/articles/2026-08-11_pathlib_Object_oriented_filesystem_paths.md` | `pathlib` — Object-oriented filesystem paths¶ | 自动抓取 |
+
+| `01_inbox/articles/2026-08-11_Data_Visualization_With_Python.md` | Data Visualization With Python | 自动抓取 |
+
+### 自动入库 (2026-08-12)
+
+| 文件 | 标题 | 来源 |
+|:----|:----|:----|
+
+| `01_inbox/articles/2026-08-12_Getting_Started.md` | Getting Started¶ | 自动抓取 |
+
+| `01_inbox/articles/2026-08-12_10_minutes_to_pandas.md` | 10 minutes to pandas# | 自动抓取 |
+
+| `01_inbox/articles/2026-08-12_Quick_start_guide.md` | Quick start guide# | 自动抓取 |
+
+| `01_inbox/articles/2026-08-12_csv_CSV_File_Reading_and_Writing.md` | `csv` — CSV File Reading and Writing¶ | 自动抓取 |
+
+| `01_inbox/articles/2026-08-12_json_JSON_encoder_and_decoder.md` | `json` — JSON encoder and decoder¶ | 自动抓取 |
+
+| `01_inbox/articles/2026-08-12_pathlib_Object_oriented_filesystem_paths.md` | `pathlib` — Object-oriented filesystem paths¶ | 自动抓取 |
+
+| `01_inbox/articles/2026-08-12_Data_Visualization_With_Python.md` | Data Visualization With Python | 自动抓取 |
+
+### 自动入库 (2026-08-13)
+
+| 文件 | 标题 | 来源 |
+|:----|:----|:----|
+
+| `01_inbox/articles/2026-08-13_10_minutes_to_pandas.md` | 10 minutes to pandas# | 自动抓取 |
+
+| `01_inbox/articles/2026-08-13_Quick_start_guide.md` | Quick start guide# | 自动抓取 |
+
+| `01_inbox/articles/2026-08-13_csv_CSV_File_Reading_and_Writing.md` | `csv` — CSV File Reading and Writing¶ | 自动抓取 |
+
+| `01_inbox/articles/2026-08-13_json_JSON_encoder_and_decoder.md` | `json` — JSON encoder and decoder¶ | 自动抓取 |
+
+| `01_inbox/articles/2026-08-13_pathlib_Object_oriented_filesystem_paths.md` | `pathlib` — Object-oriented filesystem paths¶ | 自动抓取 |
+
+| `01_inbox/articles/2026-08-13_Data_Visualization_With_Python.md` | Data Visualization With Python | 自动抓取 |
+
+### 自动入库 (2026-08-14)
+
+| 文件 | 标题 | 来源 |
+|:----|:----|:----|
+
+| `01_inbox/articles/2026-08-14_10_minutes_to_pandas.md` | 10 minutes to pandas# | 自动抓取 |
+
+| `01_inbox/articles/2026-08-14_Quick_start_guide.md` | Quick start guide# | 自动抓取 |
+
+| `01_inbox/articles/2026-08-14_csv_CSV_File_Reading_and_Writing.md` | `csv` — CSV File Reading and Writing¶ | 自动抓取 |
+
+| `01_inbox/articles/2026-08-14_json_JSON_encoder_and_decoder.md` | `json` — JSON encoder and decoder¶ | 自动抓取 |
+
+| `01_inbox/articles/2026-08-14_pathlib_Object_oriented_filesystem_paths.md` | `pathlib` — Object-oriented filesystem paths¶ | 自动抓取 |
+
+| `01_inbox/articles/2026-08-14_Data_Visualization_With_Python.md` | Data Visualization With Python | 自动抓取 |
+
+### 自动入库 (2026-08-15)
+
+| 文件 | 标题 | 来源 |
+|:----|:----|:----|
+
+| `01_inbox/articles/2026-08-15_10_minutes_to_pandas.md` | 10 minutes to pandas# | 自动抓取 |
+
+| `01_inbox/articles/2026-08-15_Quick_start_guide.md` | Quick start guide# | 自动抓取 |
+
+| `01_inbox/articles/2026-08-15_csv_CSV_File_Reading_and_Writing.md` | `csv` — CSV File Reading and Writing¶ | 自动抓取 |
+
+| `01_inbox/articles/2026-08-15_json_JSON_encoder_and_decoder.md` | `json` — JSON encoder and decoder¶ | 自动抓取 |
+
+| `01_inbox/articles/2026-08-15_pathlib_Object_oriented_filesystem_paths.md` | `pathlib` — Object-oriented filesystem paths¶ | 自动抓取 |
+
+| `01_inbox/articles/2026-08-15_Data_Visualization_With_Python.md` | Data Visualization With Python | 自动抓取 |

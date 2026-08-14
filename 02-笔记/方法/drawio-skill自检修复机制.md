@@ -3,12 +3,11 @@ title: drawio-skill — AI画图自动修复
 created: 2026-07-14
 updated: 2026-07-14
 tags: [diagram, skill, workflow]
-status: active
-confidence: high
-trust_score: 0.9
+status: needs-review
+confidence: medium
+trust_score: 0.46
 source: 公众号 Jack-Liu
 ---
-
 # drawio-skill — AI 画图自检+修复机制
 
 > 1.8k Star · MIT · 支持 Claude Code/Cursor/Copilot/Codex/Hermes

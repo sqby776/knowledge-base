@@ -1,16 +1,12 @@
 ---
-title: python-pptx 快速入门
-created: 2026-06-18
-updated: 2026-07-03
-tags: [knowledge-base, python, office-automation]
-status: archived
+title: Getting Started¶
+created: 2026-08-12
+updated: 2026-08-12
+tags: ["auto-capture", auto-compiled]
+status: compiled
 sources: [https://python-pptx.readthedocs.io/en/latest/user/quickstart.html]
-confidence: low
-trust_score: 0.17
+source_url: https://python-pptx.readthedocs.io/en/latest/user/quickstart.html
 ---
-# python-pptx 快速入门
-
-> 摘自 https://python-pptx.readthedocs.io/en/latest/user/quickstart.html，2026-07-03 更新
 
 # Getting Started¶
 
@@ -23,6 +19,7 @@ trust_score: 0.17
   * [next](presentations.html "Working with Presentations") |
   * [previous](install.html "Installing") |
   * [python-pptx 1.0.0 documentation](../index.html) »
+
 
 
 # Getting Started¶
@@ -275,6 +272,7 @@ Constants representing each of the available auto shapes (like MSO_SHAPE.ROUNDED
     * Extract all text from slides in presentation
 
 
+
 #### Previous topic
 
 [Installing](install.html "previous chapter")
@@ -290,6 +288,7 @@ Constants representing each of the available auto shapes (like MSO_SHAPE.ROUNDED
   * [Issue Tracker](http://github.com/scanny/python-pptx/issues)
 
 
+
 ### Quick search
 
 ### Navigation
@@ -301,10 +300,6 @@ Constants representing each of the available auto shapes (like MSO_SHAPE.ROUNDED
   * [python-pptx 1.0.0 documentation](../index.html) »
 
 
+
 © Copyright 2012, 2013, Steve Canny. Created using [Sphinx](http://sphinx.pocoo.org/) 1.8.6.   
 Theme based on [Read The Docs](http://readthedocs.org/)
-
-
----
-
-*最后更新：2026-07-03*

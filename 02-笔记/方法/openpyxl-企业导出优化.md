@@ -3,10 +3,10 @@ title: openpyxl 企业导出优化
 created: 2026-07-14
 updated: 2026-07-14
 tags: [tool, workflow, tutorial]
-status: active
-confidence: high
+status: needs-review
+confidence: medium
+trust_score: 0.41
 ---
-
 # openpyxl 企业导出优化
 
 ## 列宽计算

@@ -1,7 +1,7 @@
 ---
 title: Quick start guide#
-created: 2026-08-11
-updated: 2026-08-11
+created: 2026-08-10
+updated: 2026-08-10
 tags: [knowledge-base, auto-compiled]
 status: draft
 sources: [auto-capture]
@@ -10,7 +10,7 @@ sources: [auto-capture]
 # Quick start guide#
 
 > [!INFO] 编译信息
-> 来源: 自动抓取 | 编译时间: 2026-08-11 07:00 | 类型: entity
+> 来源: 自动抓取 | 编译时间: 2026-08-10 07:00 | 类型: entity
 
 ## 核心要点
 
@@ -27,9 +27,9 @@ sources: [auto-capture]
 
 ## 相关链接
 
+- [['left', 'right_top']]
 - [[1, 2]]
 - [[l1]]
-- [['left', 'right_top']]
 - [['upleft', 'right']]
 
 ## 来源

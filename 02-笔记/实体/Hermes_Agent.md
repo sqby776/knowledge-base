@@ -1,7 +1,7 @@
 ---
 title: Hermes Agent
 created: 2026-07-08
-updated: 2026-08-01
+updated: 2026-08-11
 tags: [knowledge-base, hermes-agent, ai-agent]
 status: active
 sources: [https://hermes-agent.nousresearch.com/docs]
@@ -101,7 +101,7 @@ iex (irm https://hermes-agent.nousresearch.com/install.ps1)
 
 ---
 
-*最后更新：2026-08-01*
+*最后更新：2026-08-11（v0.20.0 Herald Release 已发布，详见 `Hermes_Agent_v0200_Herald_Release.md`）*
 
 > **2026-07-29 例行捕获**
 > 内容无变化，已归档存档。实体笔记无需更新。
@@ -197,4 +197,12 @@ iex (irm https://hermes-agent.nousresearch.com/install.ps1)
 > **2026-07-31 例行捕获**
 > llms.txt hash: `faaf9398...` 保持稳定
 > llms-full.txt hash: `3f7f7630...` (从 `07bdf65d...` 变更，例行部署，无结构性变化)
+
+> **2026-08-03 v0.20.0 Herald Release（结构性版本更新）**
+> 版本：v0.20.0 (v2026.8.3)，v0.17.0 → v0.20.0（跨 3 个版本）
+> 规模：~3,650 commits · ~1,400 PRs · ~1,200 issues closed · 650+ contributors；GitHub 228k stars
+> 核心亮点：实时语音对话（barge-in 打断）、唤醒词免提控制、全平台语音、grounded-citations 带引证深度研究、出站 Webhooks (HMAC)、A2A v1.0 协议、桌面应用平台化、CLI 新命令（`!`/`/init`/`/diff`/`/context`/`/focus`）、工具自恢复
+> 新增文档页面 15+：Checkpoints & Rollback、Nix Setup、Git Worktrees、TUI (Ink)、Voice Mode、TTS、ACP、API Server、Batch Processing、Kanban、Goals、Hooks、Context References、Built-in Plugins
+> 新增消息平台：LINE、Raft、Webhooks、Photon；新增中文文档 /docs/zh-Hans/
+> 完整详情见实体笔记 `Hermes_Agent_v0200_Herald_Release.md`
 
