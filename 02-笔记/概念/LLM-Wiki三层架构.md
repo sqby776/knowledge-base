@@ -3,9 +3,9 @@ title: LLM Wiki — 知识管理的三层架构（Karpathy）
 created: 2026-07-14
 updated: 2026-07-14
 tags: [knowledge-base, architecture, workflow]
-status: needs-review
-confidence: medium
-trust_score: 0.46
+status: archived
+confidence: low
+trust_score: 0.19
 source: 公众号 硅基聊斋
 ---
 # LLM Wiki — 知识管理的三层架构

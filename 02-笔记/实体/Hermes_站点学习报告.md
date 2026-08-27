@@ -1,7 +1,7 @@
 ---
 title: Hermes 站点学习报告
 created: 2026-07-22
-updated: 2026-08-15
+updated: 2026-08-18
 tags: [knowledge-base, hermes-agent, learning-report]
 status: active
 sources: [https://hermes-agent.nousresearch.com/, https://github.com/NousResearch/hermes-agent, https://hermesagent.org.cn]
@@ -9,7 +9,7 @@ sources: [https://hermes-agent.nousresearch.com/, https://github.com/NousResearc
 
 # Hermes 站点学习报告
 
-> 最近一轮: 2026-08-10 抓取，版本 **v0.20.0 Herald Release**（2026-08-03 发布，自 v0.17.0 跨 3 个版本）
+> 最近一轮: 2026-08-17 抓取，版本 **v0.20.2**（8-03 v0.20.0 → 8-13 v0.20.1 → 8-16 v0.20.2 三连发）
 
 ## 版本基线
 
@@ -63,5 +63,31 @@ sources: [https://hermes-agent.nousresearch.com/, https://github.com/NousResearc
 - 实体主笔记: [[Hermes_Agent]]
 - 原始抓取归档: `01-收件箱/archive/自动学习/2026-08-10/学习报告_2026-08-10.md`
 
+## 2026-08-17 第3轮捕获（v0.20.1 / v0.20.2 增量）⭐
+
+### 版本节奏
+- **v0.20.0 The Herald Release**（8-03）：~3,650 commits / ~1,400 PRs / ~1,200 issues / 650+ 贡献者
+- **v0.20.1**（8-13）：patch，~656 PRs
+- **v0.20.2**（8-16）：patch，~967 commits / ~397 PRs。要点：桌面多网关 Connections 注册表、profile 级刷新、MCP 健康检查与 deep links；CLI Windows 更新探测、Kitty 键盘协议、chat -c 加固；gateway 持久化模型路由、/loop 完成、Telegram DM topics；**LiteLLM Claude 走 OpenAI wire 的 prompt caching**；cron 加固；auth 按 profile scope 解析；Linux/Windows 安装器加固
+
+### 新变化（相对 8-10 轮次）
+- ⚠️ **llms.txt 路径迁移**：根路径 `/llms.txt`、`/llms-full.txt` → `/docs/assets/files/llms-<hash>.txt`；llms-full 更新为 `9595dc2b...`（3.78MB，含 8 月文档变化）
+- 🆕 官方中文文档 `/docs/zh-Hans/` 全分区上线（替代已死的 xaapi.ai）
+- 🆕 Windows 原生安装（PowerShell 早期测试版）：`iex (irm https://hermes-agent.nousresearch.com/install.ps1)`
+- 🆕 Android/Termux 官方支持（`.[termux]`，voice 不可用）
+- GitHub：**231,687 ⭐**；近期提交主线 MCP sanitization / tool-result annotations（scout-slate 波次）
+- 中文社区：主推 Deepseek-V4 / GLM-5.2 / Minimax-M2.7 / Kimi-k2.6；国内镜像安装器 res1.hermesagent.org.cn
+
+### 站点状态变化
+| 站点 | 状态 |
+|------|------|
+| hermes.xaapi.ai（中文文档） | ❌ 超时疑似**下线**，从站点清单移除 |
+| 官方 /docs/zh-Hans/ | ✅ 新增强权中文源 |
+
+### 行动建议
+- 本地 Hermes v0.20.1 → `hermes update` 至 v0.20.2（cron 加固、prompt caching 直接受益）
+- 重新摄取 llms-full.txt（9595dc2b）同步 8 月新文档到 ChromaDB/知识图谱
+- Tavily web_extract 401 → 检查 API key；urllib 直连备用方案已验证可行
+
 ---
-*最后更新：2026-08-15（本轮维护，采用 2026-08-10 学习报告内容）*
+*最后更新：2026-08-18（本轮维护，采用 2026-08-17 学习报告内容）*

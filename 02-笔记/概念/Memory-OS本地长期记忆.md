@@ -3,10 +3,10 @@ title: Memory OS — Hermes Agent 本地长期记忆系统
 created: 2026-07-14
 updated: 2026-07-14
 tags: [hermes-agent, memory, knowledge-base]
-status: needs-review
-confidence: medium
+status: archived
+confidence: low
 source: 公众号 arduino
-trust_score: 0.41
+trust_score: 0.17
 ---
 # Memory OS — Hermes Agent 本地长期记忆系统
 

@@ -1,7 +1,7 @@
 ---
 title: Hermes Agent
 created: 2026-07-08
-updated: 2026-08-11
+updated: 2026-08-21
 tags: [knowledge-base, hermes-agent, ai-agent]
 status: active
 sources: [https://hermes-agent.nousresearch.com/docs]
@@ -54,6 +54,19 @@ iex (irm https://hermes-agent.nousresearch.com/install.ps1)
 - **Memory Providers** — 外部记忆提供者插件：Honcho、OpenViking、Mem0、Hindsight、Holographic、RetainDB、ByteRover、Supermemory
 - **Context References** — 内联 @-语法，可直接在消息中附加文件、文件夹、git diff、URL
 - **Built-in Plugins** — 随 Hermes 内置的自动运行插件（disk-cleanup 等）
+- **Computer Use** — 后台桌面控制 Linux 桌面，不抢占鼠标/焦点，与用户共桌协作
+- **Mixture of Agents (MoA)** — 多模型混合推理，配置化提升输出质量
+- **Secrets 管理** — Bitwarden / 1Password / 命令式多种密钥源注入
+- **Egress proxy** — 出站代理与凭据注入代理（iron-proxy）
+- **Import from Other Agents** — 一条命令导入 Claude Code (~/.claude) / Codex CLI (~/.codex) 配置
+- **Profile Distributions** — 将整个 Agent（配置/技能/记忆）打包分享；多网关并行、桌面多连接
+- **Pets (Petdex)** — 桌面端可选桌宠（petdex mascots），社区图标包
+- **LSP 语义诊断** — 编辑器级语义诊断（Semantic Diagnostics）
+- **Deliverable Mode** — 聊天内交付物（Artifacts in Chat）
+- **Document Extraction** — 文档提取；Tool Search 工具搜索；Web Dashboard 与扩展点
+- **Recurring Loops** — 周期性循环任务；Session Heartbeats 会话心跳
+- **Wake Word** — 语音唤醒词免提控制（v0.20.0 起）
+- **新消息平台** — Buzz、Open WebUI、SimpleX Chat、Teams Meetings、WeCom Callback、WhatsApp Business (Cloud API)
 - **Research-ready** — 批处理、轨迹导出、RL 训练（Atropos）
 
 ## 快速链接
@@ -84,13 +97,22 @@ iex (irm https://hermes-agent.nousresearch.com/install.ps1)
 || 🎯 Persistent Goals | 持续目标跨轮次执行 |
 || 🔗 Hooks | 生命周期钩子 |
 || 🖥️ Browser/Vision/ImageGen | 浏览器自动化、视觉、图片生成 |
+|| 🖥️ Computer Use | 后台桌面控制，不抢焦点 | 
+|| 🧪 Mixture of Agents | 多模型混合推理 | 
+|| 🔐 Secrets | Bitwarden/1Password 密钥注入 | 
+|| 🌐 Egress proxy | 出站代理与凭据注入 | 
+|| 📦 Profile Distributions | 打包分享整个 Agent | 
+|| 🐾 Pets (Petdex) | 桌面桌宠 | 
+|| ⚡ LSP | 语义诊断 | 
+|| 📦 Deliverable Mode | 聊天内交付物 | 
+|| 🔁 Recurring Loops | 周期性循环任务 | 
 
 ## 面向 LLM 和编程 Agent 的入口
 
 机器可读的文档入口：
 
-- **[`/llms.txt`](/docs/assets/files/llms-faaf9398aa5828403fd56f6be7989c9f.txt)** — 每个文档页面的精选索引，含简短描述。~17 KB，适合加载到 LLM 上下文。
-| **[`/llms-full.txt`](/docs/assets/files/llms-full-af56719bac90a7ad28033048023bab5f.txt)** — ~1.8 MB。
+- **[`/llms.txt`](/docs/assets/files/llms-9e6ee453dd14f35da4a4a1e0200447d2.txt)** — 每个文档页面的精选索引，含简短描述。~17 KB，适合加载到 LLM 上下文。
+- [ **`/llms-full.txt`](/docs/assets/files/llms-full-495d5fd9a2724dd4c6154c5e1a4c9c01.txt)** — ~1.8 MB。
 
 两个文件也可通过 `/docs/llms.txt` 和 `/docs/llms-full.txt` 访问。每次部署时重新生成。
 
@@ -101,7 +123,7 @@ iex (irm https://hermes-agent.nousresearch.com/install.ps1)
 
 ---
 
-*最后更新：2026-08-11（v0.20.0 Herald Release 已发布，详见 `Hermes_Agent_v0200_Herald_Release.md`）*
+*最后更新：2026-08-21（文档站结构性更新，30+ 新页面，详见 changelog）*
 
 > **2026-07-29 例行捕获**
 > 内容无变化，已归档存档。实体笔记无需更新。
@@ -205,4 +227,19 @@ iex (irm https://hermes-agent.nousresearch.com/install.ps1)
 > 新增文档页面 15+：Checkpoints & Rollback、Nix Setup、Git Worktrees、TUI (Ink)、Voice Mode、TTS、ACP、API Server、Batch Processing、Kanban、Goals、Hooks、Context References、Built-in Plugins
 > 新增消息平台：LINE、Raft、Webhooks、Photon；新增中文文档 /docs/zh-Hans/
 > 完整详情见实体笔记 `Hermes_Agent_v0200_Herald_Release.md`
+> **2026-08-17 第3轮捕获（urllib 直连版）**
+> ⚠️ llms.txt 路径迁移：根路径 → `/docs/assets/files/llms-<hash>.txt`（llms.txt hash `faaf9398...` 稳定；llms-full 更新为 `9595dc2b...`，3.78MB，含 8 月文档变化）
+> 版本三连发：v0.20.0 Herald（8-03）→ v0.20.1（8-13）→ v0.20.2（8-16；桌面多网关 Connections、MCP 健康检查、LiteLLM Claude prompt caching、cron 加固）
+> 官方中文文档上线 `/docs/zh-Hans/`；Windows 原生安装（PowerShell 早期测试版）；hermes.xaapi.ai 疑似下线已移除出站点清单
+> GitHub 231,687 ⭐；最近提交主线：MCP sanitization / tool-result annotations（scout-slate 波次）
+> 本地 Hermes v0.20.1 → 建议 hermes update 至 v0.20.2
 
+> **2026-08-21 结构性更新（08-20 捕获，前轮漏判已补录）**
+> ⚠️ llms.txt + llms-full.txt 双 hash 变更：
+>   - llms.txt: `faaf9398...` → `9e6ee453...`（页面索引变更 = 结构性信号）
+>   - llms-full.txt: `9595dc2b...` → `495d5fd9...`，体积 **3.78MB → 1.8MB**（文档重新生成）
+> 新增文档页面 30+：Computer Use、Mixture of Agents、Pets (Petdex)、Secrets（Bitwarden/1Password/Command）、Egress proxy / iron-proxy、Import from Other Agents、Managed Scope、Connecting Desktop to Many Instances、Running Many Gateways at Once、Profile Distributions、Codex App-Server Runtime、Deliverable Mode、Document Extraction、Extending the Dashboard、Session Heartbeats、Kanban worker lanes、Recurring Loops、LSP、Skins & Themes、Spotify、Subscription Proxy、Nous Tool Gateway、Tool Search、Wake Word、Web Dashboard、Web Search & Extract、X (Twitter) Search、TUI (Ink)、Desktop App 独立页、Windows Native/WSL2 指南、Which File Does What
+> 新消息平台页面：Buzz、Open WebUI、SimpleX Chat、Teams Meetings、WeCom Callback、WhatsApp Business (Cloud API)、MsGraph Webhook
+> GitHub 231,687 → **233,627 ⭐**（最近提交 2026-08-21，主线 MCP sanitization 波次继续）
+> 实体笔记已同步：关键功能 +12 项、快速链接 +9 行、body hash 引用更新
+> 📌 07:07 维护轮误判此捕获为「无 hash 变化」，本 13:02 轮经在线验证补齐

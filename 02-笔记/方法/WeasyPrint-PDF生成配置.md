@@ -3,9 +3,9 @@ title: WeasyPrint PDF生成配置
 created: 2026-07-14
 updated: 2026-07-14
 tags: [flask, workflow, tutorial]
-status: needs-review
-confidence: medium
-trust_score: 0.41
+status: archived
+confidence: low
+trust_score: 0.17
 ---
 # WeasyPrint PDF 生成配置
 

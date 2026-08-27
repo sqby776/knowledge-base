@@ -3,9 +3,9 @@ title: 8个必装Hermes Agent Skill（分类推荐）
 created: 2026-07-14
 updated: 2026-07-14
 tags: [hermes-agent, skill, workflow]
-status: needs-review
-confidence: medium
-trust_score: 0.46
+status: archived
+confidence: low
+trust_score: 0.19
 source: 公众号 阿西-出海
 ---
 # 8 个必装 Hermes Agent Skill
